@@ -1,0 +1,66 @@
+{
+  "score": 100,
+  "issues": [],
+  "warnings": [],
+  "llm_report": {
+    "model_id": "ollama:llama3.1:8b",
+    "topics": {
+      "dados-principais": {
+        "ok": true,
+        "chars": 439
+      },
+      "inscricoes": {
+        "ok": true,
+        "chars": 633
+      },
+      "cargos-e-vagas": {
+        "ok": true,
+        "chars": 589
+      },
+      "cronograma": {
+        "ok": true,
+        "chars": 2050
+      },
+      "provas-e-etapas": {
+        "ok": true,
+        "chars": 906
+      },
+      "conteudo-programatico": {
+        "ok": true,
+        "chars": 743
+      },
+      "requisitos": {
+        "ok": true,
+        "chars": 1286
+      },
+      "recursos": {
+        "ok": true,
+        "chars": 612
+      },
+      "retificacoes": {
+        "ok": true,
+        "chars": 703
+      }
+    },
+    "llm_available": true,
+    "used_topics": 9,
+    "errors": []
+  },
+  "wiki_report": {
+    "llm_pages": 10,
+    "fallback_pages": 0,
+    "scores": {
+      "dados-principais": 72,
+      "inscricoes": 71,
+      "cargos-e-vagas": 64,
+      "cronograma": 74,
+      "provas-e-etapas": 75,
+      "conteudo-programatico": 74,
+      "requisitos": 77,
+      "recursos": 73,
+      "retificacoes": 72
+    },
+    "issues": [],
+    "editorial_mode": "v20_microcopy_template_renderer"
+  }
+}

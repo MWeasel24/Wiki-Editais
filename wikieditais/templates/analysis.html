@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% block content %}
+<div class="page-title"><div><h1>Análise</h1><p>Avaliação manual por JSON, separada por Wiki, Chat e Workflow.</p></div></div>
+<section class="analysis-hero"><div><small>Nota geral</small><strong>{{ data.overall }}%</strong></div><div class="metric-lines">{% for typ,score in data.type_scores.items() %}<p><b>{{ typ|capitalize }}</b><span>{{ score }}%</span></p>{% else %}<p>Nenhuma avaliação encontrada em <code>data/evaluations</code>.</p>{% endfor %}</div></section>
+{% for typ,metrics in data.by_metric.items() %}<section class="card section-metrics"><h2>Métricas de {{ typ }}</h2><div class="mini-metrics">{% for k,v in metrics.items() %}<div><small>{{ data.labels.get(typ,{}).get(k,k) }}</small><strong>{{ v }}%</strong></div>{% endfor %}</div></section>{% endfor %}
+{% for ev in data.evaluations %}<details class="eval-item"><summary><strong>{{ ev.edital_nome or ev.edital_id or ev._file }}</strong><span>{{ ev.data or '' }}</span></summary>
+  {% for typ in ['wiki','chat','workflow','agentic'] %}
+    {% set items = ev.get('items',[])|selectattr('type','equalto',typ)|list %}
+    {% if items %}<h2>{{ typ|capitalize }}</h2><table><thead><tr><th>Pergunta</th><th>Esperado</th><th>Observado</th><th>Métricas</th></tr></thead><tbody>{% for it in items %}<tr><td>{{it.question}}</td><td>{{it.expected}}</td><td>{{it.observed}}</td><td>{% for mk,mv in it.metrics.items() %}<span class="pill-mini">{{mk}}: {{mv}}</span>{% endfor %}</td></tr>{% endfor %}</tbody></table>{% endif %}
+  {% endfor %}
+</details>{% endfor %}
+{% endblock %}

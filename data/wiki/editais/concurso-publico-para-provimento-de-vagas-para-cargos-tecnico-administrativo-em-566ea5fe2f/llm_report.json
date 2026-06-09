@@ -1,0 +1,44 @@
+{
+  "model_id": "ollama:llama3.1:8b",
+  "topics": {
+    "dados-principais": {
+      "ok": true,
+      "chars": 439
+    },
+    "inscricoes": {
+      "ok": true,
+      "chars": 633
+    },
+    "cargos-e-vagas": {
+      "ok": true,
+      "chars": 589
+    },
+    "cronograma": {
+      "ok": true,
+      "chars": 2050
+    },
+    "provas-e-etapas": {
+      "ok": true,
+      "chars": 906
+    },
+    "conteudo-programatico": {
+      "ok": true,
+      "chars": 743
+    },
+    "requisitos": {
+      "ok": true,
+      "chars": 1286
+    },
+    "recursos": {
+      "ok": true,
+      "chars": 612
+    },
+    "retificacoes": {
+      "ok": true,
+      "chars": 703
+    }
+  },
+  "llm_available": true,
+  "used_topics": 9,
+  "errors": []
+}

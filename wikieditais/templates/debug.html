@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-title"><h1>Debug</h1><p>Administração da LLM Wiki: configurações, indexação, teste de modelo e edição.</p></section>
+<section class="stats-grid">
+{% for k,v in stats.items() %}<div class="stat"><small>{{ k }}</small><strong>{{ v }}</strong></div>{% endfor %}
+</section>
+<section class="debug-grid">
+  <div class="card">
+    <h2>Indexar edital</h2>
+    <form method="post" enctype="multipart/form-data" class="stack-form">
+      <input type="hidden" name="action" value="index_upload">
+      <input type="file" name="file" accept=".pdf,.txt,.md" required>
+      <button class="btn primary big">Indexar PDF</button>
+      <p class="hint">Usa o modelo de indexação configurado ao lado. A extração tenta compilar o PDF em schema + Markdown, tratando tabelas, seções e erratas.</p>
+      <input name="title_hint" placeholder="Nome do edital (opcional)">
+    </form>
+  </div>
+  <div class="card">
+    <h2>Configurações</h2>
+    <form method="post" class="stack-form">
+      <input type="hidden" name="action" value="save_config">
+      <label>Modelo de indexação</label><select name="default_index_model">{% for m in models_index %}<option value="{{m.id}}" {% if m.id==cfg.models.default_index_model %}selected{% endif %}>{{m.label}}</option>{% endfor %}</select>
+      <label>Modelo do chat</label><select name="default_chat_model">{% for m in models_chat %}<option value="{{m.id}}" {% if m.id==cfg.models.default_chat_model %}selected{% endif %}>{{m.label}}</option>{% endfor %}</select>
+      <label>Modelo da comparação</label><select name="default_compare_model">{% for m in models_compare %}<option value="{{m.id}}" {% if m.id==cfg.models.default_compare_model %}selected{% endif %}>{{m.label}}</option>{% endfor %}</select>
+      <button class="btn ghost">Salvar</button>
+    </form>
+    <form method="post" action="{{ url_for('test_model_route') }}" class="stack-form mini-form">
+      <label>Testar provider/modelo</label><select name="model">{% for m in models_all %}<option value="{{m.id}}">{{m.label}}</option>{% endfor %}</select>
+      <button class="btn ghost">Testar modelo</button>
+    </form>
+  </div>
+</section>
+<section class="card">
+  <h2>Baixar edital por URL</h2>
+  <form method="post" class="stack-form">
+    <input type="hidden" name="action" value="index_url">
+    <input name="url" placeholder="URL direta do PDF ou página">
+    <input name="title_hint" placeholder="Nome do edital (opcional)">
+    <button class="btn primary">Baixar e indexar</button>
+  </form>
+</section>
+<section class="card"><h2>Editais na base</h2><table><thead><tr><th>ID</th><th>Nome</th><th>Status</th><th>Ações</th></tr></thead><tbody>{% for e in editais %}<tr><td>{{e.id}}</td><td>{{e.title}}</td><td>{{e.status}}</td><td class="actions"><a href="{{url_for('edit_edital', edital_id=e.id)}}">Editar</a><a href="{{url_for('edital_detail', edital_id=e.id)}}">Abrir</a><form method="post" action="{{url_for('delete_route', edital_id=e.id)}}" onsubmit="return confirm('Excluir este edital?')"><button>Excluir</button></form></td></tr>{% else %}<tr><td colspan="4">Nenhum edital indexado.</td></tr>{% endfor %}</tbody></table></section>
+{% endblock %}

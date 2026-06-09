@@ -1,0 +1,570 @@
+{
+  "id": "concurso-publico-para-provimento-de-vagas-para-cargos-tecnico-administrativo-em-566ea5fe2f",
+  "file_hash": "566ea5fe2f721d57c556e4bcb423287e085d88bf2f49990edda46e62e2b5a210",
+  "title": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em",
+  "institution": "Universidade Federal do Amazonas",
+  "organizer": null,
+  "city": null,
+  "state": "AM",
+  "status": "indefinido",
+  "document_type": "concurso_publico",
+  "registration_start": "12/03/2026",
+  "registration_end": "06/04/2026",
+  "fee_text": "gratuito ou R$ 130,00",
+  "fee_min": "R$ 130,00",
+  "fee_max": "R$ 130,00",
+  "exam_date": null,
+  "total_vacancies": "16",
+  "positions_count": 1,
+  "salary_min": null,
+  "salary_max": null,
+  "summary": "Universidade Federal do Amazonas de/AM. A base identificou 16 vagas. Inscrições de 12/03/2026 a 06/04/2026.",
+  "highlights": [
+    "16 vagas identificadas",
+    "1 cargos estruturados",
+    "Inscrições: 12/03/2026 a 06/04/2026"
+  ],
+  "timeline": [
+    {
+      "label": "Publicação do Edital",
+      "date": "03/2026-GR",
+      "start": "03/2026-GR",
+      "end": null,
+      "type": "publicação",
+      "source": "p. 38"
+    },
+    {
+      "label": "Período de Inscrições",
+      "date": "10/02/2026 a 22/06/2026",
+      "start": "10/02/2026 a 22/06/2026",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 5"
+    },
+    {
+      "label": "Solicitação de Isenção da Taxa de Inscrição",
+      "date": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "start": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "end": null,
+      "type": "isenção",
+      "source": "p. 38"
+    },
+    {
+      "label": "Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "03/03/2026",
+      "start": "03/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    {
+      "label": "Recurso contra o Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "start": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 38"
+    },
+    {
+      "label": "Resultado Definitivo da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "09/03/2026",
+      "start": "09/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    {
+      "label": "Inscrições (pagantes e isentos de taxa de inscrição)",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 38"
+    },
+    {
+      "label": "Prazo máximo para o pagamento da Taxa de Inscrição",
+      "date": "06/04/2026",
+      "start": "06/04/2026",
+      "end": null,
+      "type": "pagamento",
+      "source": "p. 38"
+    },
+    {
+      "label": "Solicitação de Atendimento Especial",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "atendimento especial",
+      "source": "p. 20"
+    },
+    {
+      "label": "Gabarito",
+      "date": "10/05/2026",
+      "start": "10/05/2026",
+      "end": null,
+      "type": "gabarito",
+      "source": null
+    },
+    {
+      "label": "Homologação",
+      "date": "13/04/2026",
+      "start": "13/04/2026",
+      "end": null,
+      "type": "homologação",
+      "source": null
+    }
+  ],
+  "raw_positions": [
+    {
+      "number": null,
+      "name": "Técnico em Enfermagem",
+      "vacancies": null,
+      "workload": null,
+      "salary": null,
+      "requirement": null,
+      "source": "p. 2"
+    }
+  ],
+  "raw_timeline": [
+    {
+      "label": "Publicação do Edital",
+      "date": "03/2026-GR",
+      "start": "03/2026-GR",
+      "end": null,
+      "type": "publicação",
+      "source": "p. 38"
+    },
+    {
+      "label": "Período de Inscrições",
+      "date": "10/02/2026 a 22/06/2026",
+      "start": "10/02/2026 a 22/06/2026",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 5"
+    },
+    {
+      "label": "Solicitação de Isenção da Taxa de Inscrição",
+      "date": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "start": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "end": null,
+      "type": "isenção",
+      "source": "p. 38"
+    },
+    {
+      "label": "Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "03/03/2026",
+      "start": "03/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    {
+      "label": "Recurso contra o Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "start": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 38"
+    },
+    {
+      "label": "Resultado Definitivo da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "09/03/2026",
+      "start": "09/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    {
+      "label": "Inscrições (pagantes e isentos de taxa de inscrição)",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 38"
+    },
+    {
+      "label": "Prazo máximo para o pagamento da Taxa de Inscrição",
+      "date": "06/04/2026",
+      "start": "06/04/2026",
+      "end": null,
+      "type": "pagamento",
+      "source": "p. 38"
+    },
+    {
+      "label": "Solicitação de Atendimento Especial",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "atendimento especial",
+      "source": "p. 20"
+    },
+    {
+      "label": "Gabarito",
+      "date": "10/05/2026",
+      "start": "10/05/2026",
+      "end": null,
+      "type": "gabarito",
+      "source": null
+    },
+    {
+      "label": "Homologação",
+      "date": "13/04/2026",
+      "start": "13/04/2026",
+      "end": null,
+      "type": "homologação",
+      "source": null
+    }
+  ],
+  "validated_facts": {
+    "dados-principais": {
+      "topic": "dados-principais",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "title": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em",
+      "institution": "Universidade Federal do Amazonas",
+      "city": null,
+      "state": "AM",
+      "organizer": "Comissão Permanente de Concursos (COMPEC)",
+      "status": "indefinido",
+      "document_type": "concurso_publico",
+      "summary": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em Educação da UFAM, Nível de Classificação D (Nível Médio)"
+    },
+    "inscricoes": {
+      "topic": "inscricoes",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "summary_items": [
+        "5.3.1 É possível realizar mais de uma solicitação de inscrição, porém só será considerada válida, tornando-se",
+        "efetivamente uma inscrição",
+        " No caso do candidato com isenção deferida, a última solicitação realizada, sendo esta identiﬁcada pela",
+        " No caso do candidato pagante, a última solicitação com taxa de inscrição paga, sendo esta identiﬁcada",
+        "pela data e hora de pagamento",
+        "5.3.2 A solicitação será efetivada até a data de publicação do Cartão de Conﬁrmação de Inscrição - CCI, disposta",
+        "direito de cancelar a inscrição daquele que não preencher o cadastro de forma completa e correta ou que",
+        "5.6 A COMPEC não se responsabilizará por solicitação de inscrição não recebida por problemas de ordem técnica",
+        "fatores que impossibilitem a transferência dos dados, já que a inscrição é de responsabilidade exclusiva do",
+        "5.7 A inscrição no PSTEC 2026 implica na aceitação irrestrita das normas contidas neste Edital, não cabendo ao"
+      ],
+      "registration_start": "12/03/2026",
+      "registration_end": "06/04/2026",
+      "fee_min": "R$ 130,00",
+      "fee_max": "R$ 130,00",
+      "fee": "gratuito ou R$ 130,00",
+      "summary": "As inscrições podem ser realizadas durante o período de 12/03 a 06/04/2026 e podem ser feitas por mais de uma vez, mas apenas a última solicitação será considerada válida.",
+      "method": "site/presencial",
+      "payment": "pela data e hora de pagamento",
+      "warnings": [
+        "A inscrição pode ser cancelada se o candidato não preencher o cadastro de forma completa e correta ou fornecer dados inexatos ou comprovadamente inverídicos."
+      ]
+    },
+    "cargos-e-vagas": {
+      "topic": "cargos-e-vagas",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "positions": [
+        {
+          "number": null,
+          "name": "Técnico em Enfermagem",
+          "vacancies": null,
+          "workload": null,
+          "salary": null,
+          "requirement": null,
+          "source": "p. 2"
+        }
+      ],
+      "positions_count": 0,
+      "total_vacancies": "16",
+      "salary_min": null,
+      "salary_max": null,
+      "summary_items": [
+        "EDUCAÇÃO DA UFAM, NÍVEL DE CLASSIFICAÇÃO D (NÍVEL MÉDIO)",
+        "edital para o Concurso Público para preenchimento de vagas do Quadro Permanente de Pessoal TécnicoAdministrativo desta Universidade, Classiﬁcação D (Nível Médio), denominado PSTEC 2026 - Nível Médio - NM",
+        "2.1 Para as vagas de Nível de Classiﬁcação D, Padrão de Vencimento 1, Nível Médio (NM), os selecionados que",
+        "2.2 A estrutura remuneratória para os cargos de Nível de Classiﬁcação D, Padrão de Vencimento 1, Nível Médio",
+        "13.1 Em caso de empate no resultado ﬁnal do cargo de Nível Médio (NM), serão utilizados, SUCESSIVAMENTE",
+        "* A depender do total de vagas para cada cargo, a deﬁnição da modalidade (ampla concorrência ou reserva legais) para alguns cargos",
+        "Número total de vagas: 16",
+        "da reserva legal PcD para os cargos que possuírem 5 ou mais vagas, sendo considerados o total de vagas deste"
+      ],
+      "summary": "Concurso Público para Provimento de Vagas para Cargos Técnico-Administrativo em Educação da UFAM, Nível de Classificação D (Nível Médio)",
+      "warnings": [
+        "Não foi possível extrair informações precisas sobre os cargos e vagas.",
+        "A remuneração do cargo de Técnico em Enfermagem não está clara."
+      ]
+    },
+    "cronograma": {
+      "topic": "cronograma",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "events": [
+        {
+          "label": "Publicação do Edital",
+          "date": "03/2026-GR",
+          "start": "03/2026-GR",
+          "end": null,
+          "type": "publicação",
+          "source": "p. 38"
+        },
+        {
+          "label": "Período de Inscrições",
+          "date": "10/02/2026 a 22/06/2026",
+          "start": "10/02/2026 a 22/06/2026",
+          "end": null,
+          "type": "inscrição",
+          "source": "p. 5"
+        },
+        {
+          "label": "Solicitação de Isenção da Taxa de Inscrição",
+          "date": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+          "start": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+          "end": null,
+          "type": "isenção",
+          "source": "p. 38"
+        },
+        {
+          "label": "Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+          "date": "03/03/2026",
+          "start": "03/03/2026",
+          "end": null,
+          "type": "resultado",
+          "source": "p. 38"
+        },
+        {
+          "label": "Recurso contra o Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+          "date": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+          "start": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+          "end": null,
+          "type": "recurso",
+          "source": "p. 38"
+        },
+        {
+          "label": "Resultado Definitivo da Solicitação de Isenção da Taxa de Inscrição",
+          "date": "09/03/2026",
+          "start": "09/03/2026",
+          "end": null,
+          "type": "resultado",
+          "source": "p. 38"
+        },
+        {
+          "label": "Inscrições (pagantes e isentos de taxa de inscrição)",
+          "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+          "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+          "end": null,
+          "type": "inscrição",
+          "source": "p. 38"
+        },
+        {
+          "label": "Prazo máximo para o pagamento da Taxa de Inscrição",
+          "date": "06/04/2026",
+          "start": "06/04/2026",
+          "end": null,
+          "type": "pagamento",
+          "source": "p. 38"
+        },
+        {
+          "label": "Solicitação de Atendimento Especial",
+          "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+          "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+          "end": null,
+          "type": "atendimento especial",
+          "source": "p. 20"
+        },
+        {
+          "label": "Gabarito",
+          "date": "10/05/2026",
+          "start": "10/05/2026",
+          "end": null,
+          "type": "gabarito",
+          "source": null
+        },
+        {
+          "label": "Homologação",
+          "date": "13/04/2026",
+          "start": "13/04/2026",
+          "end": null,
+          "type": "homologação",
+          "source": null
+        }
+      ],
+      "summary": "O concurso público para provimento de vagas para cargos técnicos-administrativos na Universidade Federal do Amazonas terá as seguintes datas importantes:"
+    },
+    "provas-e-etapas": {
+      "topic": "provas-e-etapas",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "rules": [
+        "O candidato não poderá realizar prova fora dos espaços físicos, datas e horários determinados no Cartão de Confirmação de Inscrição - CCI.",
+        "Será eliminado o candidato que houver realizado o Concurso Público usando auxílio para a execução das provas.",
+        "O não atendimento das exigências contidas no item 9.6.4 deste Edital acarretará a desconsideração das provas prestadas em caráter condicional."
+      ],
+      "exam_type": "prova objetiva/prática",
+      "summary": "O concurso público para provimento de vagas para cargos técnicos-administrativos na Universidade Federal do Amazonas terá provas objetivas e práticas, com horário de abertura dos portões às 07h00min e fechamento às 08h00min. A prova de conhecimentos gerais será realizada das 08h15min às 12h15min.",
+      "subjects": [
+        "Conhecimentos Específicos ao Cargo",
+        "PSTEC 2026"
+      ]
+    },
+    "conteudo-programatico": {
+      "topic": "conteudo-programatico",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "summary_items": [
+        "Descrição sumária do cargo: Executar trabalhos técnicos de laboratório relacionados à área de informática",
+        "3.1.7 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: SANEAMENTO AMBIENTAL",
+        "Descrição sumária do cargo: Executar trabalhos técnico de laboratório relacionados à área de atuação",
+        "3.1.8 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: QUÍMICA",
+        "3.1.9 Cargo: TÉCNICO DE TECNOLOGIA DA INFORMAÇÃO",
+        "ANEXO 1 - CONTEÚDO PROGRAMÁTICO - PSTEC 2026 - NÍVEL MÉDIO [NM]",
+        "CONTEÚDO COMUM A TODOS OS CARGOS",
+        "CONTEÚDOS ESPECÍFICOS PARA CADA CARGO",
+        "• Cargo: Assistente em Administração",
+        "Descrição sumária do cargo: Desenvolver sistemas e aplicações, determinando interface gráﬁca, critérios"
+      ],
+      "summary": "O conteúdo programático do concurso público da Universidade Federal do Amazonas inclui disciplinas como Língua Portuguesa, Fonologia, Morfologia, Sintaxe e Tópicos de Linguagem para todos os cargos.",
+      "items": [
+        {
+          "cargo": "TÉCNICO DE LABORATÓRIO/ÁREA: SANEAMENTO AMBIENTAL",
+          "disciplinas": [
+            "Língua Portuguesa",
+            "Fonologia",
+            "Morfologia",
+            "Sintaxe"
+          ]
+        },
+        {
+          "cargo": "TÉCNICO EM CONTABILIDADE",
+          "disciplinas": [
+            "Língua Portuguesa",
+            "Fonologia",
+            "Morfologia",
+            "Sintaxe"
+          ]
+        },
+        {
+          "cargo": "TÉCNICO DE LABORATÓRIO/ÁREA: CARTOGRAFIA",
+          "disciplinas": [
+            "Generalidades",
+            "Conceitos fundamentais",
+            "O planeta terra e suas formas",
+            "Noções de geodésia"
+          ]
+        }
+      ]
+    },
+    "requisitos": {
+      "topic": "requisitos",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "summary_items": [
+        "15 DOS REQUISITOS PARA INVESTIDURA NOS CARGOS",
+        "f) Ter, na data da nomeação, idade mínima de 18 (dezoito) anos completos e, ainda, não ter atingido 70",
+        "j) Apresentar outros documentos que se ﬁzerem necessários, por ocasião da posse",
+        "15.2.6 Após a investidura do candidato, a deﬁciência não poderá ser arguida para justiﬁcar a concessão de",
+        "16 DA NOMEAÇÃO E DA POSSE",
+        "16.1 A nomeação dar-se-á de acordo com os artigos 9º e 10º, da Lei nº 8.112/1990",
+        "16.2 Todo o processo de homologação e posterior nomeação será realizado pela Pró-Reitoria de Gestão de",
+        "16.4 O candidato nomeado deverá tomar posse no prazo de 30 (trinta) dias, contados da publicação do ato de"
+      ],
+      "summary": "Os requisitos para investidura nos cargos incluem: nacionalidade brasileira ou portuguesa com reconhecimento de direitos políticos, gozo dos direitos políticos, estar quite com as obrigações eleitorais e do Serviço Militar (para candidatos do sexo masculino), idade mínima de 18 anos completos e não ter atingido 70 anos na data da nomeação.",
+      "items": [
+        {
+          "item": "a) Ter sido aprovado neste Concurso Público;",
+          "type": "escolaridade"
+        },
+        {
+          "item": "b) Ter nacionalidade brasileira; no caso de nacionalidade portuguesa, estar amparado pelo estatuto de igualdade entre brasileiros e portugueses, com reconhecimento do gozo dos direitos políticos",
+          "type": "nacionalidade"
+        },
+        {
+          "item": "c) Gozar dos direitos políticos;",
+          "type": "direitos políticos"
+        },
+        {
+          "item": "d) Estar quite com as obrigações eleitorais;",
+          "type": "obrigações eleitorais"
+        },
+        {
+          "item": "e) Estar quite com as obrigações do Serviço Militar, para os candidatos do sexo masculino;",
+          "type": "obrigações militar"
+        },
+        {
+          "item": "f) Ter, na data da nomeação, idade mínima de 18 (dezoito) anos completos e, ainda, não ter atingido 70 (setenta)",
+          "type": "idade"
+        }
+      ]
+    },
+    "recursos": {
+      "topic": "recursos",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "summary_items": [
+        "Recurso contra o Resultado Preliminar da Solicitação de Isenção da",
+        "Recurso contra o Resultado Preliminar da Solicitação de Atendimento",
+        "Gabarito Preliminar das Provas Objetivas",
+        "Recurso contra o Gabarito Preliminar das Provas Objetivas",
+        "Gabarito Definitivo das Provas Objetivas",
+        "4.4 A data para interposição de recursos relativos ao resultado preliminar do pedido de isenção da taxa de",
+        "4.4.1 O requerimento para interposição de recursos estará disponível para preenchimento no endereço",
+        "11 DO RECURSO CONTRA QUESTÕES DE PROVA"
+      ],
+      "summary": "O recurso contra o resultado preliminar da solicitação de isenção da taxa de inscrição pode ser interposto entre 04/03/2026 às 10h00min e 05/03/2026 às 17h00min.",
+      "items": [
+        {
+          "type": "prazo",
+          "description": "Prazo para interposição de recurso contra resultado preliminar da solicitação de isenção"
+        },
+        {
+          "type": "forma",
+          "description": "Requerimento para interposição de recursos estará disponível no endereço [inserir endereço]"
+        }
+      ],
+      "warnings": [
+        "Não foi possível encontrar informações sobre o gabarito definitivo das provas objetivas."
+      ]
+    },
+    "retificacoes": {
+      "topic": "retificacoes",
+      "confidence": 0.72,
+      "source": "merged_llm",
+      "changes": [
+        {
+          "type": "errata",
+          "date": null,
+          "impact": "Candidatos podem solicitar tratamento pelo nome social e retificar dados pessoais.",
+          "source": "p. 19"
+        },
+        {
+          "type": "suspensão/prorrogação/errata",
+          "date": null,
+          "impact": "Última solicitação de inscrição é considerada válida, independentemente do número de solicitações realizadas.",
+          "source": "p. 15"
+        }
+      ],
+      "summary": "O concurso público da Universidade Federal do Amazonas permite tratamento pelo nome social e retificação de dados pessoais durante o período das inscrições.",
+      "warnings": [
+        "Não foi possível determinar a data das retificações e comunicados."
+      ]
+    }
+  },
+  "raw_file": "566ea5fe2f721d57.pdf",
+  "source_url": null,
+  "created_at": "2026-06-09T17:10:45",
+  "llm_available": true,
+  "llm_used_topics": 9,
+  "wiki_llm_pages": 10,
+  "display": {
+    "institution": "Universidade Federal do Amazonas",
+    "location": "AM",
+    "registration": "12/03/2026 a 06/04/2026",
+    "exam_date": "Não identificado com segurança",
+    "salary": "Não identificado com segurança",
+    "vacancies": "16",
+    "fee": "gratuito ou R$ 130,00"
+  },
+  "lint_score": 72,
+  "quality": "revisar",
+  "needs_review": [
+    "{'message': 'Há indícios de cargos/vagas, mas o sistema não estruturou cargos com segurança.'}"
+  ],
+  "wiki_strategy": "v20_microcopy_template_safe"
+}

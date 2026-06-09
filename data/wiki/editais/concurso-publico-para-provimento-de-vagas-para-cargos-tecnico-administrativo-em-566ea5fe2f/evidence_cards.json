@@ -1,0 +1,673 @@
+[
+  {
+    "topic": "dados-principais",
+    "type": "fato_topico",
+    "title": "Dados principais",
+    "data": {
+      "confidence": 0.72,
+      "title": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em",
+      "institution": "Universidade Federal do Amazonas",
+      "state": "AM",
+      "organizer": "Comissão Permanente de Concursos (COMPEC)",
+      "status": "indefinido",
+      "document_type": "concurso_publico",
+      "summary": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em Educação da UFAM, Nível de Classificação D (Nível Médio)"
+    },
+    "source_pages": [
+      27,
+      30,
+      1,
+      26,
+      31,
+      19,
+      38,
+      24,
+      17,
+      25,
+      22,
+      29
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "inscricoes",
+    "type": "fato_topico",
+    "title": "Inscrições",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "5.3.1 É possível realizar mais de uma solicitação de inscrição, porém só será considerada válida, tornando-se",
+        "efetivamente uma inscrição",
+        " No caso do candidato com isenção deferida, a última solicitação realizada, sendo esta identiﬁcada pela",
+        " No caso do candidato pagante, a última solicitação com taxa de inscrição paga, sendo esta identiﬁcada",
+        "pela data e hora de pagamento",
+        "5.3.2 A solicitação será efetivada até a data de publicação do Cartão de Conﬁrmação de Inscrição - CCI, disposta",
+        "direito de cancelar a inscrição daquele que não preencher o cadastro de forma completa e correta ou que",
+        "5.6 A COMPEC não se responsabilizará por solicitação de inscrição não recebida por problemas de ordem técnica",
+        "fatores que impossibilitem a transferência dos dados, já que a inscrição é de responsabilidade exclusiva do",
+        "5.7 A inscrição no PSTEC 2026 implica na aceitação irrestrita das normas contidas neste Edital, não cabendo ao"
+      ],
+      "registration_start": "12/03/2026",
+      "registration_end": "06/04/2026",
+      "fee_min": "R$ 130,00",
+      "fee_max": "R$ 130,00",
+      "fee": "gratuito ou R$ 130,00",
+      "summary": "As inscrições podem ser realizadas durante o período de 12/03 a 06/04/2026 e podem ser feitas por mais de uma vez, mas apenas a última solicitação será considerada válida.",
+      "method": "site/presencial",
+      "payment": "pela data e hora de pagamento",
+      "warnings": [
+        "A inscrição pode ser cancelada se o candidato não preencher o cadastro de forma completa e correta ou fornecer dados inexatos ou comprovadamente inverídicos."
+      ]
+    },
+    "source_pages": [
+      15,
+      38,
+      20,
+      12,
+      13,
+      14,
+      16,
+      29,
+      11,
+      17,
+      1,
+      30
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Técnico em Enfermagem",
+    "data": {
+      "number": null,
+      "name": "Técnico em Enfermagem",
+      "vacancies": null,
+      "workload": null,
+      "salary": null,
+      "requirement": null,
+      "source": "p. 2"
+    },
+    "source_pages": [
+      1,
+      2,
+      27,
+      26,
+      3,
+      8,
+      28,
+      7,
+      5,
+      6,
+      9,
+      11
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Publicação do Edital",
+    "data": {
+      "label": "Publicação do Edital",
+      "date": "03/2026-GR",
+      "start": "03/2026-GR",
+      "end": null,
+      "type": "publicação",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Período de Inscrições",
+    "data": {
+      "label": "Período de Inscrições",
+      "date": "10/02/2026 a 22/06/2026",
+      "start": "10/02/2026 a 22/06/2026",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 5"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Solicitação de Isenção da Taxa de Inscrição",
+    "data": {
+      "label": "Solicitação de Isenção da Taxa de Inscrição",
+      "date": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "start": "25/02/2026 às 10h00min a 26/02/2026 às 17h00min",
+      "end": null,
+      "type": "isenção",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+    "data": {
+      "label": "Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "03/03/2026",
+      "start": "03/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Recurso contra o Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+    "data": {
+      "label": "Recurso contra o Resultado Preliminar da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "start": "04/03/2026 às 10h00min a 05/03/2026 às 17h00min",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Resultado Definitivo da Solicitação de Isenção da Taxa de Inscrição",
+    "data": {
+      "label": "Resultado Definitivo da Solicitação de Isenção da Taxa de Inscrição",
+      "date": "09/03/2026",
+      "start": "09/03/2026",
+      "end": null,
+      "type": "resultado",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Inscrições (pagantes e isentos de taxa de inscrição)",
+    "data": {
+      "label": "Inscrições (pagantes e isentos de taxa de inscrição)",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo máximo para o pagamento da Taxa de Inscrição",
+    "data": {
+      "label": "Prazo máximo para o pagamento da Taxa de Inscrição",
+      "date": "06/04/2026",
+      "start": "06/04/2026",
+      "end": null,
+      "type": "pagamento",
+      "source": "p. 38"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Solicitação de Atendimento Especial",
+    "data": {
+      "label": "Solicitação de Atendimento Especial",
+      "date": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "start": "12/03/2026 às 10h00min a 06/04/2026 às 17h00min",
+      "end": null,
+      "type": "atendimento especial",
+      "source": "p. 20"
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Gabarito",
+    "data": {
+      "label": "Gabarito",
+      "date": "10/05/2026",
+      "start": "10/05/2026",
+      "end": null,
+      "type": "gabarito",
+      "source": null
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Homologação",
+    "data": {
+      "label": "Homologação",
+      "date": "13/04/2026",
+      "start": "13/04/2026",
+      "end": null,
+      "type": "homologação",
+      "source": null
+    },
+    "source_pages": [
+      38,
+      20,
+      13,
+      15,
+      29,
+      19,
+      25,
+      1,
+      26,
+      17,
+      16,
+      27
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "provas-e-etapas",
+    "type": "fato_topico",
+    "title": "Provas e etapas",
+    "data": {
+      "confidence": 0.72,
+      "rules": [
+        "O candidato não poderá realizar prova fora dos espaços físicos, datas e horários determinados no Cartão de Confirmação de Inscrição - CCI.",
+        "Será eliminado o candidato que houver realizado o Concurso Público usando auxílio para a execução das provas.",
+        "O não atendimento das exigências contidas no item 9.6.4 deste Edital acarretará a desconsideração das provas prestadas em caráter condicional."
+      ],
+      "exam_type": "prova objetiva/prática",
+      "summary": "O concurso público para provimento de vagas para cargos técnicos-administrativos na Universidade Federal do Amazonas terá provas objetivas e práticas, com horário de abertura dos portões às 07h00min e fechamento às 08h00min. A prova de conhecimentos gerais será realizada das 08h15min às 12h15min.",
+      "subjects": [
+        "Conhecimentos Específicos ao Cargo",
+        "PSTEC 2026"
+      ]
+    },
+    "source_pages": [
+      21,
+      26,
+      23,
+      25,
+      27,
+      17,
+      18,
+      22,
+      24,
+      29,
+      20,
+      38
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "conteudo-programatico",
+    "type": "fato_topico",
+    "title": "Conteúdo programático",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Descrição sumária do cargo: Executar trabalhos técnicos de laboratório relacionados à área de informática",
+        "3.1.7 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: SANEAMENTO AMBIENTAL",
+        "Descrição sumária do cargo: Executar trabalhos técnico de laboratório relacionados à área de atuação",
+        "3.1.8 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: QUÍMICA",
+        "3.1.9 Cargo: TÉCNICO DE TECNOLOGIA DA INFORMAÇÃO",
+        "ANEXO 1 - CONTEÚDO PROGRAMÁTICO - PSTEC 2026 - NÍVEL MÉDIO [NM]",
+        "CONTEÚDO COMUM A TODOS OS CARGOS",
+        "CONTEÚDOS ESPECÍFICOS PARA CADA CARGO",
+        "• Cargo: Assistente em Administração",
+        "Descrição sumária do cargo: Desenvolver sistemas e aplicações, determinando interface gráﬁca, critérios"
+      ],
+      "summary": "O conteúdo programático do concurso público da Universidade Federal do Amazonas inclui disciplinas como Língua Portuguesa, Fonologia, Morfologia, Sintaxe e Tópicos de Linguagem para todos os cargos.",
+      "items": [
+        {
+          "cargo": "TÉCNICO DE LABORATÓRIO/ÁREA: SANEAMENTO AMBIENTAL",
+          "disciplinas": [
+            "Língua Portuguesa",
+            "Fonologia",
+            "Morfologia",
+            "Sintaxe"
+          ]
+        },
+        {
+          "cargo": "TÉCNICO EM CONTABILIDADE",
+          "disciplinas": [
+            "Língua Portuguesa",
+            "Fonologia",
+            "Morfologia",
+            "Sintaxe"
+          ]
+        },
+        {
+          "cargo": "TÉCNICO DE LABORATÓRIO/ÁREA: CARTOGRAFIA",
+          "disciplinas": [
+            "Generalidades",
+            "Conceitos fundamentais",
+            "O planeta terra e suas formas",
+            "Noções de geodésia"
+          ]
+        }
+      ]
+    },
+    "source_pages": [
+      6,
+      32,
+      7,
+      33,
+      5,
+      21,
+      3,
+      25,
+      27,
+      38,
+      4,
+      26
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "requisitos",
+    "type": "fato_topico",
+    "title": "Requisitos e contratação",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "15 DOS REQUISITOS PARA INVESTIDURA NOS CARGOS",
+        "f) Ter, na data da nomeação, idade mínima de 18 (dezoito) anos completos e, ainda, não ter atingido 70",
+        "j) Apresentar outros documentos que se ﬁzerem necessários, por ocasião da posse",
+        "15.2.6 Após a investidura do candidato, a deﬁciência não poderá ser arguida para justiﬁcar a concessão de",
+        "16 DA NOMEAÇÃO E DA POSSE",
+        "16.1 A nomeação dar-se-á de acordo com os artigos 9º e 10º, da Lei nº 8.112/1990",
+        "16.2 Todo o processo de homologação e posterior nomeação será realizado pela Pró-Reitoria de Gestão de",
+        "16.4 O candidato nomeado deverá tomar posse no prazo de 30 (trinta) dias, contados da publicação do ato de"
+      ],
+      "summary": "Os requisitos para investidura nos cargos incluem: nacionalidade brasileira ou portuguesa com reconhecimento de direitos políticos, gozo dos direitos políticos, estar quite com as obrigações eleitorais e do Serviço Militar (para candidatos do sexo masculino), idade mínima de 18 anos completos e não ter atingido 70 anos na data da nomeação.",
+      "items": [
+        {
+          "item": "a) Ter sido aprovado neste Concurso Público;",
+          "type": "escolaridade"
+        },
+        {
+          "item": "b) Ter nacionalidade brasileira; no caso de nacionalidade portuguesa, estar amparado pelo estatuto de igualdade entre brasileiros e portugueses, com reconhecimento do gozo dos direitos políticos",
+          "type": "nacionalidade"
+        },
+        {
+          "item": "c) Gozar dos direitos políticos;",
+          "type": "direitos políticos"
+        },
+        {
+          "item": "d) Estar quite com as obrigações eleitorais;",
+          "type": "obrigações eleitorais"
+        },
+        {
+          "item": "e) Estar quite com as obrigações do Serviço Militar, para os candidatos do sexo masculino;",
+          "type": "obrigações militar"
+        },
+        {
+          "item": "f) Ter, na data da nomeação, idade mínima de 18 (dezoito) anos completos e, ainda, não ter atingido 70 (setenta)",
+          "type": "idade"
+        }
+      ]
+    },
+    "source_pages": [
+      27,
+      28,
+      7,
+      38,
+      1,
+      2,
+      29,
+      4,
+      5,
+      24,
+      10,
+      17
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "recursos",
+    "type": "fato_topico",
+    "title": "Recursos",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Recurso contra o Resultado Preliminar da Solicitação de Isenção da",
+        "Recurso contra o Resultado Preliminar da Solicitação de Atendimento",
+        "Gabarito Preliminar das Provas Objetivas",
+        "Recurso contra o Gabarito Preliminar das Provas Objetivas",
+        "Gabarito Definitivo das Provas Objetivas",
+        "4.4 A data para interposição de recursos relativos ao resultado preliminar do pedido de isenção da taxa de",
+        "4.4.1 O requerimento para interposição de recursos estará disponível para preenchimento no endereço",
+        "11 DO RECURSO CONTRA QUESTÕES DE PROVA"
+      ],
+      "summary": "O recurso contra o resultado preliminar da solicitação de isenção da taxa de inscrição pode ser interposto entre 04/03/2026 às 10h00min e 05/03/2026 às 17h00min.",
+      "items": [
+        {
+          "type": "prazo",
+          "description": "Prazo para interposição de recurso contra resultado preliminar da solicitação de isenção"
+        },
+        {
+          "type": "forma",
+          "description": "Requerimento para interposição de recursos estará disponível no endereço [inserir endereço]"
+        }
+      ],
+      "warnings": [
+        "Não foi possível encontrar informações sobre o gabarito definitivo das provas objetivas."
+      ]
+    },
+    "source_pages": [
+      38,
+      13,
+      25,
+      20,
+      2,
+      17,
+      27,
+      29,
+      4,
+      6,
+      7,
+      24
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "errata",
+    "data": {
+      "type": "errata",
+      "date": null,
+      "impact": "Candidatos podem solicitar tratamento pelo nome social e retificar dados pessoais.",
+      "source": "p. 19"
+    },
+    "source_pages": [
+      38,
+      19,
+      27,
+      24,
+      26,
+      1,
+      2,
+      12,
+      14,
+      15,
+      18,
+      22
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "suspensão/prorrogação/errata",
+    "data": {
+      "type": "suspensão/prorrogação/errata",
+      "date": null,
+      "impact": "Última solicitação de inscrição é considerada válida, independentemente do número de solicitações realizadas.",
+      "source": "p. 15"
+    },
+    "source_pages": [
+      38,
+      19,
+      27,
+      24,
+      26,
+      1,
+      2,
+      12,
+      14,
+      15,
+      18,
+      22
+    ],
+    "confidence": 0.72
+  }
+]

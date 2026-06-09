@@ -1,0 +1,1559 @@
+{
+  "dados-principais": {
+    "topic": "dados-principais",
+    "confidence": 0.9,
+    "source": "corrigido",
+    "title": "Edital de Concurso nº 001/2016 - PMP/AM",
+    "institution": "Prefeitura Municipal de Parintins",
+    "city": "Parintins",
+    "state": "AM",
+    "organizer": "Instituto de Apoio à Pesquisa Científica, Educacional e Tecnológica de Rondônia - IPRO",
+    "status": "suspenso",
+    "total_vacancies": 2055
+  },
+  "inscricoes": {
+    "topic": "inscricoes",
+    "confidence": 0.9,
+    "source": "corrigido",
+    "registration_start": "09/03/2016",
+    "registration_end": "05/05/2016",
+    "fee_min": 30.0,
+    "fee_max": 150.0,
+    "fee": "R$ 30,00 a R$ 150,00"
+  },
+  "cargos-e-vagas": {
+    "topic": "cargos-e-vagas",
+    "confidence": 0.8,
+    "source": "corrigido",
+    "positions": [
+      {
+        "numero": "1",
+        "cbo": "5121",
+        "cargo": "AUXILIAR DE SERVIÇOS GERAIS - ZONA RURAL",
+        "vagas": "110",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "2",
+        "cbo": "5121",
+        "cargo": "AUXILIAR DE SERVIÇOS GERAIS - ZONA URBANA",
+        "vagas": "113",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "3",
+        "cbo": "7155-05",
+        "cargo": "CARPINTEIRO",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto e Curso Básico de Qualificação",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "4",
+        "cbo": "5134-25",
+        "cargo": "COPEIRA - ZONA URBANA",
+        "vagas": "23",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "5",
+        "cbo": "5166-10",
+        "cargo": "COVEIRO",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "6",
+        "cbo": "5132-05",
+        "cargo": "COZINHEIRA - ZONA RURAL",
+        "vagas": "62",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto, Curso de Manipulação de Alimentos ou Curso de Cozinheiro.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "7",
+        "cbo": "5132-05",
+        "cargo": "COZINHEIRA - ZONA URBANA",
+        "vagas": "60",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto, Curso de Manipulação de Alimentos ou Curso de Cozinheiro.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "8",
+        "cbo": "5142-15",
+        "cargo": "GARI",
+        "vagas": "150",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "9",
+        "cbo": "5142-25",
+        "cargo": "TRABALHADOR DE SERVIÇOS DE LIMPEZA E CONSERVAÇÃO DE AREAS PÚBLICAS (CAPINADOR)",
+        "vagas": "45",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Incompleto",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL INCOMPLETO"
+      },
+      {
+        "numero": "10",
+        "cbo": "5171-05",
+        "cargo": "BOMBEIRO DE AERÓDROMO",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo e Curso de Especialização em Combate a Incêndio e Salvamento.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "11",
+        "cbo": "9511-05",
+        "cargo": "ELETRICISTA",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo, Curso Básico de Eletricista.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "12",
+        "cbo": "7241-10",
+        "cargo": "ENCANADOR",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo, Curso Básico de Instalador Hidráulico.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "13",
+        "cbo": "5172-15",
+        "cargo": "GUARDA CIVIL MUNICIPAL - ZONA RURAL",
+        "vagas": "20",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "14",
+        "cbo": "5172-15",
+        "cargo": "GUARDA CIVIL MUNICIPAL - ZONA URBANA",
+        "vagas": "155",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "15",
+        "cbo": "7827-05",
+        "cargo": "MARINHEIRO FLUVIAL DE CONVÉS",
+        "vagas": "7",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Fundamental Completo, Curso de Marinheiro Fluvial de Convés, Carta Náutica.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "16",
+        "cbo": "9144-05",
+        "cargo": "MECÂNICO DE AUTO EM GERAL",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo e curso profissionalizante em mecânica de manutenção de veículos automotores.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "17",
+        "cbo": "9112-05",
+        "cargo": "MECÂNICO DE MANUTENÇÃO E INSTALAÇÃO DE APARELHOS DE CLIMATIZAÇÃO E REFRIGERAÇÃO",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Fundamental Completo, Curso profissionalizante na área.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "18",
+        "cbo": "7823-10",
+        "cargo": "MOTORISTA CATEGORIA B - FURGÃO OU SIMILAR",
+        "vagas": "11",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Fundamental Completo, Carteira de Habilitação B.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "19",
+        "cbo": "7825-10",
+        "cargo": "MOTORISTA CATEGORIA C - CAMINHÃO",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.200,00",
+        "requisito": "Ensino Fundamental Completo, Carteira de Habilitação C.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "20",
+        "cbo": "7824-10",
+        "cargo": "MOTORISTA CATEGORIA D",
+        "vagas": "7",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Fundamental Completo, Carteira de Habilitação D.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "20-A",
+        "cbo": "7824-10",
+        "cargo": "MOTORISTA CATEGORIA D – ZONA URBANA",
+        "vagas": "8",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Fundamental Completo, Carteira de Habilitação D.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "21",
+        "cbo": "7823-10",
+        "cargo": "MOTORISTA SOCORRISTA (BOMBEIRO) - CATEGORIA D",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Fundamental Completo, Carteira de Habilitação D, Curso de Especialização em Combate à Incêndio e Salvamento.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "22",
+        "cbo": "7152-10",
+        "cargo": "PEDREIRO",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo, Curso Básico de Qualificação Profissional na área.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "23",
+        "cbo": "7166-10",
+        "cargo": "PINTOR DE OBRAS",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo, Curso Básico de Qualificação Profissional na área.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "24",
+        "cbo": "7170-20",
+        "cargo": "SERVENTE DE OBRAS",
+        "vagas": "20",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "25",
+        "cbo": "5174-20",
+        "cargo": "VIGIA - ZONA RURAL",
+        "vagas": "100",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "26",
+        "cbo": "5174-20",
+        "cargo": "VIGIA - ZONA URBANA",
+        "vagas": "130",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Fundamental Completo.",
+        "categoria": "CARGOS DE NÍVEL FUNDAMENTAL COMPLETO"
+      },
+      {
+        "numero": "27",
+        "cbo": "5173-05",
+        "cargo": "AGENTE DE PROTEÇÃO DE AEROPORTO",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo, Curso profissionalizante na área",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "28",
+        "cbo": "3522-10",
+        "cargo": "AGENTE DE SAÚDE PÚBLICA (AGENTE DE VIGILÂNCIA AMBIENTAL - ZOONOSES) - ZONA URBANA",
+        "vagas": "5",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo com Curso de Capacitação na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "29",
+        "cbo": "4110-10",
+        "cargo": "ASSISTENTE TÉCNICO ADMINISTRATIVO - ZONA RURAL",
+        "vagas": "34",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.229,28",
+        "requisito": "Ensino Médio Completo e Curso Básico de Informática.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "30",
+        "cbo": "4110-10",
+        "cargo": "ASSISTENTE TÉCNICO ADMINISTRATIVO - ZONA URBANA",
+        "vagas": "88",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.229,28",
+        "requisito": "Ensino Médio Completo e Curso Básico de Informática.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "31",
+        "cbo": "3711-05",
+        "cargo": "AUXILIAR DE BIBLIOTECA",
+        "vagas": "5",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo e Curso Básico de Informática.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "32",
+        "cbo": "3181-05",
+        "cargo": "DESENHISTA TÉCNICO (ARQUITETURA) - CADISTA",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Médio Completo, Curso Básico de Qualificação em Computer Aided Design - AutoCAD.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "33",
+        "cbo": "3425-10",
+        "cargo": "DESPACHANTE OPERACIONAL DE VOO (OPERADOR DE RAIX)",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "34",
+        "cbo": "3425-10",
+        "cargo": "DESPACHANTE OPERACIONAL DE VOO (SINALIZADOR DE AERONAVES)",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "35",
+        "cbo": "3425-15",
+        "cargo": "FISCAL DE AVIAÇÃO CIVIL (FISCAL DE PÁTIO)",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo mais cursos de especialização",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "36",
+        "cbo": "5151-20",
+        "cargo": "FISCAL SANITÁRIO E ENDEMIAS",
+        "vagas": "12",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Médio Completo e Curso de Capacitação na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "37",
+        "cbo": "3522-10",
+        "cargo": "FISCAL DE OBRAS",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Médio Completo.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "38",
+        "cbo": "3341-10",
+        "cargo": "INSPETOR DE ALUNOS DE ESCOLA PÚBLICA - ZONA RURAL",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo com Curso de Relações Humanas.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "39",
+        "cbo": "3341-10",
+        "cargo": "INSPETOR DE ALUNOS DE ESCOLA PÚBLICA - ZONA URBANA",
+        "vagas": "22",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo com Curso de Relações Humanas.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "40",
+        "cbo": "3341-10",
+        "cargo": "INSPETOR DE ALUNOS DE ESCOLA PÚBLICA (EDUCAÇÃO INFANTIL) ZONA RURAL",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo ou Magistério, Curso de Qualificação na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "41",
+        "cbo": "3341-10",
+        "cargo": "INSPETOR DE ALUNOS DE ESCOLA PÚBLICA (EDUCAÇÃO INFANTIL) ZONA URBANA",
+        "vagas": "37",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo ou Magistério, Curso de Qualificação na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "42",
+        "cbo": "2332-25",
+        "cargo": "INSTRUTOR DE APRENDIZAGEM EM INFORMÁTICA - ZONA RURAL",
+        "vagas": "14",
+        "carga_horaria": "25 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo e Curso Técnico em Informática.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "43",
+        "cbo": "2332-25",
+        "cargo": "INSTRUTOR DE APRENDIZAGEM EM INFORMÁTICA - ZONA URBANA",
+        "vagas": "23",
+        "carga_horaria": "25 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo e Curso Técnico em Informática",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "44",
+        "cbo": "3714-10",
+        "cargo": "RECREADOR (ESPORTE E LAZER)",
+        "vagas": "12",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "45",
+        "cbo": "2611-35",
+        "cargo": "REPÓRTER CINEMATOGRÁFICO",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Médio Completo, Formação específica na área de cinegrafia.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "46",
+        "cbo": "2618-20",
+        "cargo": "REPÓRTER FOTOGRÁFICO",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Ensino Médio Completo, Formação específica na área de fotografia.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "47",
+        "cbo": "5171-10",
+        "cargo": "SOCORRISTAS (BOMBEIRO CIVIL)",
+        "vagas": "8",
+        "carga_horaria": "40 H",
+        "salario": "R$ 880,00",
+        "requisito": "Ensino Médio Completo, Curso de Bombeiro Civil e Primeiros Socorros",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "48",
+        "cbo": "3522-05",
+        "cargo": "AGENTE DE FISCALIZAÇÃO AMBIENTAL",
+        "vagas": "8",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.500,00",
+        "requisito": "Ensino Médio Completo e Curso de Capacitação na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO"
+      },
+      {
+        "numero": "49",
+        "cbo": "5162-10",
+        "cargo": "CUIDADOR DE IDOSOS",
+        "vagas": "5",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino médio completo e Curso Técnico de Cuidador de Idosos.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "50",
+        "cbo": "3224-10",
+        "cargo": "PROTÉTICO DENTÁRIO (TÉCNICO DE PROTESE DENTÁRIA)",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico em Prótese Dentária.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "51",
+        "cbo": "3252-05",
+        "cargo": "TÉCNICO DE CONTROLE DE QUALIDADE DE ALIMENTOS",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo e Curso Técnico na área.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "52",
+        "cbo": "3222-05",
+        "cargo": "TÉCNICO DE ENFERMAGEM – ZONA RURAL",
+        "vagas": "10",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo e Curso Técnico em Enfermagem com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "53",
+        "cbo": "3222-05",
+        "cargo": "TÉCNICO DE ENFERMAGEM - ZONA URBANA",
+        "vagas": "25",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo e Curso Técnico em Enfermagem com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "54",
+        "cbo": "2544-20",
+        "cargo": "TÉCNICO DE TRIBUTOS MUNICIPAL",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "55",
+        "cbo": "3222-05",
+        "cargo": "TÉCNICO EM HEMOTRANSFUSÃO (HEMOTERAPIA)",
+        "vagas": "4",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico em Hemoterapia com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "56",
+        "cbo": "3132-20",
+        "cargo": "TÉCNICO EM MANUT. DE EQUIPAMENTOS DE INFORMÁTICA",
+        "vagas": "19",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo e Curso Técnico em Informática.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "57",
+        "cbo": "3242-05",
+        "cargo": "TÉCNICO EM PATOLOGIA CLINICA",
+        "vagas": "20",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico em Patologia Clinica com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "58",
+        "cbo": "3241-15",
+        "cargo": "TÉCNICO EM RADIOLOGIA",
+        "vagas": "2",
+        "carga_horaria": "20 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico em Radiologia com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "59",
+        "cbo": "3224-05",
+        "cargo": "TÉCNICO EM SAÚDE BUCAL",
+        "vagas": "25",
+        "carga_horaria": "30 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico em higiene dental com Registro no Conselho Regional de Odontologia - CRO.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "60",
+        "cbo": "3516-05",
+        "cargo": "TÉCNICO EM SEGURANÇA NO TRABALHO",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Ensino Médio Completo, Curso Técnico de Segurança no Trabalho.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "61",
+        "cbo": "3211-10",
+        "cargo": "TÉCNICO AGROPECUÁRIO",
+        "vagas": "5",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Curso técnico agrícola ou em agropecuária.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "62",
+        "cbo": "3123-20",
+        "cargo": "TOPOGRAFO",
+        "vagas": "1",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537, 15",
+        "requisito": "Curso técnico de nível médio em geomática ou correlatas como: téc. em geodésia e cartografia, téc. em agrimensura, téc. em hidrografia, téc. em topografia.",
+        "categoria": "CARGOS DE NÍVEL MÉDIO TÉCNICO"
+      },
+      {
+        "numero": "63",
+        "cbo": "1115- 10",
+        "cargo": "ANALISTA DE PLANEJAMENTO E ORÇAMENTO",
+        "vagas": "4",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Administração ou Economia ou Ciências Contábeis.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "64",
+        "cbo": "2524-05",
+        "cargo": "ANALISTA DE RECURSOS HUMANOS",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Administração.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "65",
+        "cbo": "2124-20",
+        "cargo": "ANALISTA DE SUPORTE DE BANCO DE DADOS E SISTEMA",
+        "vagas": "6",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Ciência da Computação ou Curso Superior com Especialização na área de Informática.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "66",
+        "cbo": "1225-20",
+        "cargo": "ANALISTA EM TURISMO",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Graduação em Turismo, com Curso de Língua Estrangeira.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "67",
+        "cbo": "2141-05",
+        "cargo": "ARQUITETO",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 3.732,00",
+        "requisito": "Curso Superior Completo em Arquitetura e Urbanismo, com Registro no Conselho competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "68",
+        "cbo": "2516-05",
+        "cargo": "ASSISTENTE SOCIAL",
+        "vagas": "16",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Serviço Social com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "69",
+        "cbo": "2522-05",
+        "cargo": "AUDITOR MUNICIPAL",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 8.754,68",
+        "requisito": "Graduação em nível superior (contabilidade, direito, administração, economia e engenharia civil).",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "70",
+        "cbo": "2612-05",
+        "cargo": "BIBLIOTECÁRIO - ZONA URBANA",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Biblioteconomia com Registro no Conselho de Classe - (CRB); Curso Básico de Informática.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "71",
+        "cbo": "2211-05",
+        "cargo": "BIÓLOGO",
+        "vagas": "3",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Biologia com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "72",
+        "cbo": "2522-10",
+        "cargo": "CONTADOR",
+        "vagas": "1",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Ciências Contábeis com Registro no Conselho de Classe (CRC).",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "73",
+        "cbo": "2512-05",
+        "cargo": "ECONOMISTA",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537, 16",
+        "requisito": "Curso Superior Completo em Ciências Econômicas com Registro no Conselho Regional de Economia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "74",
+        "cbo": "2235-05",
+        "cargo": "ENFERMEIRO",
+        "vagas": "23",
+        "carga_horaria": "30 H",
+        "salario": "R$ 3.400,00",
+        "requisito": "Curso Superior de Enfermagem com Registro no COREN.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "75",
+        "cbo": "2221-10",
+        "cargo": "ENGENHEIRO AGRONOMO",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Agronomia e Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "76",
+        "cbo": "2140-05",
+        "cargo": "ENGENHEIRO AMBIENTAL",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Engenharia Ambiental ou Cursos de Tecnologia na Área Ambiental e registro no respectivo conselho de classe.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "77",
+        "cbo": "2142-05",
+        "cargo": "ENGENHEIRO CIVIL",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 3.732,00",
+        "requisito": "Curso Superior em Engenharia Civil com Registro no CREA.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "78",
+        "cbo": "2221-15",
+        "cargo": "ENGENHEIRO DE PESCA",
+        "vagas": "1",
+        "carga_horaria": "40 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Engenharia de Pesca com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "79",
+        "cbo": "2221-20",
+        "cargo": "ENGENHEIRO FLORESTAL",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Engenharia Florestal com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "80",
+        "cbo": "2234-05",
+        "cargo": "FARMACÊUTICO",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso superior completo em Farmácia (Generalista), com registro no órgão de classe competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "80",
+        "cbo": "2234-15",
+        "cargo": "FARMACÊUTICO ANALISTA CLÍNICO (BIOQUÍMICO)",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso superior completo em Farmácia com Especialização em Análises Clínicas ou Bioquímica, com registro no órgão de classe competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "80",
+        "cbo": "2212-05",
+        "cargo": "BIOMÉDICO",
+        "vagas": "3",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso superior em Biomedicina, com registro no órgão de classe competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "81",
+        "cbo": "2544-10",
+        "cargo": "FISCAL DE TRIBUTOS MUNICIPAL",
+        "vagas": "8",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.900,00",
+        "requisito": "Ensino Superior Completo em Ciências Econômicas ou Administração ou Ciências Contábeis.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "82",
+        "cbo": "2236-05",
+        "cargo": "FISIOTERAPEUTA",
+        "vagas": "13",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Fisioterapia com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "83",
+        "cbo": "2238-10",
+        "cargo": "FONOAUDIÓLOGO",
+        "vagas": "7",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Fonoaudiologia com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "84",
+        "cbo": "2513-05",
+        "cargo": "GEÓGRAFO",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Geografia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "85",
+        "cbo": "2134-05",
+        "cargo": "GEÓLOGO",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Geologia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "86",
+        "cbo": "2614-25",
+        "cargo": "INTÉRPRETE DE LIBRAS",
+        "vagas": "2",
+        "carga_horaria": "20 H",
+        "salario": "R$ 880,00",
+        "requisito": "Curso Superior Completo e Especialização na área ou Certificado de Proficiência.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "87",
+        "cbo": "2611-25",
+        "cargo": "JORNALISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Comunicação Social/Jornalismo ou Registro Profissional na Delegacia Regional do Trabalho na função.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "88",
+        "cbo": "2231-04",
+        "cargo": "MÉDICO ANESTESISTA",
+        "vagas": "3",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "89",
+        "cbo": "2231-06",
+        "cargo": "MÉDICO CARDIOLOGISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "90",
+        "cbo": "",
+        "cargo": "2231-10 MÉDICO CIRURGIÃO GERAL",
+        "vagas": "3",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "91",
+        "cbo": "2251-42",
+        "cargo": "MÉDICO DA ESTRATÉGIA SAÚDE DA FAMÍLIA",
+        "vagas": "24",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com curso de especialização na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "92",
+        "cbo": "",
+        "cargo": "2231-17 MÉDICO DERMATOLOGISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200, 18",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "93",
+        "cbo": "2231-24",
+        "cargo": "MÉDICO EM RADIOLOGIA E DIAGNÓSTICO POR IMAGEM (MÉDICO ULTRASSONOGRAFISTA)",
+        "vagas": "4",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "94",
+        "cbo": "2231-28",
+        "cargo": "MÉDICO GASTROENTEROLOGISTA",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "95",
+        "cbo": "2231-29",
+        "cargo": "MÉDICO GENERALISTA",
+        "vagas": "15",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM).",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "96",
+        "cbo": "2231-31",
+        "cargo": "MÉDICO GERIATRA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "97",
+        "cbo": "2231-32",
+        "cargo": "MÉDICO GINECOLOGISTA E OBSTETRA",
+        "vagas": "6",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "98",
+        "cbo": "2231-36",
+        "cargo": "MÉDICO INFECTOLOGISTA",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "99",
+        "cbo": "2231-42",
+        "cargo": "MÉDICO NEUROLOGISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200, 19",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "100",
+        "cbo": "2231-44 MÉDICO OFTALMOLOGISTA",
+        "cargo": "",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "101",
+        "cbo": "2231-46",
+        "cargo": "MÉDICO ORTOPEDISTA TRAUMATOLOGISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "102",
+        "cbo": "2231-47",
+        "cargo": "MÉDICO OTORRINOLARINGOLOGISTA",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "103",
+        "cbo": "2231-49",
+        "cargo": "MÉDICO PEDIATRA",
+        "vagas": "4",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "104",
+        "cbo": "2231-49",
+        "cargo": "MÉDICO PEDIATRA (NEONATOLOGISTA)",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "105",
+        "cbo": "2231-53",
+        "cargo": "MÉDICO PSIQUIATRA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "106",
+        "cbo": "2231-57",
+        "cargo": "MÉDICO UROLOGISTA",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 9.200,00",
+        "requisito": "Formação superior em Medicina em instituição reconhecida pelo MEC, Registro no Conselho Regional de Medicina (CRM) com título de especialista na área específica.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "107",
+        "cbo": "2233-05",
+        "cargo": "MÉDICO VETERINÁRIO",
+        "vagas": "2",
+        "carga_horaria": "20 H",
+        "salario": "R$ 3.732,00",
+        "requisito": "Ensino Superior Completo em Medicina Veterinária com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "108",
+        "cbo": "2237-10",
+        "cargo": "NUTRICIONISTA",
+        "vagas": "6",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Ensino Superior Completo em Nutrição com Registro no Conselho de Classe.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "109",
+        "cbo": "2232-08",
+        "cargo": "ODONTOLOGO",
+        "vagas": "21",
+        "carga_horaria": "20 H",
+        "salario": "R$ 3.400,00",
+        "requisito": "Curso Superior Completo em Odontologia, Registro no Conselho de Classe (CRC).",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "110",
+        "cbo": "2394-15",
+        "cargo": "PEDAGOGO",
+        "vagas": "7",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Licenciatura Plena em Pedagogia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "111",
+        "cbo": "2412-25",
+        "cargo": "PROCURADOR DO MUNICÍPIO",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 8.754,68",
+        "requisito": "Curso Superior em Direito e inscrição na Ordem dos Advogados do Brasil (OAB).",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "112",
+        "cbo": "2515-30",
+        "cargo": "PSICOLOGO",
+        "vagas": "7",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior em Psicologia com Registro no",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "113",
+        "cbo": "2611-35",
+        "cargo": "REPÓRTER",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.000,00",
+        "requisito": "Curso Superior Completo em Comunicação Social/Jornalismo ou Registro Profissional na Delegacia Regional do Trabalho na função.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "114",
+        "cbo": "2140-10",
+        "cargo": "TECNÓLOGO EM AGROECOLOGIA",
+        "vagas": "2",
+        "carga_horaria": "40 H",
+        "salario": "R$ 1.503,23",
+        "requisito": "Curso Superior em Tecnologia em Agroecologia e Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "115",
+        "cbo": "2239-05",
+        "cargo": "TERAPEUTA OCUPACIONAL",
+        "vagas": "2",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Terapia Ocupacional, com Registro no Conselho Competente.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "116",
+        "cbo": "2233-10",
+        "cargo": "ZOOTECNISTA",
+        "vagas": "1",
+        "carga_horaria": "30 H",
+        "salario": "R$ 2.537,36",
+        "requisito": "Curso Superior Completo em Zootecnia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR"
+      },
+      {
+        "numero": "117",
+        "cbo": "2392",
+        "cargo": "PROFESSOR DE ATENDIMENTO EDUCACIONAL ESPECIALIZADO (A.E.E) - ZONA URBANA",
+        "vagas": "17",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior para o exercício da docência e formação específica para a Educação Especial e/ou Inclusiva.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "118",
+        "cbo": "2313-05",
+        "cargo": "PROFESSOR DE CIÊNCIAS NATURAIS DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "20",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Ciências Biologia, Ciências Naturais, Química ou Física.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "119",
+        "cbo": "2313-05",
+        "cargo": "PROFESSOR DE CIÊNCIAS NATURAIS DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Ciências Biologia, Ciências Naturais, Química ou Física.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "120",
+        "cbo": "2313-10",
+        "cargo": "PROFESSOR DE ARTES DO ENSINO FUNDAMENTAL – ZONA RURAL",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Artes",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "121",
+        "cbo": "2313-15",
+        "cargo": "PROFESSOR DE EDUCAÇÃO FÍSICA DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Educação Física.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "122",
+        "cbo": "2313-15",
+        "cargo": "PROFESSOR DE EDUCAÇÃO FÍSICA DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "4",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Educação Física.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "123",
+        "cbo": "2313-20",
+        "cargo": "PROFESSOR DE GEOGRAFIA DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "15",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Geografia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "124",
+        "cbo": "2313-20",
+        "cargo": "PROFESSOR DE GEOGRAFIA DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "8",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Geografia.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "125",
+        "cbo": "2313-25",
+        "cargo": "PROFESSOR DE HISTÓRIA DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "13",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em História.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "126",
+        "cbo": "2313-25",
+        "cargo": "PROFESSOR DE HISTÓRIA DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em História.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "127",
+        "cbo": "2313-30",
+        "cargo": "PROFESSOR DE LÍNGUA ESTRANGEIRA MODERNA DO ENSINO FUNDAMENTAL (LÍNGUA ESPANHOLA) - ZONA URBANA",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Letras com Habilitação em Língua Espanhola.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "128",
+        "cbo": "2313-30",
+        "cargo": "PROFESSOR DE LÍNGUA ESTRANGEIRA MODERNA DO ENSINO FUNDAMENTAL (LÍNGUA INGLESA) - ZONA RURAL",
+        "vagas": "3",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Letras com Habilitação em Língua Inglesa.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "129",
+        "cbo": "2313-35",
+        "cargo": "PROFESSOR DE LÍNGUA PORTUGUESA DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "23",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Letras com Habilitação em Língua Portuguesa.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "130",
+        "cbo": "2313-35",
+        "cargo": "PROFESSOR DE LÍNGUA PORTUGUESA DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "5",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Letras com Habilitação em Língua Portuguesa.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "131",
+        "cbo": "2313-40",
+        "cargo": "PROFESSOR DE MATEMÁTICA DO ENSINO FUNDAMENTAL - ZONA RURAL",
+        "vagas": "30",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Matemática.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "132",
+        "cbo": "2313-40",
+        "cargo": "PROFESSOR DE MATEMÁTICA DO ENSINO FUNDAMENTAL - ZONA URBANA",
+        "vagas": "20",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Matemática.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "133",
+        "cbo": "2312-10",
+        "cargo": "PROFESSOR DE NÍVEL SUPERIOR DO ENSINO FUNDAMENTAL (1º AO 5º ANO) - ZONA RURAL",
+        "vagas": "59",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Pedagogia ou Normal Superior.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "134",
+        "cbo": "2311-05",
+        "cargo": "PROFESSOR DE NÍVEL SUPERIOR NA EDUCAÇÃO INFANTIL - ZONA RURAL",
+        "vagas": "33",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Pedagogia ou Normal Superior.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "135",
+        "cbo": "2312-10",
+        "cargo": "PROFESSOR DE NÍVEL SUPERIOR DO ENSINO FUNDAMENTAL (1º AO 5º ANO) - ZONA URBANA",
+        "vagas": "30",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Pedagogia ou Normal Superior.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      },
+      {
+        "numero": "136",
+        "cbo": "2311-05",
+        "cargo": "PROFESSOR DE NÍVEL SUPERIOR NA EDUCAÇÃO INFANTIL - ZONA URBANA",
+        "vagas": "20",
+        "carga_horaria": "25 H",
+        "salario": "R$ 1.201,18",
+        "requisito": "Curso Superior em Licenciatura Plena em Pedagogia ou Normal Superior.",
+        "categoria": "CARGOS DE NÍVEL SUPERIOR PARA PROFESSOR"
+      }
+    ],
+    "positions_count": 139,
+    "total_vacancies": 2055,
+    "salary_min": 880.0,
+    "salary_max": 9200.0
+  },
+  "cronograma": {
+    "topic": "cronograma",
+    "confidence": 0.95,
+    "source": "corrigido",
+    "events": [
+      {
+        "label": "Suspensão do concurso",
+        "date": "02/05/2016",
+        "start": "02/05/2016",
+        "end": "02/05/2016",
+        "type": "status",
+        "source": "p. 1"
+      },
+      {
+        "label": "Publicação do edital",
+        "date": "29/02/2016",
+        "start": "29/02/2016",
+        "end": "29/02/2016",
+        "type": "publicação",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Período de inscrições",
+        "date": "09/03/2016 a 05/05/2016",
+        "start": "09/03/2016",
+        "end": "05/05/2016",
+        "type": "inscrição",
+        "source": "p. 2 e cronograma"
+      },
+      {
+        "label": "Pedido de isenção da taxa",
+        "date": "09/03/2016 a 19/03/2016",
+        "start": "09/03/2016",
+        "end": "19/03/2016",
+        "type": "isenção",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Resultado dos pedidos de isenção",
+        "date": "14/04/2016",
+        "start": "14/04/2016",
+        "end": "14/04/2016",
+        "type": "resultado",
+        "source": "Errata IV"
+      },
+      {
+        "label": "Homologação provisória das inscrições",
+        "date": "02/05/2016",
+        "start": "02/05/2016",
+        "end": "02/05/2016",
+        "type": "homologação",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Recursos contra inscrições não homologadas",
+        "date": "02/05/2016 a 16/05/2016",
+        "start": "02/05/2016",
+        "end": "16/05/2016",
+        "type": "recurso",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Homologação definitiva das inscrições",
+        "date": "18/05/2016",
+        "start": "18/05/2016",
+        "end": "18/05/2016",
+        "type": "homologação",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Locais e confirmação de data das provas objetivas",
+        "date": "20/05/2016",
+        "start": "20/05/2016",
+        "end": "20/05/2016",
+        "type": "divulgação",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Prova objetiva prevista antes da suspensão",
+        "date": "19/06/2016",
+        "start": "19/06/2016",
+        "end": "19/06/2016",
+        "type": "prova",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Gabarito preliminar",
+        "date": "21/06/2016",
+        "start": "21/06/2016",
+        "end": "21/06/2016",
+        "type": "gabarito",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Recursos contra gabarito",
+        "date": "21/06/2016 a 23/06/2016",
+        "start": "21/06/2016",
+        "end": "23/06/2016",
+        "type": "recurso",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Gabarito definitivo",
+        "date": "27/06/2016",
+        "start": "27/06/2016",
+        "end": "27/06/2016",
+        "type": "gabarito",
+        "source": "cronograma/anexo"
+      },
+      {
+        "label": "Resultado final e homologação previstos",
+        "date": "18/07/2016",
+        "start": "18/07/2016",
+        "end": "18/07/2016",
+        "type": "resultado",
+        "source": "cronograma/anexo"
+      }
+    ]
+  },
+  "provas-e-etapas": {
+    "topic": "provas-e-etapas",
+    "confidence": 0.9,
+    "source": "corrigido",
+    "exam_date": "19/06/2016 (prevista)",
+    "objective_test": "40 questões, 100 pontos, mínimo de 50 pontos para aprovação",
+    "titles": "somente nível superior, até 5,5 pontos"
+  },
+  "retificacoes": {
+    "topic": "retificacoes",
+    "confidence": 0.9,
+    "source": "corrigido",
+    "status": "suspenso",
+    "registration_extended_to": "05/05/2016"
+  }
+}

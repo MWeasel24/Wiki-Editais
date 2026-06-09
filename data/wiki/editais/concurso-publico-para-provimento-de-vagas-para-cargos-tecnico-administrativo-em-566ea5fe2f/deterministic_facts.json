@@ -1,0 +1,238 @@
+{
+  "dados-principais": {
+    "topic": "dados-principais",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "title": "Concurso Público para Provimento de Vagas para Cargos Técnico-administrativo em",
+    "institution": "Universidade Federal do Amazonas",
+    "city": null,
+    "state": "AM",
+    "organizer": null,
+    "status": "indefinido",
+    "document_type": "concurso_publico"
+  },
+  "inscricoes": {
+    "topic": "inscricoes",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "summary_items": [
+      "5.3.1 É possível realizar mais de uma solicitação de inscrição, porém só será considerada válida, tornando-se",
+      "efetivamente uma inscrição",
+      " No caso do candidato com isenção deferida, a última solicitação realizada, sendo esta identiﬁcada pela",
+      " No caso do candidato pagante, a última solicitação com taxa de inscrição paga, sendo esta identiﬁcada",
+      "pela data e hora de pagamento",
+      "5.3.2 A solicitação será efetivada até a data de publicação do Cartão de Conﬁrmação de Inscrição - CCI, disposta",
+      "direito de cancelar a inscrição daquele que não preencher o cadastro de forma completa e correta ou que",
+      "5.6 A COMPEC não se responsabilizará por solicitação de inscrição não recebida por problemas de ordem técnica",
+      "fatores que impossibilitem a transferência dos dados, já que a inscrição é de responsabilidade exclusiva do",
+      "5.7 A inscrição no PSTEC 2026 implica na aceitação irrestrita das normas contidas neste Edital, não cabendo ao"
+    ],
+    "registration_start": "12/03/2026",
+    "registration_end": "06/04/2026",
+    "fee_min": 130.0,
+    "fee_max": 130.0,
+    "fee": "R$ 130,00"
+  },
+  "cargos-e-vagas": {
+    "topic": "cargos-e-vagas",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "positions": [],
+    "positions_count": 0,
+    "total_vacancies": null,
+    "salary_min": null,
+    "salary_max": null,
+    "summary_items": [
+      "EDUCAÇÃO DA UFAM, NÍVEL DE CLASSIFICAÇÃO D (NÍVEL MÉDIO)",
+      "edital para o Concurso Público para preenchimento de vagas do Quadro Permanente de Pessoal TécnicoAdministrativo desta Universidade, Classiﬁcação D (Nível Médio), denominado PSTEC 2026 - Nível Médio - NM",
+      "2.1 Para as vagas de Nível de Classiﬁcação D, Padrão de Vencimento 1, Nível Médio (NM), os selecionados que",
+      "2.2 A estrutura remuneratória para os cargos de Nível de Classiﬁcação D, Padrão de Vencimento 1, Nível Médio",
+      "13.1 Em caso de empate no resultado ﬁnal do cargo de Nível Médio (NM), serão utilizados, SUCESSIVAMENTE",
+      "* A depender do total de vagas para cada cargo, a deﬁnição da modalidade (ampla concorrência ou reserva legais) para alguns cargos",
+      "Número total de vagas: 16",
+      "da reserva legal PcD para os cargos que possuírem 5 ou mais vagas, sendo considerados o total de vagas deste"
+    ]
+  },
+  "cronograma": {
+    "topic": "cronograma",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "events": [
+      {
+        "label": "Resultado",
+        "date": "25/02/2026",
+        "start": "25/02/2026",
+        "end": null,
+        "type": "resultado",
+        "source": null
+      },
+      {
+        "label": "Recurso",
+        "date": "03/03/2026",
+        "start": "03/03/2026",
+        "end": null,
+        "type": "recurso",
+        "source": null
+      },
+      {
+        "label": "Resultado",
+        "date": "04/03/2026",
+        "start": "04/03/2026",
+        "end": null,
+        "type": "resultado",
+        "source": null
+      },
+      {
+        "label": "Isenção",
+        "date": "09/03/2026",
+        "start": "09/03/2026",
+        "end": null,
+        "type": "isenção",
+        "source": null
+      },
+      {
+        "label": "Pagamento da taxa/boleto",
+        "date": "06/04/2026",
+        "start": "06/04/2026",
+        "end": null,
+        "type": "pagamento",
+        "source": null
+      },
+      {
+        "label": "Resultado",
+        "date": "12/03/2026",
+        "start": "12/03/2026",
+        "end": null,
+        "type": "resultado",
+        "source": null
+      },
+      {
+        "label": "Recurso",
+        "date": "08/04/2026",
+        "start": "08/04/2026",
+        "end": null,
+        "type": "recurso",
+        "source": null
+      },
+      {
+        "label": "Resultado",
+        "date": "09/04/2026",
+        "start": "09/04/2026",
+        "end": null,
+        "type": "resultado",
+        "source": null
+      },
+      {
+        "label": "Homologação",
+        "date": "13/04/2026",
+        "start": "13/04/2026",
+        "end": null,
+        "type": "homologação",
+        "source": null
+      },
+      {
+        "label": "Período de inscrições",
+        "date": "10/02/2026",
+        "start": "10/02/2026",
+        "end": null,
+        "type": "inscrição",
+        "source": null
+      },
+      {
+        "label": "Gabarito",
+        "date": "10/05/2026",
+        "start": "10/05/2026",
+        "end": null,
+        "type": "gabarito",
+        "source": null
+      },
+      {
+        "label": "Gabarito",
+        "date": "11/05/2026",
+        "start": "11/05/2026",
+        "end": null,
+        "type": "gabarito",
+        "source": null
+      },
+      {
+        "label": "Resultado",
+        "date": "21/05/2026",
+        "start": "21/05/2026",
+        "end": null,
+        "type": "resultado",
+        "source": null
+      }
+    ]
+  },
+  "provas-e-etapas": {
+    "topic": "provas-e-etapas",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "rules": [
+      "9.1 O Cartão de Conﬁrmação de Inscrição - CCI é o documento que conﬁrma a inscrição do candidato, informa",
+      "o número da inscrição, a data, hora, cidade e local de realização das provas, sala de provas, os dados pessoais",
+      "fará as provas, bem como as demais instruções nele contidas",
+      "reserva de vagas e cidade de realização de prova",
+      "9.3 O candidato não poderá, em hipótese alguma, realizar prova fora dos espaços físicos, datas e horários",
+      "10.1.1 Horário de Abertura dos Portões: 07h00min (horário oﬁcial de Manaus)",
+      "10.1.2 Horário de Fechamento dos Portões: 08h00min (horário oﬁcial de Manaus)",
+      "10.1.3 Horário de Aplicação das Provas: das 08h15min às 12h15min (horário oﬁcial de Manaus)",
+      "10.1.4 A Prova de Conhecimentos Gerais do PSTEC 2026 será realizada conforme estabelecido no Cronograma",
+      "10.1.5 Recomenda-se aos candidatos que cheguem ao local de aplicação das provas com 1h (uma hora) de"
+    ],
+    "exam_type": "prova objetiva"
+  },
+  "conteudo-programatico": {
+    "topic": "conteudo-programatico",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "summary_items": [
+      "Descrição sumária do cargo: Executar trabalhos técnicos de laboratório relacionados à área de informática",
+      "3.1.7 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: SANEAMENTO AMBIENTAL",
+      "Descrição sumária do cargo: Executar trabalhos técnico de laboratório relacionados à área de atuação",
+      "3.1.8 Cargo: TÉCNICO DE LABORATÓRIO/ÁREA: QUÍMICA",
+      "3.1.9 Cargo: TÉCNICO DE TECNOLOGIA DA INFORMAÇÃO",
+      "ANEXO 1 - CONTEÚDO PROGRAMÁTICO - PSTEC 2026 - NÍVEL MÉDIO [NM]",
+      "CONTEÚDO COMUM A TODOS OS CARGOS",
+      "CONTEÚDOS ESPECÍFICOS PARA CADA CARGO",
+      "• Cargo: Assistente em Administração",
+      "Descrição sumária do cargo: Desenvolver sistemas e aplicações, determinando interface gráﬁca, critérios"
+    ]
+  },
+  "requisitos": {
+    "topic": "requisitos",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "summary_items": [
+      "15 DOS REQUISITOS PARA INVESTIDURA NOS CARGOS",
+      "f) Ter, na data da nomeação, idade mínima de 18 (dezoito) anos completos e, ainda, não ter atingido 70",
+      "j) Apresentar outros documentos que se ﬁzerem necessários, por ocasião da posse",
+      "15.2.6 Após a investidura do candidato, a deﬁciência não poderá ser arguida para justiﬁcar a concessão de",
+      "16 DA NOMEAÇÃO E DA POSSE",
+      "16.1 A nomeação dar-se-á de acordo com os artigos 9º e 10º, da Lei nº 8.112/1990",
+      "16.2 Todo o processo de homologação e posterior nomeação será realizado pela Pró-Reitoria de Gestão de",
+      "16.4 O candidato nomeado deverá tomar posse no prazo de 30 (trinta) dias, contados da publicação do ato de"
+    ]
+  },
+  "recursos": {
+    "topic": "recursos",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "summary_items": [
+      "Recurso contra o Resultado Preliminar da Solicitação de Isenção da",
+      "Recurso contra o Resultado Preliminar da Solicitação de Atendimento",
+      "Gabarito Preliminar das Provas Objetivas",
+      "Recurso contra o Gabarito Preliminar das Provas Objetivas",
+      "Gabarito Definitivo das Provas Objetivas",
+      "4.4 A data para interposição de recursos relativos ao resultado preliminar do pedido de isenção da taxa de",
+      "4.4.1 O requerimento para interposição de recursos estará disponível para preenchimento no endereço",
+      "11 DO RECURSO CONTRA QUESTÕES DE PROVA"
+    ]
+  },
+  "retificacoes": {
+    "topic": "retificacoes",
+    "confidence": 0.35,
+    "source": "deterministic",
+    "changes": []
+  }
+}

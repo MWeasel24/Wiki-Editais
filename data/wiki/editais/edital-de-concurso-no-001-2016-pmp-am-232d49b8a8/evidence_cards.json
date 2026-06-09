@@ -1,0 +1,1016 @@
+[
+  {
+    "topic": "dados-principais",
+    "type": "fato_topico",
+    "title": "Dados principais",
+    "data": {
+      "confidence": 0.72,
+      "title": "Edital de Concurso Nº. 001/2016–pmp/am",
+      "institution": "Prefeitura Municipal de Parintins",
+      "city": "Parintins",
+      "state": "AM",
+      "organizer": "Instituto de Apoio à Pesquisa Científica, Educacional e Tecnológica de Rondônia - IPRO",
+      "status": "suspenso",
+      "document_type": "concurso_publico",
+      "warnings": [
+        "Resumo não fornecido no material recuperado"
+      ]
+    },
+    "source_pages": [
+      35,
+      93,
+      125,
+      5,
+      60,
+      1,
+      80,
+      2,
+      105,
+      92,
+      96,
+      103
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "inscricoes",
+    "type": "fato_topico",
+    "title": "Inscrições",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Os valores correspondentes à taxa de inscrição serão",
+        "Aquele que não possuir condições de arcar com a taxa de inscrição do Concurso Público e",
+        "mês de Fevereiro/2016, poderá requerer isenção da taxa de inscrição mediante requerimento",
+        "(modelo em anexo) acompanhado do boleto bancário da inscrição on-line",
+        "A relação das isenções deferidas será divulgada no site www.institutoipro.org e no átrio da",
+        "não no dia 04/04/2016, para que no caso de indeferimento, restará tempo hábil ao pagamento da",
+        "A inscrição do candidato implicará o conhecimento e tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não",
+        "Objetivando evitar ônus desnecessário o candidato deverá orientar-se no sentido de recolher o valor da inscrição somente após tomar",
+        "A homologação das inscrições em definitivo, ocorrerá após decorrido o prazo de interposição de recursos, e estará disponível no site",
+        "meio do link correlato ao Concurso, e efetuar sua inscrição, conforme os procedimentos abaixo"
+      ],
+      "registration_start": "09/03/2016",
+      "registration_end": "18/04/2016",
+      "fee_min": 30.0,
+      "fee_max": 150.0,
+      "fee": "R$ 30,00 a R$ 150,00",
+      "summary": "Os valores correspondentes à taxa de inscrição serão: Nível Fundamental - R$ 30,00; Nível Médio e Técnico - R$ 60,00; Nível Superior - R$ 150,00. Aquele que não possuir condições de arcar com a taxa de inscrição do Concurso Público e estiver inscrito no Cadastro Único (CadÚnico) do Governo Federal poderá requerer isenção da taxa de inscrição mediante requerimento acompanhado do boleto bancário da inscrição on-line. A inscrição do candidato implicará o conhecimento e tácita aceitação das normas e condições estabelecidas neste Edital, em relação às quais não poderá alegar desconhecimento.",
+      "method": "internet",
+      "payment": "boleto bancário",
+      "exemption": "Aquele que não possuir condições de arcar com a taxa de inscrição do Concurso Público e estiver inscrito no Cadastro Único (CadÚnico) do Governo Federal poderá requerer isenção da taxa de inscrição mediante requerimento acompanhado do boleto bancário da inscrição on-line."
+    },
+    "source_pages": [
+      38,
+      94,
+      95,
+      125,
+      92,
+      36,
+      37,
+      3,
+      40,
+      97,
+      96,
+      100
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Motorista Categoria D - Ônibus Urbano",
+    "data": {
+      "number": null,
+      "name": "Motorista Categoria D - Ônibus Urbano",
+      "vacancies": "15",
+      "workload": "40 H",
+      "salary": "R$ 1.500,00",
+      "requirement": "Ensino Fundamental Completo, Carteira de Habilitação D",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Motorista Categoria D",
+    "data": {
+      "number": null,
+      "name": "Motorista Categoria D",
+      "vacancies": "7",
+      "workload": "40 H",
+      "salary": "R$ 1.500,00",
+      "requirement": "Ensino Fundamental Completo, Carteira de Habilitação D",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Motorista Categoria D – Zona Urbana",
+    "data": {
+      "number": null,
+      "name": "Motorista Categoria D – Zona Urbana",
+      "vacancies": "8",
+      "workload": "40 H",
+      "salary": "R$ 1.500,00",
+      "requirement": "Ensino Fundamental Completo, Carteira de Habilitação D",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Despachante Operacional de Voo (operador de Raix)",
+    "data": {
+      "number": null,
+      "name": "Despachante Operacional de Voo (operador de Raix)",
+      "vacancies": "3",
+      "workload": "40 H",
+      "salary": "R$ 880,00",
+      "requirement": "Ensino Médio Completo",
+      "source": "p. 6"
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Auditor Municipal",
+    "data": {
+      "number": null,
+      "name": "Auditor Municipal",
+      "vacancies": "2 + 3",
+      "workload": "40 H",
+      "salary": "R$ 8.754,68",
+      "requirement": "Graduação em nível superior (contabilidade, direito, administração, economia e engenharia civil)",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Analista em Turismo",
+    "data": {
+      "number": null,
+      "name": "Analista em Turismo",
+      "vacancies": "2",
+      "workload": "40 H",
+      "salary": "R$ 2.537,36",
+      "requirement": "Graduação em Turismo, com Curso de Língua Estrangeira",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Farmacêutico, Bioquimico e Biomédico",
+    "data": {
+      "number": null,
+      "name": "Farmacêutico, Bioquimico e Biomédico",
+      "vacancies": "7",
+      "workload": "30 H",
+      "salary": "R$ 2.537,36",
+      "requirement": "Curso superior em Farmácia, Bioquímica e Biomédicina com Registro no Conselho Competente",
+      "source": null
+    },
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Período de inscrições",
+    "data": {
+      "label": "Período de inscrições",
+      "date": "09/03/2016 a 18/04/2016",
+      "start": "09/03/2016 a 18/04/2016",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 45"
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Isenção",
+    "data": {
+      "label": "Isenção",
+      "date": "09/03/2016 a 19/03/2016",
+      "start": "09/03/2016 a 19/03/2016",
+      "end": null,
+      "type": "isenção",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Resultado dos requerimentos de isenção",
+    "data": {
+      "label": "Resultado dos requerimentos de isenção",
+      "date": "09/03/2016 a 19/03/2016",
+      "start": "09/03/2016 a 19/03/2016",
+      "end": null,
+      "type": "resultado",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Homologação das inscrições - provisório",
+    "data": {
+      "label": "Homologação das inscrições - provisório",
+      "date": "04/04/2016",
+      "start": "04/04/2016",
+      "end": null,
+      "type": "homologação",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Interposição de recursos de inscrições não homologadas",
+    "data": {
+      "label": "Interposição de recursos de inscrições não homologadas",
+      "date": "02/05/2016",
+      "start": "02/05/2016",
+      "end": null,
+      "type": "recurso",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Homologação das inscrições - definitivo",
+    "data": {
+      "label": "Homologação das inscrições - definitivo",
+      "date": "02/05/2016 a 16/05/2016",
+      "start": "02/05/2016 a 16/05/2016",
+      "end": null,
+      "type": "homologação",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Divulgação dos locais e confirmação de data das provas objetivas",
+    "data": {
+      "label": "Divulgação dos locais e confirmação de data das provas objetivas",
+      "date": "18/05/2016",
+      "start": "18/05/2016",
+      "end": null,
+      "type": "prova",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Realização das provas objetivas",
+    "data": {
+      "label": "Realização das provas objetivas",
+      "date": "20/05/2016",
+      "start": "20/05/2016",
+      "end": null,
+      "type": "prova",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Divulgação do gabarito - preliminar",
+    "data": {
+      "label": "Divulgação do gabarito - preliminar",
+      "date": "21/06/2016",
+      "start": "21/06/2016",
+      "end": null,
+      "type": "gabarito",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Interposição de recursos",
+    "data": {
+      "label": "Interposição de recursos",
+      "date": "21/06/2016 a 23/06/2016",
+      "start": "21/06/2016 a 23/06/2016",
+      "end": null,
+      "type": "recurso",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Divulgação do gabarito - definitivo",
+    "data": {
+      "label": "Divulgação do gabarito - definitivo",
+      "date": "27/06/2016",
+      "start": "27/06/2016",
+      "end": null,
+      "type": "gabarito",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Envio das provas de títulos",
+    "data": {
+      "label": "Envio das provas de títulos",
+      "date": "21/06/2016 a 27/06/2016",
+      "start": "21/06/2016 a 27/06/2016",
+      "end": null,
+      "type": "prova",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Divulgação do resultado provisório das provas objetivas",
+    "data": {
+      "label": "Divulgação do resultado provisório das provas objetivas",
+      "date": "27/06/2016",
+      "start": "27/06/2016",
+      "end": null,
+      "type": "resultado",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Divulgação do resultado provisório das provas de títulos",
+    "data": {
+      "label": "Divulgação do resultado provisório das provas de títulos",
+      "date": "11/07/2016",
+      "start": "11/07/2016",
+      "end": null,
+      "type": "resultado",
+      "source": null
+    },
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "provas-e-etapas",
+    "type": "fato_topico",
+    "title": "Provas e etapas",
+    "data": {
+      "confidence": 0.72,
+      "rules": [
+        "A prova objetiva, de caráter eliminatório e classificatório, será avaliada na escala de 0 (zero) a 100 (cem) pontos.",
+        "A nota da prova objetiva será de acordo com a nota obtida conforme quadros do item 5.2.2.",
+        "Para os cargos de Nível Médio, Médio Técnico, Fundamental Incompleto e Fundamental Completo, a pontuação final do candidato será a nota obtida na prova objetiva, serão considerados aprovados e classificados os candidatos que obtiverem 50 (cinquenta) pontos ou mais.",
+        "Para os cargos de Nível Superior, a pontuação final do candidato será a nota obtida na prova objetiva, sendo considerados aprovados e classificados os candidatos que obtiverem 50 (cinquenta) pontos ou mais, e a soma das provas de Título, conforme o item 5.28.",
+        "Para os cargos de Nível Médio, Médio Técnico, Fundamental Completo e Fundamental Incompleto, a pontuação final do candidato será a nota obtida na prova objetiva, exceto para os cargos de Nível Superior, onde será somado as provas de Título, conforme o item 5.28, caso o candidato atenda todos os requisitos exigidos pelo edital."
+      ],
+      "exam_date": "19/06/2016",
+      "exam_type": "prova objetiva",
+      "warnings": [
+        "O material recuperado contém duplicidade e redundância de informações."
+      ]
+    },
+    "source_pages": [
+      98,
+      43,
+      97,
+      42,
+      41,
+      44,
+      39,
+      96
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "conteudo-programatico",
+    "type": "fato_topico",
+    "title": "Conteúdo programático",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Conhecimentos Específicos",
+        "questões de Conhecimentos Gerais",
+        "Portuguesa, 20 (vinte) questões de Conhecimentos Gerais, que versarão sobre o conteúdo programático estabelecido no anexo III deste Edital",
+        "questões de Conhecimentos Gerais e 10 (dez) questões de Informática que versarão sobre o conteúdo programático estabelecido no anexo III deste",
+        "Portuguesa, 10 (dez) questões Conhecimentos Gerais, 20 (vinte) questões de Conhecimentos Específicos e NÍVEL SUPERIOR a prova será",
+        "composta de 40 (quarenta) questões, sendo 10 (dez) questões de Língua Portuguesa, 10 (dez) questões Conhecimentos Gerais, 20 (vinte) questões",
+        "de Conhecimentos Específicos, inerentes ao cargo que versarão sobre o conteúdo programático estabelecido no anexo III deste Edital",
+        "Portuguesa, 20 (vinte) questões de Conhecimentos Gerais",
+        "questões de Conhecimentos Gerais, que versarão sobre o conteúdo programático estabelecido no",
+        "questões, sendo 20 (vinte) questões de Língua Portuguesa, 10 (dez) questões de Conhecimentos"
+      ],
+      "summary": "O conteúdo programático do concurso abrange disciplinas como Língua Portuguesa, Conhecimentos Gerais e Específicos, variando conforme o nível de escolaridade do cargo.",
+      "items": [
+        {
+          "cargo": "NÍVEL FUNDAMENTAL INCOMPLETO",
+          "disciplinas": [
+            {
+              "nome": "Língua Portuguesa",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            },
+            {
+              "nome": "Conhecimentos Gerais",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            }
+          ],
+          "total_de_questoes": 40,
+          "total_de_pontos": 100
+        },
+        {
+          "cargo": "NÍVEL FUNDAMENTAL COMPLETO",
+          "disciplinas": [
+            {
+              "nome": "Língua Portuguesa",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            },
+            {
+              "nome": "Conhecimentos Gerais",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            }
+          ],
+          "total_de_questoes": 40,
+          "total_de_pontos": 100
+        },
+        {
+          "cargo": "NÍVEL MÉDIO",
+          "disciplinas": [
+            {
+              "nome": "Língua Portuguesa",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            },
+            {
+              "nome": "Conhecimentos Gerais",
+              "quantidade_de_questoes": 10,
+              "valor_por_questao": 2.5,
+              "total_pontos": 25
+            },
+            {
+              "nome": "Conhecimentos Específicos",
+              "quantidade_de_questoes": 10,
+              "valor_por_questao": 2.5,
+              "total_pontos": 25
+            }
+          ],
+          "total_de_questoes": 40,
+          "total_de_pontos": 100
+        },
+        {
+          "cargo": "NÍVEL SUPERIOR",
+          "disciplinas": [
+            {
+              "nome": "Língua Portuguesa",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            },
+            {
+              "nome": "Conhecimentos Gerais",
+              "quantidade_de_questoes": 10,
+              "valor_por_questao": 2.5,
+              "total_pontos": 25
+            },
+            {
+              "nome": "Conhecimentos Específicos",
+              "quantidade_de_questoes": 20,
+              "valor_por_questao": 2.5,
+              "total_pontos": 50
+            }
+          ],
+          "total_de_questoes": 40,
+          "total_de_pontos": 100
+        }
+      ],
+      "warnings": [
+        "Conteúdo programático não foi explicitamente mencionado, mas pode ser inferido a partir das disciplinas listadas.",
+        "Informações sobre o conteúdo específico de cada disciplina (como no caso do Direito Constitucional) foram omitidas."
+      ]
+    },
+    "source_pages": [
+      96,
+      39,
+      80,
+      9,
+      18,
+      52,
+      102,
+      104,
+      17,
+      51,
+      10,
+      26
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "requisitos",
+    "type": "fato_topico",
+    "title": "Requisitos e contratação",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Quando da convocação determinada por Edital de Convocação e para a nomeação, o candidato deverá entregar os documentos exigidos pela",
+        "12 – DOS REQUISITOS PARA INVESTIDURA NO CARGO",
+        "Após a apresentação de documentos, será lavrado Termo de Nomeação para que o convocado tome posse em um prazo não superior a 30",
+        "será lavrado Termo de Posse e demais documentos pertinentes em que o convocado terá um prazo de 10 (dez) dias corridos para entrar em efetivo",
+        "A inexatidão e/ou irregularidades nos documentos, mesmo que verificadas a qualquer tempo, em especial por ocasião da posse, acarretarão a",
+        "30(trinta) dias antes da nomeação atestando a espécie e o grau ou nível de deficiência, com",
+        "z) Outros documentos que o Município entender ser necessário",
+        "Após a apresentação de documentos, será lavrado Termo de Nomeação para que o"
+      ],
+      "summary": "Os requisitos para investidura no cargo incluem a apresentação de documentos necessários após a convocação, com prazos definidos e possibilidade de prorrogação. A posse ocorre em até 30 dias, podendo ser estendida por igual período. Inexatidões nos documentos podem resultar na nulidade da inscrição.",
+      "items": [
+        {
+          "item": "O candidato será convocado exclusivamente por edital de convocação e terá o prazo máximo de até 30 dias corridos para apresentação dos documentos exigidos.",
+          "page": "11.3"
+        },
+        {
+          "item": "Após a apresentação de documentos, será lavrado Termo de Nomeação para que o convocado tome posse em um prazo não superior a 30 dias, podendo ser prorrogado por igual período mediante solicitação expressa do convocado.",
+          "page": "12.4"
+        },
+        {
+          "item": "Ao se apresentar na Prefeitura Municipal de Parintins - AM, será lavrado Termo de Posse e demais documentos pertinentes em que o convocado terá um prazo de 10 dias corridos para entrar em efetivo exercício de suas funções.",
+          "page": "12.5"
+        },
+        {
+          "item": "A inexatidão e/ou irregularidades nos documentos, mesmo que verificadas a qualquer tempo, em especial por ocasião da posse, acarretarão a nulidade da inscrição com todas as suas decorrências.",
+          "page": "13.2"
+        },
+        {
+          "item": "Os documentos exigidos incluem declaração de bens reconhecida em cartório, comprovante de conta corrente do Bradesco, carteira nacional de habilitação na categoria exigida para o cargo, e laudo médico autenticado atestando a espécie e grau ou nível de deficiência.",
+          "page": "13.1"
+        }
+      ],
+      "warnings": [
+        "Algumas seções do edital repetem informações sem adicionar novos detalhes relevantes."
+      ]
+    },
+    "source_pages": [
+      99,
+      100,
+      47,
+      46,
+      6,
+      11,
+      12,
+      13,
+      54,
+      55,
+      56,
+      102
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "recursos",
+    "type": "fato_topico",
+    "title": "Recursos",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Interposição de Recursos de Inscrições não homologadas",
+        "Divulgação do Gabarito - PRELIMINAR",
+        "Divulgação do Gabarito DEFINITIVO",
+        "Interposição de Recursos das provas de títulos",
+        "Para efeito do prazo estipulado neste subitem será considerada a data do protocolo firmado pelo Instituto de Apoio a Pesquisa Científica",
+        "AM e a data de confirmação do RECEBIMENTO por meio do email concursos@institutoipro.org",
+        "O recurso deverá ser digitado, ou datilografado assinado, e digitalizado e enviado por email por meio do email concursos@institutoipro.org ou",
+        "9.5 No caso de provimento de recurso interposto dentro das especificações, poderá, eventualmente, ser alterada a nota/classificação inicial obtida"
+      ],
+      "summary": "Os recursos podem ser interpostos para inscrições não homologadas e provas de títulos, com prazos específicos. O gabarito preliminar será divulgado e os recursos devem seguir as regras estabelecidas.",
+      "items": [
+        "Interposição de Recursos de Inscrições não homologadas",
+        "02/05/2016 a 16/05/2016",
+        "Interposição de Recursos das provas de títulos",
+        "13/07/2016",
+        "Para efeito do prazo estipulado será considerada a data do protocolo firmado pelo Instituto de Apoio a Pesquisa Científica, Educacional e Tecnológica de Rondônia - IPRO (Comissão da) e pela representação da IPRO na PREFEITURA MUNICIPAL DE PARINTINS – AM e a data de confirmação do RECEBIMENTO por meio do email concursos@institutoipro.org",
+        "O recurso deverá ser digitado, ou datilografado assinado, e digitalizado e enviado por email por meio do email concursos@institutoipro.org ou entregue na representação do Instituto IPRO na Prefeitura Municipal de Parintins não sendo aceito outro meio não especificado neste Edital",
+        "No caso de provimento de recurso interposto dentro das especificações, poderá, eventualmente, ser alterada a nota/classificação inicial obtida pelo candidato para uma nota/classificação superior ou inferior ou ainda ocorrer à desclassificação do candidato que não obtiver a nota mínima exigida para habilitação",
+        "O gabarito preliminar estará à disposição dos interessados a partir do dia 21/06/2016, no átrio da PREFEITURA MUNICIPAL DE PARINTINS - AM, no site www.institutoipro.org e na Sede da Fundação IPRO localizada na Rua Rafael Vaz e Silva, no. 2220, Bairro São Cristóvão, Porto Velho - RO"
+      ]
+    },
+    "source_pages": [
+      92,
+      125,
+      99,
+      45,
+      94,
+      109,
+      53,
+      102,
+      36,
+      44,
+      73,
+      10
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "errata",
+    "data": {
+      "type": "errata",
+      "date": null,
+      "impact": "Exclusão do cargo 'Cargo Excluído'",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      31,
+      6,
+      4,
+      1,
+      7,
+      32,
+      33,
+      3,
+      5,
+      27,
+      2,
+      8
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "errata",
+    "data": {
+      "type": "errata",
+      "date": null,
+      "impact": "Alteração de 'PROFESSOR DE EDUCAÇÃO ARTÍSTICA DO ENSINO FUNDAMENTAL – ZONA RURAL' para 'PROFESSOR DE ARTES DO ENSINO FUNDAMENTAL – ZONA RURAL'",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      31,
+      6,
+      4,
+      1,
+      7,
+      32,
+      33,
+      3,
+      5,
+      27,
+      2,
+      8
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "suspensão",
+    "data": {
+      "type": "suspensão",
+      "date": null,
+      "impact": "COMUNICADO URGENTE - SUSPENSÃO",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      31,
+      6,
+      4,
+      1,
+      7,
+      32,
+      33,
+      3,
+      5,
+      27,
+      2,
+      8
+    ],
+    "confidence": 0.72
+  }
+]

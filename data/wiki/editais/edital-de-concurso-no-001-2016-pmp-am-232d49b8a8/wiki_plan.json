@@ -1,0 +1,343 @@
+{
+  "dados-principais": {
+    "title": "Dados principais",
+    "purpose": "apresentar a identidade do edital e orientar a leitura inicial",
+    "required_sections": [
+      "Visão geral",
+      "Identificação do certame",
+      "Situação atual",
+      "Como usar esta wiki",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "órgão/instituição",
+      "tipo e número do edital",
+      "banca/organizadora",
+      "cidade/UF",
+      "status do certame"
+    ],
+    "must_not_include": [
+      "copiar cabeçalho inteiro",
+      "listar documentos pessoais",
+      "usar comissão genérica como banca se houver organizadora explícita"
+    ],
+    "source_pages": [
+      35,
+      93,
+      125,
+      5,
+      60,
+      1,
+      80,
+      2,
+      105,
+      92,
+      96,
+      103
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "inscricoes": {
+    "title": "Inscrições",
+    "purpose": "explicar como o candidato participa do certame, com prazo, canal, taxa, pagamento e isenção",
+    "required_sections": [
+      "Visão geral",
+      "Período de inscrição",
+      "Como se inscrever",
+      "Taxa, pagamento e isenção",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "início/fim",
+      "site/local/canal",
+      "taxa",
+      "pagamento",
+      "isenção",
+      "prorrogação"
+    ],
+    "must_not_include": [
+      "confundir cancelamento de inscrição individual com cancelamento do concurso",
+      "copiar regras longas sem explicar"
+    ],
+    "source_pages": [
+      38,
+      94,
+      95,
+      125,
+      92,
+      36,
+      37,
+      3,
+      40,
+      97,
+      96,
+      100
+    ],
+    "known_completeness": [
+      "período identificado"
+    ],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "cargos-e-vagas": {
+    "title": "Cargos e vagas",
+    "purpose": "transformar o quadro de cargos em uma página útil sobre oportunidades, vagas, carga horária, salário e requisitos",
+    "required_sections": [
+      "Visão geral",
+      "Resumo das oportunidades",
+      "Cargos identificados",
+      "Como interpretar cargos e vagas",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "cargo/função",
+      "vagas",
+      "carga horária",
+      "salário/remuneração",
+      "requisito/escolaridade",
+      "cadastro reserva ou PcD quando houver"
+    ],
+    "must_not_include": [
+      "tratar lei, decreto, regra, PcD isolado, conteúdo programático ou frase com candidato deverá como cargo"
+    ],
+    "source_pages": [
+      5,
+      6,
+      31,
+      50,
+      7,
+      4,
+      100,
+      101,
+      15,
+      35,
+      94,
+      46
+    ],
+    "known_completeness": [
+      "7 cargos estruturados"
+    ],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "cronograma": {
+    "title": "Cronograma",
+    "purpose": "organizar datas operacionais do processo seletivo sem confundir com datas jurídicas",
+    "required_sections": [
+      "Visão geral",
+      "Eventos identificados",
+      "Datas que exigem conferência",
+      "Como acompanhar atualizações"
+    ],
+    "must_cover": [
+      "inscrição",
+      "pagamento",
+      "isenção",
+      "prova",
+      "gabarito",
+      "recurso",
+      "resultado",
+      "homologação"
+    ],
+    "must_not_include": [
+      "usar datas de lei/decreto/portaria/CNPJ/CEP como evento"
+    ],
+    "source_pages": [
+      92,
+      125,
+      45,
+      94,
+      36,
+      48,
+      99,
+      100,
+      37,
+      95,
+      101,
+      47
+    ],
+    "known_completeness": [
+      "14 eventos estruturados"
+    ],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "provas-e-etapas": {
+    "title": "Provas e etapas",
+    "purpose": "explicar como o candidato será avaliado e quais etapas existem",
+    "required_sections": [
+      "Visão geral",
+      "Etapas da seleção",
+      "Prova ou avaliação",
+      "Pontuação e classificação",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "tipo de prova",
+      "data se clara",
+      "quantidade de questões",
+      "disciplinas",
+      "pontuação",
+      "critérios de aprovação"
+    ],
+    "must_not_include": [
+      "usar prazo de recurso como data de prova",
+      "colar conteúdo programático inteiro aqui"
+    ],
+    "source_pages": [
+      98,
+      43,
+      97,
+      42,
+      41,
+      44,
+      39,
+      96
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "conteudo-programatico": {
+    "title": "Conteúdo programático",
+    "purpose": "transformar programa do edital em guia de estudos navegável",
+    "required_sections": [
+      "Visão geral",
+      "Disciplinas identificadas",
+      "Conteúdos por área",
+      "Como estudar por esta página"
+    ],
+    "must_cover": [
+      "disciplinas",
+      "conhecimentos gerais",
+      "conhecimentos específicos",
+      "organização por cargo/nível quando houver"
+    ],
+    "must_not_include": [
+      "misturar posse, inscrição, documentos ou recursos com conteúdo de prova"
+    ],
+    "source_pages": [
+      96,
+      39,
+      80,
+      9,
+      18,
+      52,
+      102,
+      104,
+      17,
+      51,
+      10,
+      26
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "requisitos": {
+    "title": "Requisitos e contratação",
+    "purpose": "explicar requisitos de participação, posse, contratação e documentos",
+    "required_sections": [
+      "Visão geral",
+      "Requisitos gerais",
+      "Documentos e posse",
+      "Requisitos por cargo",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "escolaridade",
+      "registro profissional",
+      "CNH quando houver",
+      "documentos",
+      "posse/contratação"
+    ],
+    "must_not_include": [
+      "transformar documento em cargo ou copiar lista enorme sem síntese"
+    ],
+    "source_pages": [
+      99,
+      100,
+      47,
+      46,
+      6,
+      11,
+      12,
+      13,
+      54,
+      55,
+      56,
+      102
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "recursos": {
+    "title": "Recursos",
+    "purpose": "explicar como contestar atos do certame",
+    "required_sections": [
+      "Visão geral",
+      "Quando cabe recurso",
+      "Como interpor",
+      "Prazos e canais",
+      "Pontos de atenção"
+    ],
+    "must_cover": [
+      "prazos",
+      "gabarito",
+      "resultado",
+      "canal",
+      "fundamentação"
+    ],
+    "must_not_include": [
+      "confundir recurso administrativo com dinheiro ou material"
+    ],
+    "source_pages": [
+      92,
+      125,
+      99,
+      45,
+      94,
+      109,
+      53,
+      102,
+      36,
+      44,
+      73,
+      10
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  },
+  "retificacoes": {
+    "title": "Retificações e comunicados",
+    "purpose": "explicar erratas, prorrogações, suspensões e impactos práticos",
+    "required_sections": [
+      "Visão geral",
+      "Alterações identificadas",
+      "Impacto para o candidato",
+      "O que conferir no edital original"
+    ],
+    "must_cover": [
+      "suspensão",
+      "prorrogação",
+      "erratas",
+      "onde se lê/leia-se",
+      "impacto prático"
+    ],
+    "must_not_include": [
+      "copiar blocos inteiros de errata sem síntese"
+    ],
+    "source_pages": [
+      31,
+      6,
+      4,
+      1,
+      7,
+      32,
+      33,
+      3,
+      5,
+      27,
+      2,
+      8
+    ],
+    "known_completeness": [],
+    "writing_policy": "escrever como guia interpretado para candidato; fatos primeiro; evidências como apoio; nunca despejar source.md"
+  }
+}

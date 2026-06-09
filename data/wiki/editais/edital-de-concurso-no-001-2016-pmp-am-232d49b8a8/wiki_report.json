@@ -1,0 +1,17 @@
+{
+  "llm_pages": 10,
+  "fallback_pages": 0,
+  "scores": {
+    "dados-principais": 73,
+    "inscricoes": 74,
+    "cargos-e-vagas": 69,
+    "cronograma": 75,
+    "provas-e-etapas": 77,
+    "conteudo-programatico": 79,
+    "requisitos": 79,
+    "recursos": 78,
+    "retificacoes": 74
+  },
+  "issues": [],
+  "editorial_mode": "v20_microcopy_template_renderer"
+}

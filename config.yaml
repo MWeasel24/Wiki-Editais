@@ -1,0 +1,82 @@
+app:
+  host: 127.0.0.1
+  port: 5000
+  debug: true
+paths:
+  raw: data/raw/editais
+  wiki: data/wiki/editais
+  extracted: data/extracted
+  evaluations: data/evaluations
+  downloads: data/downloads
+  logs: data/logs
+models:
+  default_index_model: ollama:llama3.1:8b
+  default_chat_model: ollama:qwen2.5:7b
+  default_compare_model: ollama:qwen2.5:7b
+  available:
+  - id: ollama:llama3.2:3b
+    label: Llama 3.2 3B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:llama3.1:8b
+    label: Llama 3.1 8B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:qwen2.5:7b
+    label: Qwen 2.5 7B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:qwen2.5:14b
+    label: Qwen 2.5 14B Local
+    provider: ollama
+    role: index,chat,compare
+  - id: ollama:mistral:7b
+    label: Mistral 7B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:mistral-nemo:12b
+    label: Mistral Nemo 12B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:gemma2:9b
+    label: Gemma 2 9B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:phi4:14b
+    label: Phi 4 14B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: ollama:deepseek-r1:8b
+    label: DeepSeek R1 8B Local
+    provider: ollama
+    role: chat,index,compare
+  - id: groq:llama-3.3-70b-versatile
+    label: Groq Llama 3.3 70B (opcional)
+    provider: groq
+    role: index,compare,chat
+  - id: groq:llama-3.1-8b-instant
+    label: Groq Llama 3.1 8B Instant (opcional)
+    provider: groq
+    role: chat,compare,index
+indexing:
+  request_timeout_seconds: 360
+  temperature: 0.08
+  max_section_chars: 9000
+  max_llm_schema_chars: 28000
+  use_llm_for_wiki_writing: true
+  use_llm_for_knowledge_cards: false
+  max_card_evidence: 24
+  local_first: true
+  strict_evidence: true
+  pdfplumber_max_pages: 20
+  use_llm_for_master: true
+  use_llm_editorial_critic: true
+  use_llm_for_public_schema: true
+  max_section_items: 60
+chat:
+  max_context_chars: 36000
+  temperature: 0.2
+web_fetch:
+  enabled: false
+  default_days_back: 3
+  user_agent: WikiEditais/1.0 academic project

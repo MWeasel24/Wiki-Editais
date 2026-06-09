@@ -1,0 +1,558 @@
+{
+  "edital_id": "parintins-am-2016",
+  "edital_nome": "Prefeitura Municipal de Parintins-AM — Edital 001/2016 suspenso",
+  "data": "2026-06-09",
+  "observacao": "Avaliação manual mais honesta: workflow e agentic foram tratados como uma única camada, e as perguntas de chat foram trocadas para perguntas sobre o edital, não sobre o sistema.",
+  "resumo": {
+    "wiki_score": 74,
+    "chat_score": 83,
+    "workflow_score": 68,
+    "workflow_agentic_score": 68,
+    "easy_questions": "10/10",
+    "hard_questions": "7/10",
+    "chat_total": "17/20",
+    "nota_geral_estimada": 75
+  },
+  "items": [
+    {
+      "type": "wiki",
+      "question": "A wiki apresenta o edital como guia para candidato, não apenas como texto extraído?",
+      "expected": "Deveria resumir e explicar o edital em páginas temáticas, com linguagem própria e sem colar grandes blocos do PDF.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.72,
+        "field_accuracy": 0.7,
+        "structure_quality": 0.76,
+        "source_traceability": 0.78,
+        "synthesis_quality": 0.68,
+        "noise_reduction": 0.62,
+        "consistency": 0.72
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A wiki identifica corretamente órgão, cidade, UF, edital e status?",
+      "expected": "Prefeitura Municipal de Parintins-AM, Edital nº 001/2016, concurso suspenso por determinação do TCE-AM.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.9,
+        "field_accuracy": 0.92,
+        "structure_quality": 0.8,
+        "source_traceability": 0.82,
+        "synthesis_quality": 0.76,
+        "noise_reduction": 0.72,
+        "consistency": 0.86
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A página de inscrições consolida prorrogação e período correto?",
+      "expected": "Inscrições de 09/03/2016 a 05/05/2016, com indicação de que houve prorrogação.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.82,
+        "field_accuracy": 0.84,
+        "structure_quality": 0.78,
+        "source_traceability": 0.8,
+        "synthesis_quality": 0.74,
+        "noise_reduction": 0.7,
+        "consistency": 0.8
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A página de cargos e vagas preserva cargos reais e evita transformar regra em cargo?",
+      "expected": "Deveria listar cargos/funções, vagas, carga horária, salário e requisito, evitando linhas de errata ou frases administrativas como cargos.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.74,
+        "field_accuracy": 0.7,
+        "structure_quality": 0.72,
+        "source_traceability": 0.78,
+        "synthesis_quality": 0.66,
+        "noise_reduction": 0.62,
+        "consistency": 0.68
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A wiki separa taxa de inscrição de salário?",
+      "expected": "Taxa: R$ 30,00 a R$ 150,00; remuneração: R$ 880,00 a R$ 9.200,00.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.86,
+        "field_accuracy": 0.88,
+        "structure_quality": 0.78,
+        "source_traceability": 0.78,
+        "synthesis_quality": 0.72,
+        "noise_reduction": 0.76,
+        "consistency": 0.84
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A página de cronograma diferencia prova, inscrição, recurso, gabarito e suspensão?",
+      "expected": "Deveria mostrar eventos operacionais sem confundir toda data do PDF com data de prova.",
+      "observed": "errou",
+      "metrics": {
+        "coverage": 0.58,
+        "field_accuracy": 0.52,
+        "structure_quality": 0.6,
+        "source_traceability": 0.68,
+        "synthesis_quality": 0.56,
+        "noise_reduction": 0.54,
+        "consistency": 0.55
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A página de retificações explica impacto prático das erratas e comunicados?",
+      "expected": "Deveria explicar prorrogação, suspensão e alterações em cargos/vagas/requisitos, não só repetir Onde se lê/Leia-se.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.76,
+        "field_accuracy": 0.72,
+        "structure_quality": 0.74,
+        "source_traceability": 0.8,
+        "synthesis_quality": 0.7,
+        "noise_reduction": 0.66,
+        "consistency": 0.72
+      }
+    },
+    {
+      "type": "wiki",
+      "question": "A wiki mantém rastreabilidade para auditoria?",
+      "expected": "Deveria manter fontes, páginas, schema, positions, timeline e arquivos editáveis.",
+      "observed": "acertou",
+      "metrics": {
+        "coverage": 0.84,
+        "field_accuracy": 0.76,
+        "structure_quality": 0.78,
+        "source_traceability": 0.9,
+        "synthesis_quality": 0.7,
+        "noise_reduction": 0.66,
+        "consistency": 0.76
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow de indexação gera uma base consultável a partir do PDF?",
+      "expected": "PDF deve virar páginas, chunks, fatos estruturados, wiki Markdown, schema, positions e timeline.",
+      "observed": "acertou",
+      "metrics": {
+        "ingest_completeness": 0.78,
+        "retrieval_relevance": 0.76,
+        "editorial_generation": 0.7,
+        "structured_data_sync": 0.72,
+        "lint_detection": 0.66,
+        "fallback_behavior": 0.7,
+        "update_safety": 0.8
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow usa recuperação por tópicos antes de montar a wiki?",
+      "expected": "Cada página deve receber contexto de cargos, inscrições, cronograma, provas, requisitos, recursos e fontes.",
+      "observed": "acertou",
+      "metrics": {
+        "ingest_completeness": 0.76,
+        "retrieval_relevance": 0.78,
+        "editorial_generation": 0.68,
+        "structured_data_sync": 0.7,
+        "lint_detection": 0.64,
+        "fallback_behavior": 0.7,
+        "update_safety": 0.76
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow consegue sincronizar wiki corrigida com dados exibidos no site?",
+      "expected": "O site deveria refletir schema, public_schema, catalog, positions e timeline corrigidos.",
+      "observed": "acertou",
+      "metrics": {
+        "ingest_completeness": 0.72,
+        "retrieval_relevance": 0.7,
+        "editorial_generation": 0.66,
+        "structured_data_sync": 0.82,
+        "lint_detection": 0.64,
+        "fallback_behavior": 0.68,
+        "update_safety": 0.8
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow evita fallback virar sucesso falso?",
+      "expected": "Quando a LLM não contribui ou quando a extração é fraca, a nota deveria cair e exigir revisão.",
+      "observed": "errou",
+      "metrics": {
+        "ingest_completeness": 0.62,
+        "retrieval_relevance": 0.62,
+        "editorial_generation": 0.56,
+        "structured_data_sync": 0.6,
+        "lint_detection": 0.52,
+        "fallback_behavior": 0.5,
+        "update_safety": 0.68
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow trata editais com erratas e versões conflitantes?",
+      "expected": "Deveria priorizar comunicados mais recentes e Leia-se em relação ao Onde se lê.",
+      "observed": "errou",
+      "metrics": {
+        "ingest_completeness": 0.58,
+        "retrieval_relevance": 0.62,
+        "editorial_generation": 0.58,
+        "structured_data_sync": 0.6,
+        "lint_detection": 0.52,
+        "fallback_behavior": 0.58,
+        "update_safety": 0.66
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow mantém edição manual possível sem quebrar o site?",
+      "expected": "Markdown e JSONs devem poder ser ajustados manualmente e continuar válidos.",
+      "observed": "acertou",
+      "metrics": {
+        "ingest_completeness": 0.8,
+        "retrieval_relevance": 0.74,
+        "editorial_generation": 0.72,
+        "structured_data_sync": 0.78,
+        "lint_detection": 0.7,
+        "fallback_behavior": 0.74,
+        "update_safety": 0.86
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow/agentic escolhe ferramentas adequadas para cada etapa?",
+      "expected": "Extração determinística deve cuidar dos fatos; LLM deve ajudar só na microcopy/editorial; busca deve alimentar chat e wiki.",
+      "observed": "acertou",
+      "metrics": {
+        "ingest_completeness": 0.74,
+        "retrieval_relevance": 0.76,
+        "editorial_generation": 0.7,
+        "structured_data_sync": 0.7,
+        "lint_detection": 0.62,
+        "fallback_behavior": 0.68,
+        "update_safety": 0.76
+      }
+    },
+    {
+      "type": "workflow",
+      "question": "O workflow detecta erros críticos nos campos principais?",
+      "expected": "Cidade/UF, status, taxa, salário, prova, cargos e cronograma deveriam ter validação forte.",
+      "observed": "errou",
+      "metrics": {
+        "ingest_completeness": 0.6,
+        "retrieval_relevance": 0.62,
+        "editorial_generation": 0.58,
+        "structured_data_sync": 0.64,
+        "lint_detection": 0.5,
+        "fallback_behavior": 0.58,
+        "update_safety": 0.66
+      }
+    },
+    {
+      "type": "chat",
+      "question": "Qual é o órgão responsável pelo edital?",
+      "expected": "Prefeitura Municipal de Parintins-AM.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 1,
+        "context_selection": 0.95,
+        "faithfulness": 0.95,
+        "source_use": 0.9,
+        "insufficient_info_handling": 0.9,
+        "clarity": 0.95
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é o número do edital?",
+      "expected": "Edital de Concurso nº 001/2016-PMP/AM.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.9,
+        "context_selection": 0.9,
+        "faithfulness": 0.92,
+        "source_use": 0.86,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.9
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é a situação do concurso?",
+      "expected": "Suspenso por determinação do Tribunal de Contas do Estado do Amazonas.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 1,
+        "context_selection": 0.94,
+        "faithfulness": 0.95,
+        "source_use": 0.88,
+        "insufficient_info_handling": 0.9,
+        "clarity": 0.94
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual instituto organizador aparece no edital?",
+      "expected": "IPRO — Instituto de Apoio à Pesquisa Científica, Educacional e Tecnológica de Rondônia.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.92,
+        "context_selection": 0.9,
+        "faithfulness": 0.92,
+        "source_use": 0.86,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.9
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual foi o período final de inscrições considerado?",
+      "expected": "De 09/03/2016 a 05/05/2016, por causa da prorrogação.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.9,
+        "context_selection": 0.88,
+        "faithfulness": 0.9,
+        "source_use": 0.86,
+        "insufficient_info_handling": 0.86,
+        "clarity": 0.9
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é a faixa de taxa de inscrição?",
+      "expected": "R$ 30,00 a R$ 150,00, conforme escolaridade.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.95,
+        "context_selection": 0.9,
+        "faithfulness": 0.92,
+        "source_use": 0.88,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.92
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é a data prevista da prova objetiva antes da suspensão?",
+      "expected": "19/06/2016.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.95,
+        "context_selection": 0.92,
+        "faithfulness": 0.94,
+        "source_use": 0.88,
+        "insufficient_info_handling": 0.9,
+        "clarity": 0.92
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é o total geral de vagas informado no quadro?",
+      "expected": "2.055 vagas.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 1,
+        "context_selection": 0.92,
+        "faithfulness": 0.94,
+        "source_use": 0.88,
+        "insufficient_info_handling": 0.9,
+        "clarity": 0.92
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é a menor remuneração identificada?",
+      "expected": "R$ 880,00.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.95,
+        "context_selection": 0.9,
+        "faithfulness": 0.92,
+        "source_use": 0.84,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.9
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é a maior remuneração identificada?",
+      "expected": "R$ 9.200,00.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.95,
+        "context_selection": 0.9,
+        "faithfulness": 0.92,
+        "source_use": 0.84,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.9
+      },
+      "difficulty": "fácil"
+    },
+    {
+      "type": "chat",
+      "question": "Explique a diferença entre prorrogação das inscrições e suspensão do concurso.",
+      "expected": "A prorrogação ampliou o prazo para inscrição; a suspensão interrompeu o andamento do certame por determinação do TCE-AM.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.86,
+        "context_selection": 0.86,
+        "faithfulness": 0.88,
+        "source_use": 0.82,
+        "insufficient_info_handling": 0.82,
+        "clarity": 0.88
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "A prova de 19/06/2016 continuou válida depois do comunicado de suspensão?",
+      "expected": "Não dá para tratar como confirmada após a suspensão; ela era a previsão anterior e novas datas seriam reapresentadas.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.84,
+        "context_selection": 0.82,
+        "faithfulness": 0.86,
+        "source_use": 0.8,
+        "insufficient_info_handling": 0.86,
+        "clarity": 0.86
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Quais níveis de escolaridade aparecem no quadro de cargos?",
+      "expected": "Fundamental incompleto, fundamental completo, médio, médio técnico, superior e superior para professor.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.82,
+        "context_selection": 0.82,
+        "faithfulness": 0.84,
+        "source_use": 0.78,
+        "insufficient_info_handling": 0.8,
+        "clarity": 0.84
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Cite exemplos de cargos com maior remuneração.",
+      "expected": "Médicos com R$ 9.200,00 e cargos como Auditor Municipal/Procurador com R$ 8.754,68.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.78,
+        "context_selection": 0.78,
+        "faithfulness": 0.82,
+        "source_use": 0.76,
+        "insufficient_info_handling": 0.78,
+        "clarity": 0.82
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Quais cargos foram alterados pela Errata III?",
+      "expected": "Guarda Civil Municipal Zona Rural e Zona Urbana tiveram alteração de requisito para Ensino Médio Completo.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.76,
+        "context_selection": 0.76,
+        "faithfulness": 0.8,
+        "source_use": 0.76,
+        "insufficient_info_handling": 0.78,
+        "clarity": 0.8
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "A taxa de inscrição muda por qual critério?",
+      "expected": "Pelo nível de escolaridade do cargo: fundamental, médio/técnico e superior.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.86,
+        "context_selection": 0.82,
+        "faithfulness": 0.86,
+        "source_use": 0.8,
+        "insufficient_info_handling": 0.82,
+        "clarity": 0.86
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "O edital deixa claro todos os cargos sem necessidade de revisão manual?",
+      "expected": "Não; por ser edital longo com erratas e tabelas grandes, alguns cargos/requisitos exigem conferência manual.",
+      "observed": "acertou",
+      "metrics": {
+        "answer_accuracy": 0.82,
+        "context_selection": 0.78,
+        "faithfulness": 0.84,
+        "source_use": 0.76,
+        "insufficient_info_handling": 0.88,
+        "clarity": 0.84
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Liste corretamente todos os cargos médicos do edital.",
+      "expected": "Deveria listar as especialidades médicas do quadro, incluindo anestesista, cardiologista, cirurgião geral, dermatologista, radiologia/diagnóstico por imagem, gastroenterologista, generalista, geriatra, ginecologista/obstetra, infectologista, neurologista, oftalmologista, ortopedista/traumatologista, otorrinolaringologista, pediatra, psiquiatra e urologista.",
+      "observed": "errou",
+      "metrics": {
+        "answer_accuracy": 0.48,
+        "context_selection": 0.58,
+        "faithfulness": 0.6,
+        "source_use": 0.55,
+        "insufficient_info_handling": 0.62,
+        "clarity": 0.58
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Quais documentos específicos são exigidos para contratação/posse?",
+      "expected": "Deveria recuperar lista detalhada de documentos pessoais, certidões, comprovantes e requisitos exigidos para contratação.",
+      "observed": "errou",
+      "metrics": {
+        "answer_accuracy": 0.52,
+        "context_selection": 0.6,
+        "faithfulness": 0.62,
+        "source_use": 0.56,
+        "insufficient_info_handling": 0.62,
+        "clarity": 0.6
+      },
+      "difficulty": "difícil"
+    },
+    {
+      "type": "chat",
+      "question": "Qual é o procedimento exato de recurso previsto no edital?",
+      "expected": "Deveria indicar forma, prazo, canal e exigências do recurso conforme seção específica do edital.",
+      "observed": "errou",
+      "metrics": {
+        "answer_accuracy": 0.5,
+        "context_selection": 0.58,
+        "faithfulness": 0.6,
+        "source_use": 0.54,
+        "insufficient_info_handling": 0.62,
+        "clarity": 0.58
+      },
+      "difficulty": "difícil"
+    }
+  ]
+}

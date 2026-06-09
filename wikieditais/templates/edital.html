@@ -1,0 +1,22 @@
+{% extends 'base.html' %}{% block content %}
+<div class="breadcrumb"><a href="{{ url_for('home') }}">Início</a><span>›</span><span>{{ e.title|truncate2(70) }}</span></div>
+<div class="detail-head"><div><h1>{{ e.title or 'Edital' }}</h1><div class="chips big"><span>{{ e.display.institution if e.display else (e.short_institution or e.institution or 'Instituição não identificada') }}</span><span>{{ e.display.location if e.display else ((e.city or '—') ~ '/' ~ (e.state or '—')) }}</span><span>{{ (e.status or 'indefinido').replace('_',' ') }}</span><span>qualidade: {{ e.quality or '—' }}{% if e.lint_score is not none %} · {{ e.lint_score }}/100{% endif %}</span></div></div><a class="btn ghost" href="{{ url_for('view_pdf', edital_id=e.id) }}" target="_blank">Ver edital</a></div>
+<section class="summary-card">
+  <div class="facts-grid">
+    <div><small>Vagas</small><strong>{{ e.display.vacancies if e.display else (e.total_vacancies or e.positions_count or '—') }}</strong></div>
+    <div><small>Inscrições</small><strong>{{ e.display.registration if e.display else ((e.registration_start|datefmt) ~ ' a ' ~ (e.registration_end|datefmt)) }}</strong></div>
+    <div><small>Prova</small><strong>{{ e.display.exam_date if e.display else (e.exam_date|datefmt) }}</strong></div>
+    <div><small>Salário</small><strong>{{ e.display.salary if e.display else (e.salary_max|money) }}</strong></div>
+    <div><small>Taxa</small><strong>{{ e.display.fee if e.display else (e.fee_text or e.fee|money) }}</strong></div>
+    <div><small>Local da prova</small><strong>{{ e.exam_location or 'Não identificado com segurança' }}</strong></div>
+  </div>
+  <p class="executive">{{ e.summary or 'Resumo ainda não identificado com segurança.' }}</p>
+  {% if e.needs_review %}<div class="review-box"><strong>Pontos para revisão:</strong><ul>{% for r in e.needs_review[:4] %}<li>{{ r.message or r }}</li>{% endfor %}</ul></div>{% endif %}
+</section>
+<div class="detail-grid">
+<section class="card"><h2>Cargos, vagas e salários</h2><table><thead><tr><th>Cargo</th><th>Salário</th><th>Vagas</th><th>Fonte</th></tr></thead><tbody>{% for c in e.positions or [] %}<tr><td>{{ c.name }}</td><td>{{ c.salary|money }}</td><td>{{ c.vacancies if c.vacancies is not none else '—' }}</td><td>{{ c.source or ('p. ' ~ c.source_page if c.source_page else '—') }}</td></tr>{% else %}<tr><td colspan="4">Nenhum cargo identificado com segurança.</td></tr>{% endfor %}</tbody></table></section>
+<section class="card"><h2>Conteúdo programático</h2><table><thead><tr><th>Matéria/conteúdo</th><th>Questões</th></tr></thead><tbody>{% for p in e.program or [] %}<tr><td>{{ p.subject }}</td><td>{{ p.questions or '—' }}</td></tr>{% else %}<tr><td colspan="2">Conteúdo programático não identificado com segurança.</td></tr>{% endfor %}</tbody></table><p class="hint">Peça no chat uma rotina de estudos baseada no conteúdo programático.</p></section>
+<section class="card"><h2>Cronograma</h2><table><thead><tr><th>Etapa</th><th>Início</th><th>Fim</th><th>Tipo</th></tr></thead><tbody>{% for ev in e.timeline or [] %}<tr class="{% if current_step.label==ev.label %}current{% endif %}"><td>{{ ev.label }}</td><td>{{ ev.start|datefmt }}</td><td>{{ ev.end|datefmt }}</td><td>{{ ev.type or '—' }}</td></tr>{% else %}<tr><td colspan="4">Cronograma não identificado com segurança.</td></tr>{% endfor %}</tbody></table><div class="next-steps"><p><strong>{{ current_step.status|capitalize }}:</strong> {{ current_step.label }}</p><ul>{% for tip in current_step.tips %}<li>{{ tip }}</li>{% endfor %}</ul></div></section>
+<section class="card chat-card"><h2>Chat</h2><p class="hint">Pergunte algo sobre este edital. O chat responde usando as páginas Markdown da wiki.</p><div id="chat-box" class="chat-box"></div><form id="chat-form" class="chat-form" data-url="{{ url_for('ask', edital_id=e.id) }}"><input name="question" autocomplete="off" placeholder="Ex.: Quais são os cargos com maior salário?"><button class="btn primary">Enviar</button></form></section>
+</div>
+{% endblock %}

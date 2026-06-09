@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Suspensão do concurso",
+    "date": "02/05/2016",
+    "start": "02/05/2016",
+    "end": "02/05/2016",
+    "type": "status",
+    "source": "p. 1"
+  },
+  {
+    "label": "Publicação do edital",
+    "date": "29/02/2016",
+    "start": "29/02/2016",
+    "end": "29/02/2016",
+    "type": "publicação",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Período de inscrições",
+    "date": "09/03/2016 a 05/05/2016",
+    "start": "09/03/2016",
+    "end": "05/05/2016",
+    "type": "inscrição",
+    "source": "p. 2 e cronograma"
+  },
+  {
+    "label": "Pedido de isenção da taxa",
+    "date": "09/03/2016 a 19/03/2016",
+    "start": "09/03/2016",
+    "end": "19/03/2016",
+    "type": "isenção",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Resultado dos pedidos de isenção",
+    "date": "14/04/2016",
+    "start": "14/04/2016",
+    "end": "14/04/2016",
+    "type": "resultado",
+    "source": "Errata IV"
+  },
+  {
+    "label": "Homologação provisória das inscrições",
+    "date": "02/05/2016",
+    "start": "02/05/2016",
+    "end": "02/05/2016",
+    "type": "homologação",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Recursos contra inscrições não homologadas",
+    "date": "02/05/2016 a 16/05/2016",
+    "start": "02/05/2016",
+    "end": "16/05/2016",
+    "type": "recurso",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Homologação definitiva das inscrições",
+    "date": "18/05/2016",
+    "start": "18/05/2016",
+    "end": "18/05/2016",
+    "type": "homologação",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Locais e confirmação de data das provas objetivas",
+    "date": "20/05/2016",
+    "start": "20/05/2016",
+    "end": "20/05/2016",
+    "type": "divulgação",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Prova objetiva prevista antes da suspensão",
+    "date": "19/06/2016",
+    "start": "19/06/2016",
+    "end": "19/06/2016",
+    "type": "prova",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Gabarito preliminar",
+    "date": "21/06/2016",
+    "start": "21/06/2016",
+    "end": "21/06/2016",
+    "type": "gabarito",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Recursos contra gabarito",
+    "date": "21/06/2016 a 23/06/2016",
+    "start": "21/06/2016",
+    "end": "23/06/2016",
+    "type": "recurso",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Gabarito definitivo",
+    "date": "27/06/2016",
+    "start": "27/06/2016",
+    "end": "27/06/2016",
+    "type": "gabarito",
+    "source": "cronograma/anexo"
+  },
+  {
+    "label": "Resultado final e homologação previstos",
+    "date": "18/07/2016",
+    "start": "18/07/2016",
+    "end": "18/07/2016",
+    "type": "resultado",
+    "source": "cronograma/anexo"
+  }
+]

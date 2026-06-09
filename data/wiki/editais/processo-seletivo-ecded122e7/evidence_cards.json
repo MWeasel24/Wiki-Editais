@@ -1,0 +1,554 @@
+[
+  {
+    "topic": "dados-principais",
+    "type": "fato_topico",
+    "title": "Dados principais",
+    "data": {
+      "confidence": 0.72,
+      "title": "Processo Seletivo",
+      "institution": "Município de Concórdia",
+      "city": "Florianópolis (SC)",
+      "state": "SC",
+      "organizer": "Fundação de Estudos e Pesquisas Socioeconômicos - FEPESE",
+      "status": "indefinido",
+      "document_type": "processo_seletivo",
+      "summary": "Processo Seletivo para contratação de profissionais pelo Município de Concórdia, organizado pela FEPESE e UFSC."
+    },
+    "source_pages": [
+      2,
+      5,
+      28,
+      3,
+      19,
+      23,
+      27,
+      4,
+      31,
+      10,
+      29,
+      6
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "inscricoes",
+    "type": "fato_topico",
+    "title": "Inscrições",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "no site do Processo Seletivo em (https://2026psconcordiasaude.fepese.org.br)",
+        "Pedidos de isenção da taxa de inscrição",
+        "Publicação dos resultados dos pedidos de isenção da taxa de inscrição",
+        "Prazo Recursal: indeferimento dos pedidos de isenção",
+        "Publicação das respostas aos recursos: indeferimento dos pedidos de isenção",
+        "A inscrição no Processo Seletivo deverá ser realizada exclusivamente pela internet, no período compreendido entre",
+        "As opções por cargo/área de atuação/disciplina não poderão ser alteradas após o pagamento do valor da inscrição",
+        "O valor da taxa de inscrição é de",
+        "Instruções para efetuar a inscrição",
+        "Acessar o site do Processo Seletivo (https://2026psconcordiasaude.fepese.org.br)"
+      ],
+      "fee_min": "R$ 80,00",
+      "fee_max": "R$ 100,00",
+      "fee": "gratuito ou R$ 80,00 a R$ 100,00",
+      "summary": "A inscrição no Processo Seletivo deverá ser realizada exclusivamente pela internet, no período compreendido entre as 16 horas do dia 12 de junho de 2026 às 16 horas do dia 29 de junho de 2026.",
+      "registration_start": "12/06/2026",
+      "registration_end": "29/06/2026",
+      "method": "site",
+      "payment": "pela internet",
+      "exemption": "Lei Complementar Municipal no 90/1994 e Lei Municipal no 4.673/2014",
+      "warnings": [
+        "O agendamento do pagamento e o respectivo demonstrativo não se constituem documentos comprobatórios do pagamento da taxa de inscrição.",
+        "A inscrição só será processada quando o estabelecimento bancário onde foi feito o recolhimento da taxa de inscrição confirmar o respectivo pagamento."
+      ]
+    },
+    "source_pages": [
+      29,
+      7,
+      9,
+      8,
+      10,
+      27,
+      2,
+      3,
+      12,
+      24,
+      22,
+      6
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cargos-e-vagas",
+    "type": "cargo",
+    "title": "Motorista Socorrista do Samu",
+    "data": {
+      "number": null,
+      "name": "Motorista Socorrista do Samu",
+      "vacancies": "CR",
+      "workload": "40h",
+      "salary": "R$ 4.174,40",
+      "requirement": null,
+      "source": null
+    },
+    "source_pages": [
+      6,
+      7,
+      24,
+      10,
+      11,
+      20,
+      23,
+      29,
+      30,
+      8,
+      21,
+      18
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Período de inscrições",
+    "data": {
+      "label": "Período de inscrições",
+      "date": "12/06/26 a 29/06/26",
+      "start": "12/06/26 a 29/06/26",
+      "end": null,
+      "type": "inscrição",
+      "source": "p. 29"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: homologação das inscrições",
+    "data": {
+      "label": "Prazo Recursal: homologação das inscrições",
+      "date": "09/07/26 a 10/07/26",
+      "start": "09/07/26 a 10/07/26",
+      "end": null,
+      "type": "homologação",
+      "source": "p. 29"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Publicação do caderno de provas e gabarito preliminar",
+    "data": {
+      "label": "Publicação do caderno de provas e gabarito preliminar",
+      "date": "27/07/26",
+      "start": "27/07/26",
+      "end": null,
+      "type": "gabarito",
+      "source": "p. 30"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: gabarito preliminar",
+    "data": {
+      "label": "Prazo Recursal: gabarito preliminar",
+      "date": "28/07/26",
+      "start": "28/07/26",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 30"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: resultado da Prova Objetiva",
+    "data": {
+      "label": "Prazo Recursal: resultado da Prova Objetiva",
+      "date": "07/08/26 a 10/08/26",
+      "start": "07/08/26 a 10/08/26",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 30"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: resultado (preliminar) do Processo Seletivo",
+    "data": {
+      "label": "Prazo Recursal: resultado (preliminar) do Processo Seletivo",
+      "date": "18/08/26 a 19/08/26",
+      "start": "18/08/26 a 19/08/26",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: convocação para a Prova Prática",
+    "data": {
+      "label": "Prazo Recursal: convocação para a Prova Prática",
+      "date": "18/08/26 a 19/08/26",
+      "start": "18/08/26 a 19/08/26",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "cronograma",
+    "type": "evento",
+    "title": "Prazo Recursal: resultado da Prova Prática",
+    "data": {
+      "label": "Prazo Recursal: resultado da Prova Prática",
+      "date": "01/09/26 a 02/09/26",
+      "start": "01/09/26 a 02/09/26",
+      "end": null,
+      "type": "recurso",
+      "source": "p. 31"
+    },
+    "source_pages": [
+      30,
+      29,
+      22,
+      27,
+      21,
+      14,
+      13,
+      2,
+      8,
+      9,
+      16,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "provas-e-etapas",
+    "type": "fato_topico",
+    "title": "Provas e etapas",
+    "data": {
+      "confidence": 0.72,
+      "rules": [
+        "Maior pontuação nas questões de Conhecimentos específicos da Prova Objetiva",
+        "Maior pontuação nas questões de Língua Portuguesa da Prova Objetiva",
+        "Maior pontuação nas questões de Conhecimentos gerais e atualidades na Prova Objetiva",
+        "Os candidatos não classificados dentro do número máximo estabelecido na Tabela 12.1 de Convocação da Prova Prática, ainda que tenham a nota mínima prevista na Prova Objetiva, não serão convocados para a Prova Prática e estarão automaticamente desclassificados no Processo Seletivo.",
+        "Por razões de ordem técnica ou meteorológica, poderão ser transferidos a data, o local e o horário de realização da Prova Prática."
+      ],
+      "exam_type": "prova objetiva/prática",
+      "summary": "O Processo Seletivo compreenderá as seguintes etapas: Prova Objetiva e Prova Prática, ambas de caráter eliminatório e classificatório.",
+      "subjects": [
+        "Conhecimentos específicos",
+        "Língua Portuguesa",
+        "Conhecimentos gerais e atualidades"
+      ]
+    },
+    "source_pages": [
+      18,
+      4,
+      16,
+      30,
+      15,
+      22,
+      14,
+      21,
+      20,
+      17,
+      23,
+      29
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "conteudo-programatico",
+    "type": "fato_topico",
+    "title": "Conteúdo programático",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Tiver maior pontuação nas questões de Conhecimentos específicos",
+        "Tiver maior pontuação nas questões de Conhecimentos gerais e atualidades",
+        "Lista Geral por Cargo: Inclui todos os candidatos, aprovados e reprovados, organizados em ordem alfabética",
+        "avaliação por equipe multidisciplinar",
+        "Questões de Conhecimentos Gerais",
+        "Conhecimentos gerais e atualidades",
+        "Questões de Conhecimentos Específicos",
+        "Conhecimentos específicos do cargo",
+        "Maior pontuação nas questões de Conhecimentos específicos da Prova Objetiva",
+        "Maior pontuação nas questões de Conhecimentos gerais e atualidades na Prova Objetiva"
+      ],
+      "summary": "O conteúdo programático do concurso inclui disciplinas e tópicos cobrados por cargo ou nível.",
+      "items": [
+        {
+          "disciplina": "Conhecimentos específicos",
+          "tópico": "Maior pontuação nas questões de Conhecimentos específicos",
+          "cargo": "Todos os cargos"
+        },
+        {
+          "disciplina": "Língua Portuguesa",
+          "tópico": "Maior pontuação nas questões de Língua Portuguesa",
+          "cargo": "Todos os cargos"
+        },
+        {
+          "disciplina": "Conhecimentos gerais e atualidades",
+          "tópico": "Maior pontuação nas questões de Conhecimentos gerais e atualidades",
+          "cargo": "Todos os cargos"
+        }
+      ],
+      "warnings": [
+        "Avaliação por equipe multidisciplinar é mencionada, mas não há detalhes sobre como ela será realizada."
+      ]
+    },
+    "source_pages": [
+      21,
+      29,
+      31,
+      15,
+      18,
+      32,
+      30,
+      7,
+      24,
+      12,
+      3,
+      23
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "requisitos",
+    "type": "fato_topico",
+    "title": "Requisitos e contratação",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "nomeação dentro do limite de vagas dos cargos estabelecido em edital, obedecida a ordem de classificação",
+        "Por ocasião da contratação, serão exigidos dos candidatos convocados, os documentos que comprovem o",
+        "cumprimento dos requisitos básicos para admissão no serviço público, bem como os demais necessários para",
+        "O não cumprimento dos requisitos necessários ou não apresentação da documentação exigida, dentro dos prazos",
+        "Entrega de documentos exigidos: Vagas Reservadas PcD (Pessoas com Deficiência)",
+        "O agendamento do pagamento e o respectivo demonstrativo não se constituem documentos comprobatórios do",
+        "A documentação para comprovação das exigências mínimas para o cargo será solicitada no momento da Nomeação",
+        "seguintes documentos (quando aplicável)"
+      ],
+      "summary": "Os candidatos convocados precisam cumprir os requisitos básicos para admissão no serviço público e apresentar a documentação exigida.",
+      "items": [
+        "nomeação dentro do limite de vagas dos cargos estabelecido em edital, obedecida a ordem de classificação",
+        "cumprimento dos requisitos básicos para admissão no serviço público",
+        "documentos que comprovem o cumprimento dos requisitos básicos",
+        "demais documentos necessários para contratação",
+        "entrega de documentos exigidos: Vagas Reservadas PcD (Pessoas com Deficiência)",
+        "A documentação para comprovação das exigências mínimas para o cargo será solicitada no momento da Nomeação"
+      ],
+      "warnings": [
+        "Não houve certeza sobre a formação necessária para o cargo",
+        "Não houve certeza sobre os documentos específicos exigidos"
+      ]
+    },
+    "source_pages": [
+      23,
+      29,
+      8,
+      30,
+      2,
+      6,
+      7,
+      28,
+      17,
+      12,
+      25,
+      3
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "recursos",
+    "type": "fato_topico",
+    "title": "Recursos",
+    "data": {
+      "confidence": 0.72,
+      "summary_items": [
+        "Não caberá recurso administrativo contra a decisão que apreciar a impugnação ao Edital",
+        "Caberão recursos dos seguintes atos do Processo Seletivo",
+        "Questões de Prova Objetiva e gabarito provisório",
+        "Os recursos deverão ser interpostos exclusivamente pela internet, até as 17 horas do segundo dia útil posterior à",
+        "Instruções para interposição de recursos",
+        "Para interposição de recursos pela Internet o candidato deve",
+        "Caso o recurso seja contra o teor da questão ou gabarito preliminar, deve ser preenchido um requerimento para",
+        "Não serão analisados os recursos"
+      ],
+      "summary": "Os recursos podem ser interpostos exclusivamente pela internet, até as 17 horas do segundo dia útil posterior à publicação do ato contra o qual deseja o candidato recorrer.",
+      "items": [
+        {
+          "type": "prazo",
+          "description": "Prazo Recursal: gabarito preliminar - 27/07/26 e 28/07/26"
+        },
+        {
+          "type": "forma",
+          "description": "Os recursos deverão ser interpostos exclusivamente pela internet, até as 17 horas do segundo dia útil posterior à publicação do ato contra o qual deseja o candidato recorrer."
+        },
+        {
+          "type": "atos_recursáveis",
+          "description": "Caberão recursos dos seguintes atos do Processo Seletivo: 1. Indeferimento do pedido de isenção do valor da inscrição; 2. Não homologação da inscrição; 3. Não homologação dos pedidos de vagas reservadas; 4. Indeferimento dos pedidos de condições especiais; 5. Questões de Prova Objetiva e gabarito provisório; 6. Resultado da Prova Objetiva; 7. Convocação para a Prova Prática; 8. Resultado da Prova Prática; 9. Resultado Preliminar."
+        },
+        {
+          "type": "instruções",
+          "description": "Instruções para interposição de recursos"
+        }
+      ],
+      "warnings": [
+        null
+      ]
+    },
+    "source_pages": [
+      22,
+      30,
+      21,
+      23,
+      29,
+      2,
+      16,
+      8,
+      10,
+      13,
+      27,
+      12
+    ],
+    "confidence": 0.72
+  },
+  {
+    "topic": "retificacoes",
+    "type": "alteracao",
+    "title": "prorrogação",
+    "data": {
+      "type": "prorrogação",
+      "date": null,
+      "impact": "Prazo de validade do Processo Seletivo pode ser prorrogado",
+      "source": "p. 3"
+    },
+    "source_pages": [
+      29,
+      30,
+      3,
+      6,
+      8,
+      10,
+      16,
+      18,
+      19,
+      22,
+      28,
+      33
+    ],
+    "confidence": 0.72
+  }
+]

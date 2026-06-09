@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-title"><h1>Comparar editais</h1><p>Escolha dois editais. A tabela usa os dados da wiki; o veredito interpreta apenas essa tabela.</p></section>
+<form class="compare-picker" method="get">
+  <div class="pick-card"><label>Edital A</label><input class="filter-select" data-target="a" placeholder="Buscar edital A"><select name="a" id="a"><option value="">Selecione</option>{% for e in editais %}<option value="{{e.id}}" {% if a and a.id==e.id %}selected{% endif %}>{{e.title}}</option>{% endfor %}</select></div>
+  <div class="pick-card"><label>Edital B</label><input class="filter-select" data-target="b" placeholder="Buscar edital B"><select name="b" id="b"><option value="">Selecione</option>{% for e in editais %}<option value="{{e.id}}" {% if b and b.id==e.id %}selected{% endif %}>{{e.title}}</option>{% endfor %}</select></div>
+  <button class="btn primary compare-btn">Comparar</button>
+</form>
+{% if rows %}
+<section class="card"><table><thead><tr><th>Critério</th><th>{{ a.title|truncate2(40) }}</th><th>{{ b.title|truncate2(40) }}</th></tr></thead><tbody>{% for r in rows %}<tr><td>{{ r.field }}</td><td>{{ r.a }}</td><td>{{ r.b }}</td></tr>{% endfor %}</tbody></table></section>
+<section class="card"><h2>Veredito</h2><p>{{ verdict }}</p></section>
+{% endif %}
+{% endblock %}
