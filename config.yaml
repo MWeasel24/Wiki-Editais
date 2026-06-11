@@ -8,7 +8,7 @@ llm:
   provider: ollama
   base_url: http://localhost:11434
   model: qwen2.5:7b-instruct
-  fallback_model: qwen2.5:14b-instruct
+  fallback_model: qwen2.5:7b-instruct
   enabled: true
 
 rag:
@@ -16,6 +16,6 @@ rag:
   provider: chromadb
   persist_dir: data/vectorstore
   embedding_model: qwen3-embedding:0.6b
-  fallback_embedding_model: nomic-embed-text
+  fallback_embedding_model: qwen3-embedding:0.6b
   ollama_base_url: http://localhost:11434
   fallback_to_text: true
