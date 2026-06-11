@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>Revisão — {{ summary.titulo }}</h1>
+  <p class="note">Esta tela separa informações confirmadas, prováveis, suspeitas e ausentes. A ideia é não esconder dados incertos, mas também não apresentá-los como certeza.</p>
+  <div class="actions">
+    <a class="button secondary" href="{{ url_for('concurso', edital_id=summary.edital_id) }}">Voltar ao edital</a>
+    <a class="button secondary" href="{{ url_for('wiki_page', edital_id=summary.edital_id) }}">Ver wiki Markdown</a>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Campos principais</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Campo</th><th>Valor</th><th>Status</th><th>Motivo</th></tr></thead>
+    <tbody>
+      {% for nome, st in summary.campos_status.items() %}
+      <tr class="{% if st.status == 'suspeito' %}warn-row{% endif %}">
+        <td><strong>{{ nome }}</strong></td>
+        <td>{{ st.valor or 'Não encontrado' }}</td>
+        <td><span class="badge {{ 'ok' if st.status == 'confirmado' else 'warn' if st.status in ['suspeito','nao_encontrado'] else 'mid' }}">{{ st.status.replace('_', ' ') }}</span></td>
+        <td>{{ st.motivo or '-' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="card">
+  <h2>Cargos com baixa confiança ou revisão recomendada</h2>
+  {% set suspeitos = summary.cargos | selectattr('suspeito') | list %}
+  {% if suspeitos %}
+    <div class="table-wrap"><table>
+      <thead><tr><th>Cargo</th><th>Vagas</th><th>Remuneração</th><th>Requisito</th><th>Motivo</th><th>Fonte</th></tr></thead>
+      <tbody>
+      {% for cargo in suspeitos %}
+        <tr class="warn-row">
+          <td>{{ cargo.nome }}</td>
+          <td>{{ cargo.vagas or '-' }}</td>
+          <td>{{ cargo.remuneracao or '-' }}</td>
+          <td>{{ cargo.requisito or '-' }}</td>
+          <td>{{ cargo.motivo_suspeita or 'baixa confiança' }}</td>
+          <td>{{ cargo.fonte_tipo }} {{ cargo.fonte }}{% if cargo.pagina %}, p. {{ cargo.pagina }}{% endif %}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+  {% else %}
+    <p>Nenhum cargo foi marcado como suspeito na extração inicial.</p>
+  {% endif %}
+</section>
+
+<section class="card">
+  <h2>Avisos da ingestão</h2>
+  {% set q = summary.qualidade %}
+  {% if q.campos_suspeitos or q.avisos %}
+    <ul>
+      {% for aviso in q.avisos %}<li>{{ aviso }}</li>{% endfor %}
+      {% for campo in q.campos_suspeitos %}<li>{{ campo }}</li>{% endfor %}
+    </ul>
+  {% else %}
+    <p>Nenhum aviso crítico foi gerado.</p>
+  {% endif %}
+</section>
+{% endblock %}

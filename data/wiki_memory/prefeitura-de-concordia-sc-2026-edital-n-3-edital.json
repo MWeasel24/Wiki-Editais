@@ -1,0 +1,301 @@
+{
+  "edital_id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital",
+  "titulo": "Edital 003/2026",
+  "mode": "llm_wiki_semantica",
+  "pages": [
+    {
+      "id": "visao-geral",
+      "title": "Visão geral do edital",
+      "description": "Síntese dos dados centrais, escopo do edital e pontos de atenção.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/visao-geral.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+          "kind": "tabela",
+          "page": 29
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0010",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0044",
+          "kind": "chunk",
+          "page": 21
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "inscricoes-taxas-isencao",
+      "title": "Inscrições, taxas e isenção",
+      "description": "Período de inscrição, valor da taxa, pagamento, isenção e regras relacionadas.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/inscricoes-taxas-isencao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+          "kind": "tabela",
+          "page": 29
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0016",
+          "kind": "chunk",
+          "page": 10
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0017",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0005",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "cargos-escolaridade-remuneracao",
+      "title": "Cargos, escolaridade e remuneração",
+      "description": "Cargos, vagas, requisitos, carga horária, remuneração e alertas de extração.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/cargos-escolaridade-remuneracao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p006-02",
+          "kind": "tabela",
+          "page": 6
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0008",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0009",
+          "kind": "chunk",
+          "page": 7
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p006-03",
+          "kind": "tabela",
+          "page": 6
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0010",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p018-01",
+          "kind": "tabela",
+          "page": 18
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0041",
+          "kind": "chunk",
+          "page": 19
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0048",
+          "kind": "chunk",
+          "page": 24
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "provas-etapas",
+      "title": "Provas e etapas",
+      "description": "Tipos de prova, datas, etapas, caráter eliminatório/classificatório e estrutura de avaliação.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/provas-etapas.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0004",
+          "kind": "chunk",
+          "page": 5
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p020-02",
+          "kind": "tabela",
+          "page": 20
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0039",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p020-03",
+          "kind": "tabela",
+          "page": 20
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0031",
+          "kind": "chunk",
+          "page": 15
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "regras-dia-prova",
+      "title": "Regras do dia da prova",
+      "description": "Materiais permitidos, documentos, condutas proibidas, eliminação e regras de permanência.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/regras-dia-prova.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0038",
+          "kind": "chunk",
+          "page": 18
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0029",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0033",
+          "kind": "chunk",
+          "page": 16
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0035",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "conteudo-programatico",
+      "title": "Conteúdo programático",
+      "description": "Disciplinas, conhecimentos básicos, conhecimentos específicos e tópicos de estudo.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/conteudo-programatico.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p015-02",
+          "kind": "tabela",
+          "page": 15
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0059",
+          "kind": "chunk",
+          "page": 32
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0001",
+          "kind": "chunk",
+          "page": 1
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0014",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "recursos-resultados",
+      "title": "Recursos, gabaritos e resultados",
+      "description": "Prazos de recurso, gabaritos, resultados preliminares/finais e homologação.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/recursos-resultados.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0046",
+          "kind": "chunk",
+          "page": 23
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0058",
+          "kind": "chunk",
+          "page": 31
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+          "kind": "tabela",
+          "page": 30
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "incertezas-revisao",
+      "title": "Incertezas e revisão humana",
+      "description": "Campos ausentes, suspeitos, possíveis conflitos e pontos que devem ser conferidos no PDF original.",
+      "path": "temas/prefeitura-de-concordia-sc-2026-edital-n-3-edital/incertezas-revisao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0011",
+          "kind": "chunk",
+          "page": 8
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0020",
+          "kind": "chunk",
+          "page": 11
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0028",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0047",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0049",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": false
+    }
+  ],
+  "total_pages": 8,
+  "definition": "Páginas temáticas persistentes, atualizadas a cada ingestão/revisão, usadas como memória de conhecimento antes dos chunks brutos."
+}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>Perguntar sobre o edital</h1>
+  <p><strong>{{ summary.titulo }}</strong></p>
+  <form method="post">
+    <textarea name="question" rows="4" placeholder="Ex.: Qual é o prazo de inscrição?" required>{{ question }}</textarea>
+    <button type="submit">Buscar resposta</button>
+  </form>
+</section>
+
+{% if answer %}
+<section class="card">
+  <h2>Resposta inicial</h2>
+  <pre class="answer">{{ answer }}</pre>
+</section>
+<section class="card">
+  <h2>Fontes recuperadas</h2>
+  {% for s in sources %}
+    <details open>
+      <summary>{{ s.id }} — score {{ s.score }} — {{ s.section }}</summary>
+      <pre>{{ s.text[:1800] }}</pre>
+    </details>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

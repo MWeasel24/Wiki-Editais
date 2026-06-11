@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-title slim-title">
+  <h1>Debug</h1>
+</section>
+
+<section class="card">
+  <h2>Enviar edital</h2>
+  <form id="upload-form" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+    <input type="file" name="edital" accept="application/pdf" required>
+    <button type="submit">Processar PDF</button>
+  </form>
+  <div id="upload-progress" class="upload-progress hidden" aria-live="polite">
+    <div class="progress-head"><strong id="progress-percent">0%</strong><span id="progress-stage">Aguardando…</span></div>
+    <div class="progress-line"><span id="progress-bar"></span></div>
+    <div class="progress-log" id="progress-log">Iniciando processamento…</div>
+    <div class="progress-sub" id="progress-sub">Tempo decorrido: 0s</div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Editais Disponíveis</h2>
+  {% if concursos %}
+    <div class="list">
+      {% for c in concursos %}
+        <div class="list-item split-item">
+          <a href="{{ url_for('concurso', edital_id=c.edital_id) }}">
+            <strong>{{ c.titulo }}</strong>
+            <span>{{ c.orgao or 'Órgão não identificado' }}{% if c.banca %} · {{ c.banca }}{% endif %}{% if c.ano %} · {{ c.ano }}{% endif %}</span>
+          </a>
+          <div class="inline-actions">
+            <a class="button secondary small" href="{{ url_for('debug_edital', edital_id=c.edital_id) }}">Debug</a>
+            <form method="post" action="{{ url_for('excluir_edital', edital_id=c.edital_id) }}" onsubmit="return confirm('Excluir este edital da base? Isso remove PDF, JSON, chunks, tabelas, wiki, avaliações associadas e vetores. Esta ação não tem desfazer.')">
+              <button type="submit" class="button danger small">Excluir</button>
+            </form>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>Nenhum edital disponível.</p>
+  {% endif %}
+</section>
+{% endblock %}

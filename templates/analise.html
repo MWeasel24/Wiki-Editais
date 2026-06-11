@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-title slim-title">
+  <h1>Análise</h1>
+</section>
+
+{% set m = evaluation.metrics %}
+<section class="card">
+  <h2>Métricas da avaliação</h2>
+  {% if not evaluation.exists %}
+    <p>Nenhuma avaliação cadastrada.</p>
+  {% else %}
+    <div class="summary-grid technical-grid">
+      <div><span>Arquivos</span><strong>{{ evaluation.total_arquivos }}</strong></div>
+      <div><span>Itens avaliados</span><strong>{{ m.total }}</strong></div>
+      <div><span>Geral</span><strong>{{ m.percentual_geral if m.percentual_geral is not none else 0 }}%</strong></div>
+      <div><span>Wiki</span><strong>{{ m.wiki_percentual if m.wiki_percentual is not none else '—' }}{% if m.wiki_percentual is not none %}%{% endif %}</strong></div>
+      <div><span>Chat</span><strong>{{ m.chat_percentual if m.chat_percentual is not none else '—' }}{% if m.chat_percentual is not none %}%{% endif %}</strong></div>
+      <div><span>Com fonte</span><strong>{{ m.taxa_com_fonte if m.taxa_com_fonte is not none else '—' }}{% if m.taxa_com_fonte is not none %}%{% endif %}</strong></div>
+    </div>
+  {% endif %}
+</section>
+
+{% if evaluation.exists %}
+<section class="card">
+  <h2>Resumo</h2>
+  <div class="summary-grid">
+    <div><span>Acertos cheios</span><strong>{{ m.acertos_cheios }}</strong></div>
+    <div><span>Parciais</span><strong>{{ m.parciais }}</strong></div>
+    <div><span>Erros</span><strong>{{ m.erros }}</strong></div>
+    <div><span>Média 0–1</span><strong>{{ m.media_geral }}</strong></div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Wiki x Chat</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Tipo</th><th>Total</th><th>Média</th></tr></thead>
+    <tbody>
+      {% for tipo, val in m.por_tipo.items() %}
+      <tr><td>{{ tipo }}</td><td>{{ val.total }}</td><td>{{ val.percentual }}%</td></tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="card">
+  <h2>Por categoria</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Categoria</th><th>Total</th><th>Média</th></tr></thead>
+    <tbody>
+      {% for cat, val in m.por_categoria.items() %}
+      <tr><td>{{ cat }}</td><td>{{ val.total }}</td><td>{{ val.percentual }}%</td></tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="card">
+  <h2>Por dificuldade</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Dificuldade</th><th>Total</th><th>Média</th></tr></thead>
+    <tbody>
+      {% for dif, val in m.por_dificuldade.items() %}
+      <tr><td>{{ dif }}</td><td>{{ val.total }}</td><td>{{ val.percentual }}%</td></tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="card">
+  <h2>Avaliações</h2>
+  {% for ev in evaluation.evaluations %}
+    <details>
+      <summary>{{ ev.meta.titulo or ev.edital_id }} — {{ ev.metrics.percentual_geral }}% — {{ ev.metrics.total }} itens</summary>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Pergunta/critério</th><th>Tipo</th><th>Categoria</th><th>Dificuldade</th><th>Esperado</th><th>Obtido</th><th>Nota</th><th>Fonte</th><th>Observação</th></tr></thead>
+        <tbody>
+          {% for item in ev["items"] %}
+          <tr>
+            <td><strong>{{ item["pergunta"] or item["criterio"] or '-' }}</strong></td>
+            <td>{{ item["tipo"] or item["escopo"] or item["modulo"] or '-' }}</td>
+            <td>{{ item["categoria"] or '-' }}</td>
+            <td>{{ item["dificuldade"] or '-' }}</td>
+            <td>{{ item["resposta_esperada"] or item["esperado"] or '-' }}</td>
+            <td>{{ item["resposta_sistema"] or item["obtido"] or '-' }}</td>
+            <td>{{ item["nota"] if item["nota"] is defined else item["score"] if item["score"] is defined else '-' }}</td>
+            <td>{{ 'sim' if item['fonte_ok'] or item['com_fonte'] else 'não' }}</td>
+            <td>{{ item["observacao"] or item["obs"] or '' }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table></div>
+    </details>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

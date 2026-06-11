@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-title">
+  <div>
+    <h1>{{ summary.titulo }}</h1>
+    <div class="badge-row">
+      <span class="meta-badge">{{ summary.orgao or 'Órgão não encontrado' }}</span>
+      <span class="meta-badge">{{ summary.banca or 'Banca não encontrada' }}</span>
+      <span class="meta-badge">{{ summary.ano or 'Ano não encontrado' }}</span>
+    </div>
+  </div>
+  {% if pdf_available %}
+  <div class="actions compact-actions">
+    <a class="button secondary" target="_blank" href="{{ url_for('abrir_pdf', edital_id=summary.edital_id) }}">Ver edital</a>
+  </div>
+  {% endif %}
+</section>
+
+<nav class="tabs">
+  <a class="{% if tab == 'resumo' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='resumo') }}">Resumo</a>
+  <a class="{% if tab == 'wiki' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='wiki') }}">Mapa do edital</a>
+  <a class="{% if tab == 'cargos' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='cargos') }}">Cargos</a>
+  <a class="{% if tab == 'cronograma' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='cronograma') }}">Cronograma</a>
+  <a class="{% if tab == 'conteudo' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='conteudo') }}">Conteúdo</a>
+  <a class="{% if tab == 'chat' %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='chat') }}">Chat</a>
+</nav>
+
+{% if tab == 'resumo' %}
+<section class="card">
+  <h2>Resumo do edital</h2>
+  <div class="summary-grid">
+    <div><span>Inscrição</span><strong>{{ summary.inscricao or 'Não encontrado' }}</strong></div>
+    <div><span>Taxa</span><strong>{{ summary.taxa or 'Não encontrada' }}</strong></div>
+    <div><span>Prova</span><strong>{{ summary.prova or 'Não encontrada' }}</strong></div>
+    <div><span>Cargos</span><strong>{{ metrics.qtd_cargos }}</strong></div>
+    <div><span>Total mínimo de vagas</span><strong>{{ metrics.total_vagas_min if metrics.total_vagas_min is not none else 'Não calculado' }}</strong>{% if metrics.vagas_obs %}<small>{{ metrics.vagas_obs }}</small>{% endif %}</div>
+    <div><span>Faixa salarial detectada</span><strong>{{ metrics.faixa_salarial or 'Não determinada' }}</strong></div>
+  </div>
+</section>
+{% endif %}
+
+{% if tab == 'wiki' %}
+<section class="card">
+  <h2>Mapa do edital</h2>
+  <p class="muted">Base de conhecimento temática. O chat consulta estas páginas antes dos chunks brutos.</p>
+  {% if semantic_wiki.pages %}
+  <div class="wiki-layout">
+    <aside class="wiki-menu">
+      {% for p in semantic_wiki.pages %}
+      <a class="{% if selected_wiki_page == p.id %}active{% endif %}" href="{{ url_for('concurso', edital_id=summary.edital_id, tab='wiki', wiki_page=p.id) }}">
+        <strong>{{ p.title }}</strong><br><small>{{ p.description }}</small>
+      </a>
+      {% endfor %}
+    </aside>
+    <article class="wiki-page markdown-body">
+      {% if semantic_page_html %}
+        {{ semantic_page_html|safe }}
+      {% else %}
+        <p>Esta página ainda não foi gerada. Atualize a wiki no Debug.</p>
+      {% endif %}
+    </article>
+  </div>
+  {% else %}
+  <p>A base de conhecimento ainda não foi gerada para este edital. Use “Atualizar wiki” no Debug.</p>
+  {% endif %}
+</section>
+{% endif %}
+
+{% if tab == 'cargos' %}
+<section class="card">
+  <h2>Cargos</h2>
+  {% if summary.cargos %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Cargo</th><th>Vagas</th><th>Remuneração</th><th>Carga horária</th><th>Requisito</th><th>Fonte</th></tr></thead>
+    <tbody>
+      {% for c in summary.cargos %}
+      <tr class="{% if c.suspeito or c.confianca == 'baixa' %}warn-row{% endif %}">
+        <td><strong>{{ c.nome }}</strong>{% if c.suspeito %}<br><small>⚠️ {{ c.motivo_suspeita }}</small>{% endif %}</td>
+        <td>{{ c.vagas or '-' }}</td>
+        <td>{{ c.remuneracao or '-' }}</td>
+        <td>{{ c.carga_horaria or '-' }}</td>
+        <td>{{ c.requisito or '-' }}</td>
+        <td>{% if c.fonte %}{{ c.fonte_tipo }} {{ c.fonte }}{% if c.pagina %}, p. {{ c.pagina }}{% endif %}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}<p>Nenhum cargo encontrado.</p>{% endif %}
+</section>
+{% endif %}
+
+{% if tab == 'cronograma' %}
+<section class="card">
+  <h2>Cronograma</h2>
+  {% if summary.cronograma %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Evento</th><th>Data/período</th><th>Fonte</th></tr></thead>
+    <tbody>
+      {% for e in summary.cronograma %}
+      <tr>
+        <td><strong>{{ e.evento }}</strong></td>
+        <td>{{ e.data_ou_periodo }}</td>
+        <td>{% if e.fonte %}{{ e.fonte_tipo }} {{ e.fonte }}{% if e.pagina %}, p. {{ e.pagina }}{% endif %}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}<p>Nenhum cronograma encontrado.</p>{% endif %}
+</section>
+{% endif %}
+
+{% if tab == 'conteudo' %}
+<section class="card">
+  <h2>Conteúdo programático</h2>
+  <p class="muted">Síntese gerada automaticamente com base na LLM Wiki/RAG e nos trechos recuperados do edital. Recomenda-se conferir com o PDF original.</p>
+  {% if content_llm and content_llm.html %}
+    <article class="markdown-body content-rag-answer">
+      {{ content_llm.html|safe }}
+    </article>
+    {% if content_llm.sources %}
+    <details class="source-details">
+      <summary>Fontes usadas pela síntese</summary>
+      {% for s in content_llm.sources %}
+        <div class="source-mini"><strong>{{ s.id }}</strong> — {{ s.section }}{% if s.page_start %}, p. {{ s.page_start }}{% endif %}</div>
+      {% endfor %}
+    </details>
+    {% endif %}
+  {% else %}
+    <p>Não foi possível gerar uma síntese do conteúdo programático neste momento.</p>
+  {% endif %}
+</section>
+{% endif %}
+
+{% if tab == 'chat' %}
+<section class="card">
+  <h2>Chat</h2>
+  <form id="chat-form" method="post" action="{{ url_for('perguntar', edital_id=summary.edital_id) }}">
+    <textarea name="question" rows="4" placeholder="Ex.: Qual é o prazo de inscrição?" required>{{ question or '' }}</textarea>
+    <button type="submit">Perguntar</button>
+  </form>
+  <div id="chat-progress" class="chat-progress hidden" aria-live="polite" style="display:none"></div>
+</section>
+{% if answer %}
+<section class="card">
+  <h2>Resposta</h2>
+  <pre class="answer">{{ answer }}</pre>
+</section>
+<section class="card">
+  <h2>Fontes</h2>
+  {% for s in sources %}
+    <details>
+      <summary>{{ s.id }} — {{ s.section }}{% if s.page_start %} — p. {{ s.page_start }}{% endif %}</summary>
+      <pre>{{ s.text[:1800] }}</pre>
+    </details>
+  {% else %}
+    <p>Nenhuma fonte retornada.</p>
+  {% endfor %}
+</section>
+{% endif %}
+{% endif %}
+{% endblock %}

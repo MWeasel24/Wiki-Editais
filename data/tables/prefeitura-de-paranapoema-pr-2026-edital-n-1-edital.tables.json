@@ -1,0 +1,1516 @@
+[
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p002-01",
+    "page": 2,
+    "order": 1,
+    "kind": "cronograma",
+    "title_guess": "sede à Rua Dr. José Cândido Muricy, 216 - Centro, Inscrito no CNPJ sob o nª 76.970.391 / 0001 -",
+    "headers": [
+      "item",
+      "evento",
+      "data_ou_periodo"
+    ],
+    "rows": [
+      {
+        "item": "1",
+        "evento": "Publicação do Edital 001/2026 – Prefeitura Municipal de ParanapoemaParaná (completo com anexos)",
+        "data_ou_periodo": "04/06/2026"
+      },
+      {
+        "item": "1.1",
+        "evento": "Período de Inscrição",
+        "data_ou_periodo": "09/06/2026 a 26/06/2026"
+      },
+      {
+        "item": "1.2",
+        "evento": "Último Dia para Pagamento das Inscrições",
+        "data_ou_periodo": "29/06/2026"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Item/ Subitem",
+        "Evento",
+        "Data"
+      ],
+      [
+        "1",
+        "Publicação do Edital 001/2026 – Prefeitura Municipal de ParanapoemaParaná (completo com anexos)",
+        "04/06/2026"
+      ],
+      [
+        "1.1",
+        "Período de Inscrição",
+        "09/06/2026 a 26/06/2026"
+      ],
+      [
+        "1.2",
+        "Último Dia para Pagamento das Inscrições",
+        "29/06/2026"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "alta",
+    "scores": {
+      "quadro_de_vagas": 0,
+      "cronograma": 16,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 0,
+      "formulario": 0,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+    "page": 3,
+    "order": 1,
+    "kind": "cronograma",
+    "title_guess": "Prazo Final para Solicitação de Isenção da Taxa de",
+    "headers": [
+      "item",
+      "evento",
+      "data_ou_periodo"
+    ],
+    "rows": [
+      {
+        "item": "1.3",
+        "evento": "Prazo Final para Solicitação de Isenção da Taxa de Inscrição, entrega de Laudo Médico para Candidatos que Pleiteiam Condições Especiais (inclusive lactantes) e envio das Solicitações de Inscrição como Afrodescendentes e PcDs.",
+        "data_ou_periodo": "16/06/2026"
+      },
+      {
+        "item": "1.4",
+        "evento": "Edital Preliminar de Deferimento das Inscrições dos Candidatos que solicitaram isenção, pleitearam condições especiais, PcDs e Afros.",
+        "data_ou_periodo": "18/06/2026"
+      },
+      {
+        "item": "1.5",
+        "evento": "Período para Recurso Contra Indeferimento das Inscrições e Pedidos Relacionados no item 1.4",
+        "data_ou_periodo": "19/06/2026 a 22/06/2026"
+      },
+      {
+        "item": "1.6",
+        "evento": "Edital Definitivo de Deferimento ou Indeferimento dos Pedidos de Isenção, condições de PcDs, Afros e condições especiais,",
+        "data_ou_periodo": "25/06/2026"
+      },
+      {
+        "item": "1.7",
+        "evento": "Edital de Deferimento e Homologação das Inscrições Gerais",
+        "data_ou_periodo": "03/07/2026"
+      },
+      {
+        "item": "1.8",
+        "evento": "Divulgação dos Locais de Prova e Ensalamento",
+        "data_ou_periodo": "14/07/2026"
+      },
+      {
+        "item": "1.9",
+        "evento": "Aplicação das Provas Objetivas",
+        "data_ou_periodo": "19/07/2026"
+      },
+      {
+        "item": "1.10",
+        "evento": "Divulgação dos Gabaritos Preliminares",
+        "data_ou_periodo": "21/07/2026"
+      },
+      {
+        "item": "1.11",
+        "evento": "Prazo para Recursos contra Gabaritos Preliminares",
+        "data_ou_periodo": "22/07/2026 a 24/07/2026"
+      },
+      {
+        "item": "1.12",
+        "evento": "Divulgação dos gabaritos definitivos e do resultado preliminar das Provas Objetivas",
+        "data_ou_periodo": "29/07/2026"
+      },
+      {
+        "item": "1.13",
+        "evento": "Prazo para Recurso contra Resultados Preliminares das Provas Objetivas",
+        "data_ou_periodo": "30/07/2026 a 04/08/2026"
+      },
+      {
+        "item": "1.14",
+        "evento": "Divulgação do Resultado Definitivo das Provas Objetivas",
+        "data_ou_periodo": "11/08/2026"
+      },
+      {
+        "item": "1.15",
+        "evento": "Convocação e Período para Entrega de Títulos no período de 13/08/2026 a 18/08/2026 Convocação para Prova Prática a ser realizada dia 23/08/2026",
+        "data_ou_periodo": "13/08/2026 a 18/08/2026"
+      },
+      {
+        "item": "1.16",
+        "evento": "Aplicação da Prova Prática para o Cargo de Motorista",
+        "data_ou_periodo": "23/08/2026"
+      },
+      {
+        "item": "1.17",
+        "evento": "Divulgação do Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+        "data_ou_periodo": "25/08/2026"
+      },
+      {
+        "item": "1.18",
+        "evento": "Prazo para Recurso contra Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+        "data_ou_periodo": "26/08/2026 a 29/08/2026"
+      },
+      {
+        "item": "1.19",
+        "evento": "Divulgação do Resultado Definitivo da Avaliação de Títulos e das Notas Definitivas da Prova Prática",
+        "data_ou_periodo": "02/09/2026"
+      },
+      {
+        "item": "1.20",
+        "evento": "Divulgação do Resultado e Classificação Preliminar por cargo",
+        "data_ou_periodo": "09/09/2026"
+      },
+      {
+        "item": "1.21",
+        "evento": "Prazo para Recurso contra Resultado e Classificação preliminar",
+        "data_ou_periodo": "10/09/2026 a 13/09/2026"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Item/ Subitem",
+        "Evento",
+        "Data"
+      ],
+      [
+        "1.3",
+        "Prazo Final para Solicitação de Isenção da Taxa de Inscrição, entrega de Laudo Médico para Candidatos que Pleiteiam Condições Especiais (inclusive lactantes) e envio das Solicitações de Inscrição como Afrodescendentes e PcDs.",
+        "16/06/2026"
+      ],
+      [
+        "1.4",
+        "Edital Preliminar de Deferimento das Inscrições dos Candidatos que solicitaram isenção, pleitearam condições especiais, PcDs e Afros.",
+        "18/06/2026"
+      ],
+      [
+        "1.5",
+        "Período para Recurso Contra Indeferimento das Inscrições e Pedidos Relacionados no item 1.4",
+        "19/06/2026 a 22/06/2026"
+      ],
+      [
+        "1.6",
+        "Edital Definitivo de Deferimento ou Indeferimento dos Pedidos de Isenção, condições de PcDs, Afros e condições especiais,",
+        "25/06/2026"
+      ],
+      [
+        "1.7",
+        "Edital de Deferimento e Homologação das Inscrições Gerais",
+        "03/07/2026"
+      ],
+      [
+        "1.8",
+        "Divulgação dos Locais de Prova e Ensalamento",
+        "14/07/2026"
+      ],
+      [
+        "1.9",
+        "Aplicação das Provas Objetivas",
+        "19/07/2026"
+      ],
+      [
+        "1.10",
+        "Divulgação dos Gabaritos Preliminares",
+        "21/07/2026"
+      ],
+      [
+        "1.11",
+        "Prazo para Recursos contra Gabaritos Preliminares",
+        "22/07/2026 a 24/07/2026"
+      ],
+      [
+        "1.12",
+        "Divulgação dos gabaritos definitivos e do resultado preliminar das Provas Objetivas",
+        "29/07/2026"
+      ],
+      [
+        "1.13",
+        "Prazo para Recurso contra Resultados Preliminares das Provas Objetivas",
+        "30/07/2026 a 04/08/2026"
+      ],
+      [
+        "1.14",
+        "Divulgação do Resultado Definitivo das Provas Objetivas",
+        "11/08/2026"
+      ],
+      [
+        "1.15",
+        "Convocação e Período para Entrega de Títulos no período de 13/08/2026 a 18/08/2026 Convocação para Prova Prática a ser realizada dia 23/08/2026",
+        "13/08/2026 a 18/08/2026"
+      ],
+      [
+        "1.16",
+        "Aplicação da Prova Prática para o Cargo de Motorista",
+        "23/08/2026"
+      ],
+      [
+        "1.17",
+        "Divulgação do Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+        "25/08/2026"
+      ],
+      [
+        "1.18",
+        "Prazo para Recurso contra Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+        "26/08/2026 a 29/08/2026"
+      ],
+      [
+        "1.19",
+        "Divulgação do Resultado Definitivo da Avaliação de Títulos e das Notas Definitivas da Prova Prática",
+        "02/09/2026"
+      ],
+      [
+        "1.20",
+        "Divulgação do Resultado e Classificação Preliminar por cargo",
+        "09/09/2026"
+      ],
+      [
+        "1.21",
+        "Prazo para Recurso contra Resultado e Classificação preliminar",
+        "10/09/2026 a 13/09/2026"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "alta",
+    "scores": {
+      "quadro_de_vagas": -1,
+      "cronograma": 24,
+      "taxas": 4,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 3,
+      "avaliacao_titulos": 7,
+      "formulario": 4,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p004-01",
+    "page": 4,
+    "order": 1,
+    "kind": "cronograma",
+    "title_guess": "Obs: Caso haja necessidade de alteração em quaisquer dos itens deste cronograma, a divulgação das",
+    "headers": [
+      "item",
+      "evento",
+      "data_ou_periodo"
+    ],
+    "rows": [
+      {
+        "item": "1.22",
+        "evento": "Divulgação do Resultado Final e preparação para Homologação",
+        "data_ou_periodo": "16/09/2026"
+      },
+      {
+        "item": "1.23",
+        "evento": "Data sugerida para Homologação do PSP – Paranapoema – Paraná",
+        "data_ou_periodo": "22/09/2026"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Item/ Subitem",
+        "Evento",
+        "Data"
+      ],
+      [
+        "1.22",
+        "Divulgação do Resultado Final e preparação para Homologação",
+        "16/09/2026"
+      ],
+      [
+        "1.23",
+        "Data sugerida para Homologação do PSP – Paranapoema – Paraná",
+        "22/09/2026"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "alta",
+    "scores": {
+      "quadro_de_vagas": 0,
+      "cronograma": 21,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 0,
+      "formulario": 0,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+    "page": 5,
+    "order": 1,
+    "kind": "quadro_de_vagas",
+    "title_guess": null,
+    "headers": [
+      "item",
+      "cargo",
+      "vagas",
+      "carga_horaria",
+      "remuneracao",
+      "requisito",
+      "P.O",
+      "P.T",
+      "P.P"
+    ],
+    "rows": [
+      {
+        "item": "01",
+        "cargo": "Assistente Social",
+        "vagas": "1 + CR",
+        "carga_horaria": "30h/s",
+        "remuneracao": "R$ 2.685,83",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "02",
+        "cargo": "Auxiliar Administrativo",
+        "vagas": "2 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 1.621,00",
+        "requisito": "Nível Médio",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": ""
+      },
+      {
+        "item": "03",
+        "cargo": "Auxiliar de Tesouraria",
+        "vagas": "CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 3.175,42",
+        "requisito": "Nível Médio",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": ""
+      },
+      {
+        "item": "04",
+        "cargo": "Cozinheiro",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 1.621,00",
+        "requisito": "Nível Fundamental Incompleto",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": ""
+      },
+      {
+        "item": "05",
+        "cargo": "Encarregado de Serviços Fúnebres",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 1.621,00",
+        "requisito": "Nível Fundamental Incompleto",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": ""
+      },
+      {
+        "item": "06",
+        "cargo": "Enfermeiro",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$3.918,85",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "07",
+        "cargo": "Engenheiro Civil",
+        "vagas": "1 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 4.046,83",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "08",
+        "cargo": "Farmacêutico",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 4.583,08",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "09",
+        "cargo": "Fisioterapeuta",
+        "vagas": "1 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 2.385,44",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "10",
+        "cargo": "Fonoaudiólogo",
+        "vagas": "1 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 2.385,44",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "11",
+        "cargo": "Médico",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$13.597,37",
+        "requisito": "Curso Superior + Registro no conselho competente.",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "12",
+        "cargo": "Motorista",
+        "vagas": "2 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 1.621,00",
+        "requisito": "Nível Fundamental Incompleto",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": "X"
+      },
+      {
+        "item": "13",
+        "cargo": "Nutricionista",
+        "vagas": "1 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 2.385,44",
+        "requisito": "Curso Superior + Registro no conselho competente",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "14",
+        "cargo": "Odontólogo",
+        "vagas": "2 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 3.918,85",
+        "requisito": "Curso Superior + Registro no conselho competente (CRO)",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      },
+      {
+        "item": "15",
+        "cargo": "Pedreiro",
+        "vagas": "1 + CR",
+        "carga_horaria": "40h/s",
+        "remuneracao": "R$ 1.621,00",
+        "requisito": "Nível Fundamental Incompleto",
+        "P.O": "X",
+        "P.T": "",
+        "P.P": ""
+      },
+      {
+        "item": "16",
+        "cargo": "Professor",
+        "vagas": "10 + CR",
+        "carga_horaria": "20h/s",
+        "remuneracao": "R$ 2.565,31",
+        "requisito": "Diploma, devidamente registrado, de",
+        "P.O": "X",
+        "P.T": "X",
+        "P.P": ""
+      }
+    ],
+    "raw_rows": [
+      [
+        "Item",
+        "Cargo",
+        "Vagas",
+        "Carga horária",
+        "Remuneração",
+        "Requisito / Escolaridade",
+        "P.O",
+        "P.T",
+        "P.P"
+      ],
+      [
+        "01",
+        "Assistente Social",
+        "1 + CR",
+        "30h/s",
+        "R$ 2.685,83",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "02",
+        "Auxiliar Administrativo",
+        "2 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Médio",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "03",
+        "Auxiliar de Tesouraria",
+        "CR",
+        "40h/s",
+        "R$ 3.175,42",
+        "Nível Médio",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "04",
+        "Cozinheiro",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Fundamental Incompleto",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "05",
+        "Encarregado de Serviços Fúnebres",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Fundamental Incompleto",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "06",
+        "Enfermeiro",
+        "1 + CR",
+        "40h/s",
+        "R$3.918,85",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "07",
+        "Engenheiro Civil",
+        "1 + CR",
+        "20h/s",
+        "R$ 4.046,83",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "08",
+        "Farmacêutico",
+        "1 + CR",
+        "40h/s",
+        "R$ 4.583,08",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "09",
+        "Fisioterapeuta",
+        "1 + CR",
+        "20h/s",
+        "R$ 2.385,44",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "10",
+        "Fonoaudiólogo",
+        "1 + CR",
+        "20h/s",
+        "R$ 2.385,44",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "11",
+        "Médico",
+        "1 + CR",
+        "40h/s",
+        "R$13.597,37",
+        "Curso Superior + Registro no conselho competente.",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "12",
+        "Motorista",
+        "2 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Fundamental Incompleto",
+        "X",
+        "",
+        "X"
+      ],
+      [
+        "13",
+        "Nutricionista",
+        "1 + CR",
+        "20h/s",
+        "R$ 2.385,44",
+        "Curso Superior + Registro no conselho competente",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "14",
+        "Odontólogo",
+        "2 + CR",
+        "20h/s",
+        "R$ 3.918,85",
+        "Curso Superior + Registro no conselho competente (CRO)",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "15",
+        "Pedreiro",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Fundamental Incompleto",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "16",
+        "Professor",
+        "10 + CR",
+        "20h/s",
+        "R$ 2.565,31",
+        "Diploma, devidamente registrado, de",
+        "X",
+        "X",
+        ""
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "alta",
+    "scores": {
+      "quadro_de_vagas": 24,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 3,
+      "formulario": 2,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p006-01",
+    "page": 6,
+    "order": 1,
+    "kind": "quadro_de_vagas",
+    "title_guess": null,
+    "headers": [
+      "coluna_1",
+      "coluna_2",
+      "coluna_3",
+      "coluna_4",
+      "coluna_5",
+      "coluna_6",
+      "coluna_7",
+      "coluna_8",
+      "coluna_9"
+    ],
+    "rows": [
+      {
+        "coluna_1": "",
+        "coluna_2": "",
+        "coluna_3": "",
+        "coluna_4": "",
+        "coluna_5": "",
+        "coluna_6": "conclusão de curso de nível médio na modalidade Normal ou licenciatura em pedagogia.",
+        "coluna_7": "",
+        "coluna_8": "",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "17",
+        "coluna_2": "Professor de Artes",
+        "coluna_3": "1 + CR",
+        "coluna_4": "20h/s",
+        "coluna_5": "R$ 2.565,31",
+        "coluna_6": "Diploma, devidamente registrado, de conclusão de curso de nível superior de Licenciatura Plena – formação em nível superior em Arte: Dança ou Música ou Teatro ou Cinema ou Desenho/Educação Artística/Arte Plásticas/Arte Visuais/Arte Cênicas.",
+        "coluna_7": "X",
+        "coluna_8": "X",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "18",
+        "coluna_2": "Professor de Educação Física",
+        "coluna_3": "1 + CR",
+        "coluna_4": "20h/s",
+        "coluna_5": "R$ 2.565,31",
+        "coluna_6": "Diploma, devidamente registrado, de conclusão de curso de nível superior de licenciatura plena em Educação Física + Registro no conselho competente.",
+        "coluna_7": "X",
+        "coluna_8": "X",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "19",
+        "coluna_2": "Psicólogo",
+        "coluna_3": "3 + CR",
+        "coluna_4": "20h/s",
+        "coluna_5": "R$ 3.255,49",
+        "coluna_6": "Curso Superior + Registro no conselho competente.",
+        "coluna_7": "X",
+        "coluna_8": "X",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "20",
+        "coluna_2": "Recepcionista",
+        "coluna_3": "1 + CR",
+        "coluna_4": "40h/s",
+        "coluna_5": "R$ 1.740,01",
+        "coluna_6": "Nível Médio",
+        "coluna_7": "X",
+        "coluna_8": "",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "21",
+        "coluna_2": "Secretário Escolar",
+        "coluna_3": "1 + CR",
+        "coluna_4": "40h/s",
+        "coluna_5": "R$ 1.621,00",
+        "coluna_6": "Nível Médio",
+        "coluna_7": "X",
+        "coluna_8": "",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "22",
+        "coluna_2": "Técnico em enfermagem",
+        "coluna_3": "2+ CR",
+        "coluna_4": "40h/s",
+        "coluna_5": "R$ 1.825,92",
+        "coluna_6": "Nível médio completo + curso técnico em Enfermagem + Registro no conselho regional (COREN)",
+        "coluna_7": "X",
+        "coluna_8": "",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "23",
+        "coluna_2": "Técnico em Higiene Dental",
+        "coluna_3": "1+ CR",
+        "coluna_4": "40h/s",
+        "coluna_5": "R$ 2.228,48",
+        "coluna_6": "Nível médio acrescido de curso ou curso técnico em higiene bucal",
+        "coluna_7": "X",
+        "coluna_8": "",
+        "coluna_9": ""
+      },
+      {
+        "coluna_1": "24",
+        "coluna_2": "Vigia",
+        "coluna_3": "1 + CR",
+        "coluna_4": "40h/s",
+        "coluna_5": "R$ 1.621,00",
+        "coluna_6": "Nível Médio",
+        "coluna_7": "X",
+        "coluna_8": "",
+        "coluna_9": ""
+      }
+    ],
+    "raw_rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "conclusão de curso de nível médio na modalidade Normal ou licenciatura em pedagogia.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "17",
+        "Professor de Artes",
+        "1 + CR",
+        "20h/s",
+        "R$ 2.565,31",
+        "Diploma, devidamente registrado, de conclusão de curso de nível superior de Licenciatura Plena – formação em nível superior em Arte: Dança ou Música ou Teatro ou Cinema ou Desenho/Educação Artística/Arte Plásticas/Arte Visuais/Arte Cênicas.",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "18",
+        "Professor de Educação Física",
+        "1 + CR",
+        "20h/s",
+        "R$ 2.565,31",
+        "Diploma, devidamente registrado, de conclusão de curso de nível superior de licenciatura plena em Educação Física + Registro no conselho competente.",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "19",
+        "Psicólogo",
+        "3 + CR",
+        "20h/s",
+        "R$ 3.255,49",
+        "Curso Superior + Registro no conselho competente.",
+        "X",
+        "X",
+        ""
+      ],
+      [
+        "20",
+        "Recepcionista",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.740,01",
+        "Nível Médio",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "21",
+        "Secretário Escolar",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Médio",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "22",
+        "Técnico em enfermagem",
+        "2+ CR",
+        "40h/s",
+        "R$ 1.825,92",
+        "Nível médio completo + curso técnico em Enfermagem + Registro no conselho regional (COREN)",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "23",
+        "Técnico em Higiene Dental",
+        "1+ CR",
+        "40h/s",
+        "R$ 2.228,48",
+        "Nível médio acrescido de curso ou curso técnico em higiene bucal",
+        "X",
+        "",
+        ""
+      ],
+      [
+        "24",
+        "Vigia",
+        "1 + CR",
+        "40h/s",
+        "R$ 1.621,00",
+        "Nível Médio",
+        "X",
+        "",
+        ""
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "media",
+    "scores": {
+      "quadro_de_vagas": 9,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 3,
+      "formulario": 0,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p007-01",
+    "page": 7,
+    "order": 1,
+    "kind": "quadro_de_vagas",
+    "title_guess": "3.2 O candidato convocado deve comprovar de forma documental os requisitos exigidos para o cargo",
+    "headers": [
+      "requisito",
+      "pontuacao"
+    ],
+    "rows": [
+      {
+        "requisito": "Nível Fundamental",
+        "pontuacao": "R$ 40,00"
+      },
+      {
+        "requisito": "Nível Médio / Técnico",
+        "pontuacao": "R$ 50,00"
+      },
+      {
+        "requisito": "Nível Superior",
+        "pontuacao": "R$ 100,00"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Nível de Escolaridade",
+        "Valor da taxa de inscrição"
+      ],
+      [
+        "Nível Fundamental",
+        "R$ 40,00"
+      ],
+      [
+        "Nível Médio / Técnico",
+        "R$ 50,00"
+      ],
+      [
+        "Nível Superior",
+        "R$ 100,00"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "baixa",
+    "scores": {
+      "quadro_de_vagas": 5,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 3,
+      "avaliacao_titulos": 1,
+      "formulario": 2,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p015-01",
+    "page": 15,
+    "order": 1,
+    "kind": "pontuacao_prova",
+    "title_guess": "c) Prova Prática será aplicada aos candidatos ao cargo de Motorista.",
+    "headers": [
+      "cargo",
+      "Língua Portuguesa",
+      "MatemáTica",
+      "Conhecimentos Específicos",
+      "questoes"
+    ],
+    "rows": [
+      {
+        "cargo": "Nível Fundamental / Médio / Superior",
+        "Língua Portuguesa": "10",
+        "MatemáTica": "05",
+        "Conhecimentos Específicos": "15",
+        "questoes": "30"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Cargos",
+        "Língua Portuguesa",
+        "MatemáTica",
+        "Conhecimentos Específicos",
+        "Total de Questões"
+      ],
+      [
+        "Nível Fundamental / Médio / Superior",
+        "10",
+        "05",
+        "15",
+        "30"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "media",
+    "scores": {
+      "quadro_de_vagas": 3,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 4,
+      "pontuacao_prova": 6,
+      "avaliacao_titulos": 0,
+      "formulario": 2,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p018-01",
+    "page": 18,
+    "order": 1,
+    "kind": "avaliacao_titulos",
+    "title_guess": "Pontuação",
+    "headers": [
+      "Ordem",
+      "Título",
+      "pontuacao",
+      "pontuacao_2"
+    ],
+    "rows": [
+      {
+        "Ordem": "01",
+        "Título": "Diploma de curso de pós-graduação em nível de doutorado (título de doutor) na área do cargo a que concorre. Também será aceito certificado/declaração de conclusão de curso de doutorado na área do cargo a que concorre, desde que acompanhado de histórico escolar. Somente 01 Curso de Doutorado",
+        "pontuacao": "4,0",
+        "pontuacao_2": "4,0"
+      },
+      {
+        "Ordem": "02",
+        "Título": "Diploma de curso de pós-graduação em nível de mestrado (título de mestre) na área do cargo a que concorre. Também será aceito certificado/declaração de conclusão de curso de mestrado na área do cargo a que concorre, desde que acompanhado de histórico escolar Somente 01 Curso de Mestrado",
+        "pontuacao": "3,0",
+        "pontuacao_2": "3,0"
+      },
+      {
+        "Ordem": "03",
+        "Título": "Certificado de curso de pós-graduação em nível de especialização, acompanhado do respectivo histórico escolar e carga horária mínima de 360 h/a na área do cargo a que concorre. Também será aceita a declaração de conclusão de pós-graduação em nível de especialização na área do cargo a que concorre, desde que acompanhada de histórico escolar Máximo de 02 cursos de Pós-Graduação",
+        "pontuacao": "1,5",
+        "pontuacao_2": "3,0"
+      }
+    ],
+    "raw_rows": [
+      [
+        "Ordem",
+        "Título",
+        "Pontos por título",
+        "Pontuação máxima"
+      ],
+      [
+        "01",
+        "Diploma de curso de pós-graduação em nível de doutorado (título de doutor) na área do cargo a que concorre. Também será aceito certificado/declaração de conclusão de curso de doutorado na área do cargo a que concorre, desde que acompanhado de histórico escolar. Somente 01 Curso de Doutorado",
+        "4,0",
+        "4,0"
+      ],
+      [
+        "02",
+        "Diploma de curso de pós-graduação em nível de mestrado (título de mestre) na área do cargo a que concorre. Também será aceito certificado/declaração de conclusão de curso de mestrado na área do cargo a que concorre, desde que acompanhado de histórico escolar Somente 01 Curso de Mestrado",
+        "3,0",
+        "3,0"
+      ],
+      [
+        "03",
+        "Certificado de curso de pós-graduação em nível de especialização, acompanhado do respectivo histórico escolar e carga horária mínima de 360 h/a na área do cargo a que concorre. Também será aceita a declaração de conclusão de pós-graduação em nível de especialização na área do cargo a que concorre, desde que acompanhada de histórico escolar Máximo de 02 cursos de Pós-Graduação",
+        "1,5",
+        "3,0"
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "alta",
+    "scores": {
+      "quadro_de_vagas": -4,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 3,
+      "avaliacao_titulos": 22,
+      "formulario": 4,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p024-01",
+    "page": 24,
+    "order": 1,
+    "kind": "tabela_desconhecida",
+    "title_guess": "serviço social; Formulação de programas, projetos e planos; Processo de trabalho do Assistente",
+    "headers": [
+      "coluna_1",
+      "coluna_2",
+      "coluna_3"
+    ],
+    "rows": [
+      {
+        "coluna_1": "recepção",
+        "coluna_2": "de clientes e visitantes. Técnicas de elaboração de relatórios simples. Redação de",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "documentos administrativos. Procedimentos de Protocolo. Correspondência oficiais. Utilização de",
+        "coluna_2": "",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "ferramentas do pacote Office (Word, Excel, PowerPoint). Navegação na Internet. Utilização de e-",
+        "coluna_2": "",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "mail. Digitação e formatação de textos. Criação e gerenciamento de planilhas eletrônicas.",
+        "coluna_2": "",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "Sistemas de arquivamento. Organização de documentos e processos. Controle de materiais de",
+        "coluna_2": "",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "expediente. Gestão de documentos digitais. Conceitos básicos de administração. Organização de",
+        "coluna_2": "",
+        "coluna_3": ""
+      },
+      {
+        "coluna_1": "eventos e promoções. Gestão de tempo e prioridades. Trabalho em equipe.",
+        "coluna_2": "",
+        "coluna_3": ""
+      }
+    ],
+    "raw_rows": [
+      [
+        "recepção",
+        "de clientes e visitantes. Técnicas de elaboração de relatórios simples. Redação de",
+        ""
+      ],
+      [
+        "documentos administrativos. Procedimentos de Protocolo. Correspondência oficiais. Utilização de",
+        "",
+        ""
+      ],
+      [
+        "ferramentas do pacote Office (Word, Excel, PowerPoint). Navegação na Internet. Utilização de e-",
+        "",
+        ""
+      ],
+      [
+        "mail. Digitação e formatação de textos. Criação e gerenciamento de planilhas eletrônicas.",
+        "",
+        ""
+      ],
+      [
+        "Sistemas de arquivamento. Organização de documentos e processos. Controle de materiais de",
+        "",
+        ""
+      ],
+      [
+        "expediente. Gestão de documentos digitais. Conceitos básicos de administração. Organização de",
+        "",
+        ""
+      ],
+      [
+        "eventos e promoções. Gestão de tempo e prioridades. Trabalho em equipe.",
+        "",
+        ""
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "baixa",
+    "scores": {
+      "quadro_de_vagas": 0,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 0,
+      "formulario": 2,
+      "tabela_irrelevante": 0
+    }
+  },
+  {
+    "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p030-01",
+    "page": 30,
+    "order": 1,
+    "kind": "tabela_desconhecida",
+    "title_guess": null,
+    "headers": [
+      "coluna_1",
+      "coluna_2"
+    ],
+    "rows": [
+      {
+        "coluna_1": "Nutrição básica: nutrientes: conceito, classificação, funções, recomendações e fontes alimentares.",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Alimentos: conceito, classificação, características, grupos de alimentos, valor nutritivos",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "características organoléticas; Modificações físicas, químicas e biológicas dos alimentos; Aspectos",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "antropométricos, clínico e bioquímico da avaliação nutricional. Métodos diretos e indiretos de",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "avaliação nutricional; Educação nutricional: Conceito, importância, princípios e objetivos da",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "educação nutricional; Papel que desempenha a educação nutricional nos hábitos alimentares.",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Desenvolvimento e avaliação de atividades educativas em nutrição; Lei de Segurança Alimentar e",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Nutricional (LOSAN); Programa Nacional de Alimentação Escolar (PNAE). Seleção e preparo dos",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "alimentos: Higiene de alimentos; Análise microbiológica, toxicológica dos alimentos; Fontes de",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "contaminação; Fatores extrínsecos e intrínsecos que condicionam o desenvolvimento de",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "microrganismos no alimento; Principais doenças transmitidas através dos alimentos;",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Planejamento, execução e avaliação de cardápios; Elaboração de cardápios em nível institucional;",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Técnica Dietética: Conceitos e objetivos; fator de correção e fator de cocção; pré preparo e preparo",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "de alimentos/métodos e técnicas de cocção; Nutrição e dietética: Recomendações nutricionais.",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Função social dos alimentos. Ética Profissional; Definição das áreas de atuação do nutricionista e",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "suas atribuições. Tecnologia de alimentos: Conservação de alimentos. Embalagem em alimentos;",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Processamento tecnológico de produtos de origem vegetal e animal; Análise sensorial; Aditivos",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "alimentares; Estudo químico bromatológico dos alimentos: proteínas, lipídios e carboidratos;",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Vitaminas; Minerais; Nutrição em saúde pública: Análise dos distúrbios nutricionais como",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "problemas de saúde pública; Problemas nutricionais em populações em desenvolvimento.",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Unidades de Alimentação e Nutrição: planejamento e organização das Unidades de Alimentação",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "e Nutrição; características da estrutura física, equipamentos e utensílios das Unidades de",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "Alimentação e Nutrição; fluxo de produção; Gestão das Unidades de Alimentação e Nutrição:",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "logística de abastecimento, custos e produtividade, recursos humanos e produção. Controle das",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "matérias-primas (do recebimento até a distribuição), controle integrado de vetores e pragas do",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "serviço de alimentação; Análise de Perigos e Pontos Críticos de Controle (APPCC). Boas Práticas",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "de Manipulação (BPM) e Guia Alimentar para a População Brasileira; Guia Alimentar para Crianças",
+        "coluna_2": ""
+      },
+      {
+        "coluna_1": "menores de 2 anos.",
+        "coluna_2": ""
+      }
+    ],
+    "raw_rows": [
+      [
+        "Nutrição básica: nutrientes: conceito, classificação, funções, recomendações e fontes alimentares.",
+        ""
+      ],
+      [
+        "Alimentos: conceito, classificação, características, grupos de alimentos, valor nutritivos",
+        ""
+      ],
+      [
+        "características organoléticas; Modificações físicas, químicas e biológicas dos alimentos; Aspectos",
+        ""
+      ],
+      [
+        "antropométricos, clínico e bioquímico da avaliação nutricional. Métodos diretos e indiretos de",
+        ""
+      ],
+      [
+        "avaliação nutricional; Educação nutricional: Conceito, importância, princípios e objetivos da",
+        ""
+      ],
+      [
+        "educação nutricional; Papel que desempenha a educação nutricional nos hábitos alimentares.",
+        ""
+      ],
+      [
+        "Desenvolvimento e avaliação de atividades educativas em nutrição; Lei de Segurança Alimentar e",
+        ""
+      ],
+      [
+        "Nutricional (LOSAN); Programa Nacional de Alimentação Escolar (PNAE). Seleção e preparo dos",
+        ""
+      ],
+      [
+        "alimentos: Higiene de alimentos; Análise microbiológica, toxicológica dos alimentos; Fontes de",
+        ""
+      ],
+      [
+        "contaminação; Fatores extrínsecos e intrínsecos que condicionam o desenvolvimento de",
+        ""
+      ],
+      [
+        "microrganismos no alimento; Principais doenças transmitidas através dos alimentos;",
+        ""
+      ],
+      [
+        "Planejamento, execução e avaliação de cardápios; Elaboração de cardápios em nível institucional;",
+        ""
+      ],
+      [
+        "Técnica Dietética: Conceitos e objetivos; fator de correção e fator de cocção; pré preparo e preparo",
+        ""
+      ],
+      [
+        "de alimentos/métodos e técnicas de cocção; Nutrição e dietética: Recomendações nutricionais.",
+        ""
+      ],
+      [
+        "Função social dos alimentos. Ética Profissional; Definição das áreas de atuação do nutricionista e",
+        ""
+      ],
+      [
+        "suas atribuições. Tecnologia de alimentos: Conservação de alimentos. Embalagem em alimentos;",
+        ""
+      ],
+      [
+        "Processamento tecnológico de produtos de origem vegetal e animal; Análise sensorial; Aditivos",
+        ""
+      ],
+      [
+        "alimentares; Estudo químico bromatológico dos alimentos: proteínas, lipídios e carboidratos;",
+        ""
+      ],
+      [
+        "Vitaminas; Minerais; Nutrição em saúde pública: Análise dos distúrbios nutricionais como",
+        ""
+      ],
+      [
+        "problemas de saúde pública; Problemas nutricionais em populações em desenvolvimento.",
+        ""
+      ],
+      [
+        "Unidades de Alimentação e Nutrição: planejamento e organização das Unidades de Alimentação",
+        ""
+      ],
+      [
+        "e Nutrição; características da estrutura física, equipamentos e utensílios das Unidades de",
+        ""
+      ],
+      [
+        "Alimentação e Nutrição; fluxo de produção; Gestão das Unidades de Alimentação e Nutrição:",
+        ""
+      ],
+      [
+        "logística de abastecimento, custos e produtividade, recursos humanos e produção. Controle das",
+        ""
+      ],
+      [
+        "matérias-primas (do recebimento até a distribuição), controle integrado de vetores e pragas do",
+        ""
+      ],
+      [
+        "serviço de alimentação; Análise de Perigos e Pontos Críticos de Controle (APPCC). Boas Práticas",
+        ""
+      ],
+      [
+        "de Manipulação (BPM) e Guia Alimentar para a População Brasileira; Guia Alimentar para Crianças",
+        ""
+      ],
+      [
+        "menores de 2 anos.",
+        ""
+      ]
+    ],
+    "ignored": false,
+    "ignore_reason": null,
+    "inherited_from": null,
+    "confidence": "baixa",
+    "scores": {
+      "quadro_de_vagas": 0,
+      "cronograma": 0,
+      "taxas": 0,
+      "conteudo_programatico": 0,
+      "pontuacao_prova": 0,
+      "avaliacao_titulos": 1,
+      "formulario": 2,
+      "tabela_irrelevante": 0
+    }
+  }
+]

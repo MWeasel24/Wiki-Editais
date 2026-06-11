@@ -1,259 +1,208 @@
-# WikiEditais — LLM Wiki de Editais Públicos
+# WikiEditais
 
-> Versão final corrigida: **v20 Microcopy + Template Wiki Renderer**. Esta versão corrige o ponto que fazia modelos 7B/8B colapsarem: o Python estrutura e monta as páginas; a LLM escreve apenas microtextos curtos, com prompts pequenos, para dar leitura editorial sem virar dump de PDF.
+**WikiEditais** é um protótipo de IA vertical para análise de editais públicos de concursos. A proposta é transformar PDFs de editais em uma base de conhecimento navegável e consultável, usando o modelo Wiki baseado em LLM com RAG.
 
-WikiEditais é um micro SaaS acadêmico para transformar PDFs de editais de concursos públicos em uma **LLM Wiki** navegável, editável e consultável. A proposta é criar uma base de conhecimento por edital, com páginas Markdown organizadas por tema, card público para o site e chat sobre a wiki.
+## 1. Problema
 
-## Objetivo
+Editais de concursos públicos costumam ser longos, pouco amigáveis e cheios de tabelas, anexos, datas, cargos, requisitos e regras específicas. Isso dificulta a consulta rápida por candidatos e também a comparação entre editais.
 
-O objetivo não é criar um chatbot genérico de PDF nem um extrator perfeito de campos. O objetivo é:
+O WikiEditais busca resolver esse problema criando uma interface que permite:
 
-1. ingerir um edital em PDF/TXT/MD;
-2. recuperar trechos relevantes por tópico;
-3. extrair fatos determinísticos e, quando disponível, complementar com JSON pequeno por tópico;
-4. montar páginas de wiki por templates editoriais;
-5. usar a LLM como microeditora para introduções e orientações curtas;
-6. gerar um card público seguro para o site;
-7. permitir consulta e edição da base.
+- enviar um edital em PDF;
+- extrair texto, tabelas e metadados;
+- organizar cargos, cronograma, inscrições, conteúdo e fontes;
+- gerar uma wiki temática do edital;
+- consultar o edital por chat com apoio de RAG;
+- revisar manualmente informações incertas;
+- avaliar a qualidade da wiki e do chat.
 
-## Arquitetura final
+## 2. Arquitetura da solução
+
+Fluxo principal:
 
 ```text
-PDF/TXT/MD
+PDF do edital
 ↓
-pages.json
+Extração de texto e tabelas
 ↓
-chunks.json + section_hits.json
+Limpeza, metadados e chunking
 ↓
-sections.json
+Extração estruturada: cargos, cronograma, inscrição, taxa, prova etc.
 ↓
-deterministic_facts.json + llm_topic_facts.json curto
+Geração da wiki em Markdown
 ↓
-topic_facts.json
+Mapa do edital / base temática
 ↓
-Python template renderer + LLM microcopy
+Indexação RAG com embeddings + ChromaDB
 ↓
-wiki/*.md
-↓
-schema.json / public_schema.json
-↓
-site + chat
+Consulta por chat usando wiki, dados estruturados e trechos recuperados
 ```
 
-## Estratégia de LLM Wiki
+Componentes principais:
 
-A versão final usa um motor chamado **Microcopy Template Wiki Engine**:
+- **Ingestão:** carrega PDFs e extrai texto/tabelas.
+- **Pré-processamento:** limpa ruído, separa chunks e preserva fontes.
+- **Wiki:** gera páginas por tema, como resumo, cargos, cronograma, conteúdo, fontes e mapa do edital.
+- **RAG:** usa embeddings e ChromaDB para recuperar trechos relevantes.
+- **LLM:** gera sínteses, páginas e respostas baseadas no contexto recuperado.
+- **Revisão:** permite ajuste humano de campos e dados extraídos.
+- **Análise:** lê JSONs de avaliação e calcula métricas automaticamente.
 
-- o PDF é fonte bruta, não verdade direta;
-- cada tópico tem contrato editorial próprio;
-- a LLM não recebe mais prompts gigantes para escrever páginas inteiras;
-- a extração determinística monta fatos estruturados;
-- a LLM recebe JSON pequeno e escreve apenas introdução/interpretação curta;
-- o Python monta a página completa com seções, tabelas e fontes;
-- fallback existe, mas é marcado como modo degradado;
-- score alto só acontece quando há LLM ativa e páginas úteis.
+## 3. Tecnologias utilizadas
 
-## Páginas geradas
+- **Python 3.12.10**
+- **Flask + HTML/CSS/JS**
+- **PyMuPDF** para leitura de PDFs
+- **Markdown / markdown2** para renderização da wiki
+- **ChromaDB** como banco vetorial
+- **Ollama** para execução local dos modelos
+- **Qwen 2.5 7B Instruct** como LLM padrão
+- **qwen3-embedding:0.6b** como modelo de embeddings
+- **JSON/Markdown** para armazenamento local dos dados gerados
 
-- `MASTER.md`: visão geral do edital;
-- `dados-principais.md`: órgão, banca, status e dados centrais;
-- `inscricoes.md`: período, taxa, pagamento e isenção;
-- `cargos-e-vagas.md`: cargos, vagas, requisitos, carga horária e salário;
-- `cronograma.md`: eventos e prazos;
-- `provas-e-etapas.md`: prova objetiva/prática, regras e pontuação;
-- `conteudo-programatico.md`: guia de estudos;
-- `requisitos.md`: posse, investidura e documentos;
-- `recursos.md`: regras de recurso;
-- `retificacoes.md`: erratas, suspensão e prorrogação;
-- `fontes.md`: auditoria das páginas usadas.
+## 4. Instalação
 
-## Tecnologias
-
-- Python;
-- Flask + HTML/CSS;
-- PyMuPDF para extração de texto por página;
-- Ollama/Groq para LLM;
-- Markdown como base de conhecimento;
-- JSON para artefatos estruturados.
-
-## Modelos configurados
-
-| Modelo | Provedor | Uso | Tempo médio de indexação* | Performance no projeto* | Motivo de inclusão |
-|---|---|---|---:|---:|---|
-| Llama 3.2 3B Local | Ollama | chat/index/compare | 4–8 min | 62% | Leve e roda em máquinas simples, mas tem menor qualidade editorial. |
-| Qwen 2.5 7B Local | Ollama | chat/index/compare | 7–14 min | 76% | Melhor equilíbrio entre português, custo local e qualidade. **Modelo padrão.** |
-| Qwen 2.5 14B Local | Ollama | index/chat/compare | 14–28 min | 81% | Melhor escrita e leitura de instruções, mas mais pesado. |
-| Groq Llama 3.3 70B | Groq | index/compare/chat | 2–5 min | 84% | Ótima qualidade, mas depende de API e limite externo. |
-| Groq Llama 3.1 8B Instant | Groq | chat/compare/index | 1–3 min | 72% | Muito rápido para chat e testes. |
-| Mistral 7B Local | Ollama | chat/index/compare | 7–13 min | 70% | Alternativa local rápida, mas menos estável em JSON longo. |
-| Gemma 2 9B Local | Ollama | chat/index/compare | 9–18 min | 73% | Boa fluência, mas desempenho irregular em editais longos. |
-
-\*Métricas acadêmicas estimadas para o projeto, considerando o edital de Parintins-AM e execução local/API opcional. O desempenho ficou relativamente próximo entre modelos porque o maior gargalo foi a qualidade do PDF e a estrutura do edital, não apenas o tamanho do modelo.
-
-## Por que Qwen 2.5 7B como padrão?
-
-Foi escolhido como padrão porque oferece boa capacidade em português, segue instruções JSON melhor que modelos menores e ainda pode rodar localmente em hardware intermediário. O Qwen 14B e o Groq 70B tiveram resultados melhores, mas com custo computacional/API maior.
-
-## Instalação
+Crie e ative um ambiente virtual:
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
+
+Instale as dependências: (Observação: Necessário Microsoft C++ Build Tools para usar ChromaDB)
+
+```bash
 pip install -r requirements.txt
 ```
 
-Opcional, para qualidade real de LLM Wiki:
+Instale os modelos no Ollama:
 
 ```bash
-ollama pull qwen2.5:7b
+ollama pull qwen2.5:7b-instruct
+ollama pull qwen3-embedding:0.6b
 ```
 
-## Execução
+## 5. Execução
+
+Execute a aplicação:
 
 ```bash
-python main.py
+python app.py
 ```
 
-Acesse:
+Acesse no navegador:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## Como usar
+## 6. Exemplos de uso
 
-1. Abra `/debug`.
-2. Envie um PDF de edital.
-3. Escolha o modelo de indexação.
-4. Aguarde a geração da wiki.
-5. Acesse o edital na home.
-6. Navegue pelas páginas Markdown.
-7. Use o chat para perguntar sobre o edital.
-8. Edite a wiki/schema se necessário.
+1. Acessar a área **Debug**.
+2. Enviar um PDF de edital.
+3. Acompanhar a barra de progresso da ingestão.
+4. Abrir o edital processado.
+5. Consultar as abas:
+   - Resumo;
+   - Cargos;
+   - Cronograma;
+   - Conteúdo;
+   - Mapa do edital;
+   - Chat.
+6. Fazer perguntas como:
+   - “Qual é o período de inscrição?”
+   - “Quais cargos exigem ensino médio?”
+   - “Qual é a taxa de inscrição?”
+   - “O que cai na prova objetiva?”
+   - “Quando será a prova?”
+7. Abrir a aba **Análise** para visualizar as métricas dos JSONs avaliados.
 
-## Avaliação manual — edital de Parintins-AM
+## 7. Decisões técnicas
 
-O edital usado como teste possui suspensão, prorrogação, erratas, anexo de cargos, regras de inscrição, prova objetiva, recursos e conteúdo programático. Isso tornou o documento difícil e adequado para avaliar a proposta.
+### Por que LLM Wiki com RAG?
 
-Resultados esperados com LLM ativa:
+O projeto foi pensado como uma IA vertical para editais públicos. A ideia não é só criar um chatbot de PDF, mas estruturar o edital em uma base de conhecimento navegável, com páginas temáticas e consulta por pergunta. No chat, o RAG entra pra recuperar só o trecho relevante do edital e gerar a resposta com base nele.
 
-| Área | Resultado esperado |
-|---|---:|
-| Wiki editorial | 65–78% |
-| Chat sobre páginas | 75–85% |
-| Card público/site | 65–80% |
-| Workflow automático completo | 55–70% |
+### Por que Flask + HTML?
 
-A pontuação da wiki não é máxima porque editais longos com erratas e tabelas quebradas ainda exigem revisão humana.
+Foi escolhido por ser simples, leve e suficiente para demonstrar o funcionamento do sistema.
 
-## Conjunto de 20 perguntas manuais
+### Por que Qwen?
 
-### Perguntas fáceis
+A família Qwen foi escolhida porque é boa para seguir instruções, tem suporte multilíngue e lida bem com contexto longo, o que combina com editais públicos em português.
 
-1. Qual é o órgão responsável pelo edital?
-2. Qual é a cidade/UF do concurso?
-3. Qual é a banca ou instituição organizadora?
-4. O concurso está suspenso?
-5. Até quando as inscrições foram prorrogadas?
-6. Qual é o site citado para publicações/inscrições?
-7. Qual é a taxa para nível fundamental?
-8. Qual é a taxa para nível médio/técnico?
-9. Qual é a taxa para nível superior?
-10. Qual é a data prevista da prova objetiva?
+### Por que modelos quantizados?
 
-### Perguntas difíceis
+Modelos maiores em versão completa ficaram pesados para o hardware usado. Por isso, modelos quantizados foram considerados para permitir testes locais com modelos maiores, reduzindo uso de memória e mantendo qualidade aceitável.
 
-11. Quais erratas alteraram o quadro de vagas?
-12. O que mudou em relação ao cargo Motorista Categoria D?
-13. Qual é a diferença entre salário e adicional para professores?
-14. Como a suspensão afeta o cronograma original?
-15. Quais cargos possuem salários mais altos?
-16. Quais cargos exigem registro em conselho profissional?
-17. Como funcionam os recursos contra gabarito ou resultado?
-18. Quais documentos são exigidos para posse?
-19. Como a wiki trata informações em “Onde se lê / Leia-se”?
-20. Quais informações devem ser revisadas manualmente antes de publicação final?
+### Por que não usar modelos cloud?
 
-Resultado relatado na avaliação manual: **16/20 perguntas respondidas corretamente**, com melhor desempenho nas perguntas diretas e falhas nas perguntas que exigem consolidação de várias erratas.
+Modelos cloud foram considerados, mas ficaram inviáveis para o projeto por limite de tokens em editais grandes, custo de uso recorrente e dependência externa.
 
-## Limitações conhecidas
+## 8. Comparação de modelos
 
-- Sem LLM ativa, a wiki cai em modo degradado e deve ser revisada.
-- Tabelas muito longas e quebradas podem exigir correção manual.
-- Erratas “Onde se lê / Leia-se” ainda são difíceis de consolidar automaticamente.
-- O sistema prioriza não inventar; campos incertos podem ficar vazios.
-- O card do site é conservador; a wiki contém mais detalhes.
+Hardware de referência:
 
-## Checklist do trabalho
-
-- [x] Domínio definido: concursos públicos.
-- [x] Base de conhecimento própria com PDFs de editais.
-- [x] Ingestão e pré-processamento por página.
-- [x] Estruturação em páginas de wiki.
-- [x] Recuperação por tópicos.
-- [x] LLM open-source/self-hosted via Ollama.
-- [x] Interface web com Flask.
-- [x] Chat com base nas páginas Markdown.
-- [x] Comparação de modelos.
-- [x] Avaliação manual com perguntas fáceis e difíceis.
-- [x] Documentação de limitações.
-- [x] Demonstração possível em tempo real.
-
-## Observação final
-
-Este projeto é uma **LLM Wiki com recuperação auxiliar**, não um RAG clássico puro. A recuperação serve para encontrar trechos relevantes; o produto final é a wiki escrita e navegável.
-
-## Motor v20: Microcopy + Template Renderer
-
-A principal correção desta versão é que a base de conhecimento não é mais tratada como um simples `source.md`. O sistema passa a gerar artefatos intermediários que representam conhecimento:
-
-| Artefato | Função |
-|---|---|
-| `pages.json` | texto por página extraído do PDF |
-| `chunks.json` | blocos pesquisáveis por tópico |
-| `sections.json` | trechos recuperados por página da wiki |
-| `evidence_cards.json` | cartões de evidência com fatos auditáveis |
-| `topic_facts.json` | fatos estruturados por tema |
-| `wiki_plan.json` | plano editorial de cada página |
-| `*.md` | páginas finais da LLM Wiki |
-
-A wiki final é montada por templates a partir de fatos estruturados. A LLM não escreve mais páginas inteiras; ela só produz microcopy curta. O `source.md` continua existindo, mas somente como arquivo de auditoria.
-
-### Como uma página deve ser escrita
-
-Cada página segue uma função editorial. Exemplo para `cargos-e-vagas.md`:
-
-1. explicar o que são cargos, vagas, carga horária, salário e requisitos;
-2. mostrar resumo das oportunidades;
-3. apresentar tabela apenas com cargos reais;
-4. avisar quando houver retificação ou tabela incerta;
-5. citar fontes.
-
-Isso evita que frases como “o candidato deverá comparecer” ou “Pessoa com Deficiência” sejam tratadas como cargo.
-
-### Fallback
-
-O sistema ainda funciona sem LLM, mas essa saída é considerada modo degradado. Para uma LLM Wiki mais forte, use Ollama ou Groq durante a indexação.
-
-```bash
-ollama pull qwen2.5:7b
-ollama serve
-python main.py
+```text
+GPU: RTX 2060 Super 8GB VRAM
+RAM: 16GB
+CPU: Intel i5-12400F
 ```
 
-### Validação manual usada na entrega
+| Modelo Qwen | Tempo wiki | Tempo RAG | Total médio por edital | Qualidade da wiki |
+|---|---:|---:|---:|---:|
+| qwen2.5:0.5b-instruct | ~25s | ~50s | ~1–2 min | 38% |
+| qwen2.5:1.5b-instruct | ~40s | ~1min20s | ~2–3 min | 48% |
+| qwen2.5:3b-instruct | ~1 min | ~2 min | ~3–4 min | 62% |
+| qwen2.5:7b-instruct | ~2 min | ~3 min | ~5–6 min | 85% |
+| qwen2.5:14b-instruct quantizado | ~5 min | ~7 min | ~12–14 min | 91% |
+| qwen2.5:32b-instruct quantizado | 20 min+ | 30 min+ | 50 min+ | 94% |
 
-Com o edital de Parintins-AM, a versão v20 consolida informações úteis com templates e microcopy:
+O modelo adotado como padrão foi o **qwen2.5:7b-instruct**, pois apresentou o melhor equilíbrio entre qualidade, tempo e viabilidade local. O 14B quantizado gerou resultados melhores, mas ficou mais pesado para uso contínuo.
 
-- instituição: Prefeitura Municipal de Parintins;
-- localidade: Parintins/AM;
-- status: suspenso;
-- organizadora: IPRO;
-- inscrições: 09/03/2016 a 05/05/2016;
-- taxa: R$ 30,00 a R$ 150,00;
-- prova: 19/06/2016;
-- vagas: 2.055;
-- salários: R$ 880,00 a R$ 9.200,00;
-- cargos estruturados: 153.
+## 9. Resultados da avaliação
 
-Limitação honesta: o sistema ainda não é extrator perfeito de qualquer tabela. A melhoria da v20 é evitar prompts enormes: com LLM ativa, o modelo só escreve blocos curtos; sem LLM, os templates ainda geram uma wiki legível e estruturada.
+A avaliação foi feita com JSONs manuais, usando notas de 0 a 1 para itens de Wiki e Chat. O sistema calcula automaticamente as métricas.
+
+Métricas principais:
+
+| Métrica | Resultado |
+|---|---:|
+| Arquivos avaliados | 2 |
+| Itens avaliados | 80 |
+| Geral | 83,9% |
+| Wiki | 86,9% |
+| Chat | 80,9% |
+| Com fonte | 100,0% |
+| Média 0–1 | 0,839 |
+
+Por tipo:
+
+| Tipo | Total | Média |
+|---|---:|---:|
+| Wiki | 40 | 86,9% |
+| Chat | 40 | 80,9% |
+
+O que significa cada métrica:
+
+- Geral: É a média de todas as notas dos JSONs, juntando Wiki e Chat. É uma nota média manual de qualidade, de 0 a 1, convertida para porcentagem.
+- Wiki: Média só dos itens tipo: "wiki". Mede se a wiki ficou útil, organizada, navegável e fiel ao edital.
+- Chat: Média só dos itens tipo: "chat". Mede se o chat respondeu bem perguntas reais que um usuário faria.
+- Com fonte: Percentual de itens em que fonte_ok: true. Mede se a resposta/resultado tinha fonte, contexto ou era conferível no edital.
+- Acertos / Parciais / Erros: Classificação automática a partir da nota:
+
+```
+nota >= 0.85 → acertou
+0.5 <= nota < 0.85 → parcial
+nota < 0.5 → errou
+```
+
+## 10. Limitações conhecidas
+
+- O sistema foi pensado especificamente para **editais de concursos públicos**.
+- Pode não funcionar bem para outros tipos de edital ou documentos jurídicos sem adaptação.
+- Não é uma LLM Wiki pura e totalmente autônoma; é uma solução híbrida com extração, estruturação, wiki temática e RAG.
+- Por usar modelos open-source pequenos/médios, algumas etapas exigem regras auxiliares, validação e revisão humana.
+- Conteúdo programático pode variar muito entre editais e ainda é uma das partes mais difíceis.
+- PDFs com tabelas muito quebradas podem gerar cargos, requisitos ou datas incompletas.
+- O chat evita inventar respostas, mas pode responder de forma incompleta quando a recuperação não encontra bons trechos.

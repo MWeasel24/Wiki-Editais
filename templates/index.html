@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-title slim-title">
+  <h1>WikiEditais</h1>
+</section>
+
+<section class="card">
+  <h2>Editais Disponíveis</h2>
+  {% if concursos %}
+    <div class="list">
+      {% for c in concursos %}
+        <a class="list-item" href="{{ url_for('concurso', edital_id=c.edital_id) }}">
+          <strong>{{ c.titulo }}</strong>
+          <span>{{ c.orgao or 'Órgão não identificado' }}{% if c.banca %} · {{ c.banca }}{% endif %}{% if c.ano %} · {{ c.ano }}{% endif %}</span>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>Nenhum edital disponível.</p>
+  {% endif %}
+</section>
+{% endblock %}

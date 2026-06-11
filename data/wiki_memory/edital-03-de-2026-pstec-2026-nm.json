@@ -1,0 +1,281 @@
+{
+  "edital_id": "edital-03-de-2026-pstec-2026-nm",
+  "titulo": "EDITAL No 03/2026-GR, DE 10 DE FEVEREIRO DE 2026",
+  "mode": "llm_wiki_semantica",
+  "pages": [
+    {
+      "id": "visao-geral",
+      "title": "Visão geral do edital",
+      "description": "Síntese dos dados centrais, escopo do edital e pontos de atenção.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/visao-geral.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p038-01",
+          "kind": "tabela",
+          "page": 38
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0017",
+          "kind": "chunk",
+          "page": 8
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0046",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "inscricoes-taxas-isencao",
+      "title": "Inscrições, taxas e isenção",
+      "description": "Período de inscrição, valor da taxa, pagamento, isenção e regras relacionadas.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/inscricoes-taxas-isencao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0037",
+          "kind": "chunk",
+          "page": 13
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p038-01",
+          "kind": "tabela",
+          "page": 38
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0039",
+          "kind": "chunk",
+          "page": 14
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0036",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "cargos-escolaridade-remuneracao",
+      "title": "Cargos, escolaridade e remuneração",
+      "description": "Cargos, vagas, requisitos, carga horária, remuneração e alertas de extração.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/cargos-escolaridade-remuneracao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0004",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0067",
+          "kind": "chunk",
+          "page": 27
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0002",
+          "kind": "chunk",
+          "page": 2
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0006",
+          "kind": "chunk",
+          "page": 4
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0010",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "provas-etapas",
+      "title": "Provas e etapas",
+      "description": "Tipos de prova, datas, etapas, caráter eliminatório/classificatório e estrutura de avaliação.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/provas-etapas.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0067",
+          "kind": "chunk",
+          "page": 27
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p038-01",
+          "kind": "tabela",
+          "page": 38
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0055",
+          "kind": "chunk",
+          "page": 21
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p021-01",
+          "kind": "tabela",
+          "page": 21
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "regras-dia-prova",
+      "title": "Regras do dia da prova",
+      "description": "Materiais permitidos, documentos, condutas proibidas, eliminação e regras de permanência.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/regras-dia-prova.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0055",
+          "kind": "chunk",
+          "page": 21
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0066",
+          "kind": "chunk",
+          "page": 26
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0057",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0074",
+          "kind": "chunk",
+          "page": 31
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0046",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "conteudo-programatico",
+      "title": "Conteúdo programático",
+      "description": "Disciplinas, conhecimentos básicos, conhecimentos específicos e tópicos de estudo.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/conteudo-programatico.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p021-01",
+          "kind": "tabela",
+          "page": 21
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0055",
+          "kind": "chunk",
+          "page": 21
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0067",
+          "kind": "chunk",
+          "page": 27
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "recursos-resultados",
+      "title": "Recursos, gabaritos e resultados",
+      "description": "Prazos de recurso, gabaritos, resultados preliminares/finais e homologação.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/recursos-resultados.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-p038-01",
+          "kind": "tabela",
+          "page": 38
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0084",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0039",
+          "kind": "chunk",
+          "page": 14
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0024",
+          "kind": "chunk",
+          "page": null
+        }
+      ],
+      "llm": true
+    },
+    {
+      "id": "incertezas-revisao",
+      "title": "Incertezas e revisão humana",
+      "description": "Campos ausentes, suspeitos, possíveis conflitos e pontos que devem ser conferidos no PDF original.",
+      "path": "temas/edital-03-de-2026-pstec-2026-nm/incertezas-revisao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0009",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0043",
+          "kind": "chunk",
+          "page": 16
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0046",
+          "kind": "chunk",
+          "page": null
+        },
+        {
+          "id": "edital-03-de-2026-pstec-2026-nm-chunk-0066",
+          "kind": "chunk",
+          "page": 26
+        }
+      ],
+      "llm": true
+    }
+  ],
+  "total_pages": 8,
+  "definition": "Páginas temáticas persistentes, atualizadas a cada ingestão/revisão, usadas como memória de conhecimento antes dos chunks brutos."
+}

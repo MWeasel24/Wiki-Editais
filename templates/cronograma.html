@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>Cronograma — {{ summary.titulo }}</h1>
+  <div class="actions"><a class="button secondary" href="{{ url_for('concurso', edital_id=summary.edital_id) }}">Voltar</a></div>
+  {% if summary.cronograma %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Evento</th><th>Data/período</th><th>Confiança</th><th>Fonte</th></tr></thead>
+    <tbody>
+      {% for e in summary.cronograma %}
+      <tr>
+        <td><strong>{{ e.evento }}</strong></td>
+        <td>{{ e.data_ou_periodo }}</td>
+        <td>{{ e.confianca }}</td>
+        <td>{% if e.fonte %}{{ e.fonte_tipo }} {{ e.fonte }}{% if e.pagina %}, p. {{ e.pagina }}{% endif %}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}<p>Nenhum cronograma encontrado.</p>{% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,617 @@
+{
+  "edital_id": "prefeitura-de-concordia-sc-2026-edital-n-3-edital",
+  "titulo": "Edital 003/2026",
+  "orgao": "MUNICÍPIO DE CONCÓRDIA",
+  "banca": null,
+  "ano": "2026",
+  "inscricao": "Início: 12/06/26 | Fim: 29/06/26",
+  "taxa": null,
+  "prova": "Prova Objetiva: Fim: 26/07/26",
+  "cargos": [
+    {
+      "nome": "Agente de Combate a Endemias (ACE)",
+      "vagas": "CR",
+      "remuneracao": "2 salários mínimos",
+      "carga_horaria": "40h",
+      "requisito": "Ensino Médio completo.",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p006-02",
+      "fonte_tipo": "tabela",
+      "pagina": 6,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Técnico em Enfermagem do SAMU",
+      "vagas": "CR",
+      "remuneracao": "2 salários mínimos \nnacionais",
+      "carga_horaria": "40h",
+      "requisito": "Nível técnico e específico, com inscrição no Conselho Regional de Enfermagem – COREN SC.",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p006-02",
+      "fonte_tipo": "tabela",
+      "pagina": 6,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Motorista Socorrista do SAMU",
+      "vagas": "CR",
+      "remuneracao": "2 salários mínimos \nnacionais",
+      "carga_horaria": "40h",
+      "requisito": "Alfabetizado e com a habilitação prevista nos arts 143, III, 145 e 145-A, do Código de Trânsito",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p006-03",
+      "fonte_tipo": "tabela",
+      "pagina": 6,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    }
+  ],
+  "cronograma": [
+    {
+      "evento": "Publicação do Edital",
+      "data_ou_periodo": "Fim: 03/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo para impugnação ao Edital",
+      "data_ou_periodo": "Início: 03/06/26 | Fim: 08/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos requerimentos de impugnação do Edital",
+      "data_ou_periodo": "Fim: 10/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Período de inscrições",
+      "data_ou_periodo": "Início: 12/06/26 | Fim: 29/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Pedidos de isenção da taxa de inscrição",
+      "data_ou_periodo": "Início: 12/06/26 | Fim: 16/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Pedidos de condições especiais para a realização das provas",
+      "data_ou_periodo": "Início: 12/06/26 | Fim: 29/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Entrega de documentos exigidos: Vagas Reservadas PcD (Pessoas com Deficiência)",
+      "data_ou_periodo": "Início: 12/06/26 | Fim: 29/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação dos resultados dos pedidos de isenção da taxa de inscrição",
+      "data_ou_periodo": "Fim: 19/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: indeferimento dos pedidos de isenção",
+      "data_ou_periodo": "Início: 22/06/26 | Fim: 23/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: indeferimento dos pedidos de isenção",
+      "data_ou_periodo": "Fim: 26/06/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Convocação dos candidatos inscritos para as Vagas Reservadas PcD (Pessoas com Deficiência) para",
+      "data_ou_periodo": "02/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Avaliação dos candidatos Vagas Reservadas PcD (Pessoas com Deficiência) por equipe",
+      "data_ou_periodo": "06/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Resultado Avaliação dos candidatos Vagas Reservadas PcD (Pessoas com Deficiência) por equipe",
+      "data_ou_periodo": "07/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Homologação das inscrições",
+      "data_ou_periodo": "Fim: 08/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: homologação das inscrições",
+      "data_ou_periodo": "Início: 09/07/26 | Fim: 10/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: homologação das inscrições",
+      "data_ou_periodo": "Fim: 16/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação dos resultados dos pedidos de condições especiais para a realização das provas",
+      "data_ou_periodo": "Fim: 08/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: indeferimento dos pedidos de condições especiais",
+      "data_ou_periodo": "Início: 09/07/26 | Fim: 10/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: indeferimento dos pedidos de condições especiais",
+      "data_ou_periodo": "Fim: 16/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação dos resultados dos pedidos de vagas reservadas PcD",
+      "data_ou_periodo": "Fim: 08/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: indeferimento dos pedidos de vagas reservadas PcD",
+      "data_ou_periodo": "Início: 09/07/26 | Fim: 10/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: indeferimento dos pedidos de vagas reservadas PcD",
+      "data_ou_periodo": "Fim: 16/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p029-01",
+      "fonte_tipo": "tabela",
+      "pagina": 29,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação dos locais de prova",
+      "data_ou_periodo": "Fim: 22/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prova Objetiva",
+      "data_ou_periodo": "Fim: 26/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do caderno de provas e gabarito preliminar",
+      "data_ou_periodo": "Fim: 26/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: gabarito preliminar",
+      "data_ou_periodo": "Início: 27/07/26 | Fim: 28/07/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: gabarito preliminar",
+      "data_ou_periodo": "Fim: 04/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado da Prova Objetiva",
+      "data_ou_periodo": "Fim: 06/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: resultado da Prova Objetiva",
+      "data_ou_periodo": "Início: 07/08/26 | Fim: 10/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: resultado da Prova Objetiva",
+      "data_ou_periodo": "Fim: 14/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-01",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Fim: 17/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-02",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Início: 18/08/26 | Fim: 19/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-02",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Fim: 26/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-02",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado do Processo Seletivo",
+      "data_ou_periodo": "Fim: 27/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-02",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Convocação para a Prova Prática",
+      "data_ou_periodo": "Fim: 17/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: convocação para a Prova Prática",
+      "data_ou_periodo": "Início: 18/08/26 | Fim: 19/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: convocação para a Prova Prática",
+      "data_ou_periodo": "Fim: 21/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prova Prática",
+      "data_ou_periodo": "Início: 22/08/26 | Fim: 23/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado (preliminar) da Prova Prática",
+      "data_ou_periodo": "Fim: 28/08/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: resultado da Prova Prática",
+      "data_ou_periodo": "Início: 01/09/26 | Fim: 02/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos do resultado da Prova Prática",
+      "data_ou_periodo": "Fim: 08/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-03",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Fim: 09/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-04",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Recursal: resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Início: 10/09/26 | Fim: 11/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-04",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação das respostas aos recursos: resultado (preliminar) do Processo Seletivo",
+      "data_ou_periodo": "Fim: 17/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-04",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Publicação do resultado do Processo Seletivo",
+      "data_ou_periodo": "Fim: 18/09/26",
+      "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-p030-04",
+      "fonte_tipo": "tabela",
+      "pagina": 30,
+      "confianca": "alta"
+    }
+  ],
+  "campos_nao_encontrados": [
+    "banca",
+    "taxa"
+  ],
+  "campos_status": {
+    "orgao": {
+      "valor": "MUNICÍPIO DE CONCÓRDIA",
+      "status": "confirmado",
+      "motivo": "padrão forte de órgão encontrado no início do edital"
+    },
+    "banca": {
+      "valor": null,
+      "status": "nao_encontrado",
+      "motivo": "campo não encontrado na extração inicial"
+    },
+    "inscricao": {
+      "valor": "Início: 12/06/26 | Fim: 29/06/26",
+      "status": "provavel",
+      "motivo": "extraído de cronograma ou trecho com contexto de inscrição"
+    },
+    "taxa": {
+      "valor": null,
+      "status": "nao_encontrado",
+      "motivo": "campo não encontrado na extração inicial"
+    },
+    "prova": {
+      "valor": "Prova Objetiva: Fim: 26/07/26",
+      "status": "provavel",
+      "motivo": "extraído de cronograma ou trecho com contexto de prova"
+    }
+  },
+  "dados_confirmados": {
+    "orgao": "MUNICÍPIO DE CONCÓRDIA"
+  },
+  "dados_provaveis": {
+    "inscricao": "Início: 12/06/26 | Fim: 29/06/26",
+    "prova": "Prova Objetiva: Fim: 26/07/26"
+  },
+  "dados_suspeitos": {},
+  "qualidade": {
+    "total_chunks": 62,
+    "total_tabelas": 14,
+    "tipos_chunks": {
+      "inscricao": 20,
+      "cargos_vagas": 12,
+      "conteudo": 6,
+      "cronograma": 6,
+      "geral": 12,
+      "recursos": 3,
+      "etapas": 3
+    },
+    "tipos_tabelas": {
+      "formulario": 1,
+      "quadro_de_vagas": 3,
+      "tabela_desconhecida": 2,
+      "pontuacao_prova": 3,
+      "cronograma": 5
+    },
+    "maior_chunk_chars": 3875,
+    "media_chunk_chars": 1577,
+    "chunks_muito_pequenos": 0,
+    "fontes_texto": 0,
+    "fontes_tabela": 48,
+    "tabelas_uteis": 13,
+    "tabelas_ignoradas": 1,
+    "tabelas_continuacao": 0,
+    "tabelas_suspeitas": 2,
+    "cargos_suspeitos": 0,
+    "campos_suspeitos": [],
+    "avisos": [
+      "1 tabela(s) foram classificadas como formulário/anexo/irrelevante e ignoradas na extração principal.",
+      "2 tabela(s) continuam suspeitas e devem ser revisadas."
+    ],
+    "rag_vetorial": {
+      "enabled": true,
+      "indexed": 98,
+      "model": "qwen3-embedding:0.6b",
+      "store": "ChromaDB",
+      "error": null
+    }
+  },
+  "conteudo_programatico": {
+    "sections": [
+      {
+        "titulo": "Conteúdo programático",
+        "topicos": [
+          "posterior de responsabilidades administrativa, civil e penal.",
+          "Os prazos estabelecidos neste Edital são preclusivos, contínuos e comuns a todos os candidatos, não sendo admitidas",
+          "justificativas para o seu descumprimento, tampouco a apresentação de documentos fora dos prazos, salvo se",
+          "Seletivo, tais como estão estabelecidas neste Edital, bem como em eventuais aditamentos, comunicações, instruções",
+          "e convocações relativas ao certame, que passarão a fazer parte do instrumento convocatório como se nele estivessem",
+          "transcritos, não podendo o candidato alegar desconhecimento.",
+          "permitir a efetiva execução do Processo Seletivo, autorizando expressamente a divulgação de seu nome, data de",
+          "da publicidade e da transparência que regem a Administração Pública.",
+          "O tratamento dos dados pessoais e sensíveis dos candidatos observará o disposto na Lei Geral de Proteção de Dados",
+          "Pessoais (Lei no 13.709/2018). As informações coletadas serão utilizadas exclusivamente para a execução deste",
+          "envolvidas na realização do certame, observadas as finalidades legais, a transparência e a segurança necessárias.",
+          "A qualquer tempo, a FEPESE poderá solicitar ao candidato o envio de documentos originais para conferência da",
+          "Os documentos entregues pelos candidatos integrarão, de forma definitiva, os autos do certame, não sendo",
+          "devolvidos em qualquer hipótese, inclusive nos casos de não classificação ou eliminação em qualquer fase do",
+          "andamento do Processo Seletivo, visando à saúde e o direito coletivo de todos os envolvidos, seguindo as orientações",
+          "do Decreto Estadual 1.794, de 12 de março de 2022.",
+          "Maior pontuação nas questões de Língua Portuguesa da Prova Objetiva",
+          "Maior pontuação nas questões de Conhecimentos gerais e atualidades na Prova Objetiva",
+          "Prática, ainda que tenham a nota mínima prevista na Prova Objetiva, não serão convocados para a Prova Prática e",
+          "Por razões de ordem técnica ou meteorológica, poderão ser transferidos a data, o local e o horário de realização da",
+          "aviso fixado no mural e/ou porta de entrada principal do local anteriormente marcado para a sua realização, quando",
+          "Para participar da Prova Prática os candidatos deverão comparecer ao local de prova, no dia e horário constantes no",
+          "Tiver maior pontuação nas questões de Língua Portuguesa",
+          "Tiver maior pontuação nas questões de Conhecimentos gerais e atualidades",
+          "Comprovar a condição de jurado, comprovada nos termos e prazo previstos pelo Edital",
+          "Lista de Classificação Geral: Inclui todos os candidatos aprovados, organizados por cargo, em ordem de",
+          "inscreveram como pessoas com deficiência, organizados por cargo, em ordem de classificação.",
+          "Lista Geral por Cargo: Inclui todos os candidatos, aprovados e reprovados, organizados em ordem alfabética. Para",
+          "os candidatos aprovados, serão indicadas a ordem de classificação geral e/ou a ordem nas vagas reservadas a",
+          "A impugnação deverá ser formalizada exclusivamente por meio do email 2026psconcordiasaude@fepese.org.br,",
+          "mediante requerimento fundamentado, contendo obrigatoriamente:",
+          "segurança da cena",
+          "noções de biossegurança.",
+          "Primeiros Socorros: avaliação primária e secundária da vítima",
+          "integração com a equipe de saúde"
+        ],
+        "pagina": 3,
+        "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0003"
+      },
+      {
+        "titulo": "Conhecimentos Específicos",
+        "topicos": [
+          "Para ser aprovado na Prova Objetiva, o candidato deverá obter nota igual ou superior a 5,00 para os cargos Agente",
+          "de Combate a Endemias (ACE) e Técnico em Enfermagem do SAMU e nota igual ou superior a 3,00 para o cargo de",
+          "Os candidatos que não obtiverem a pontuação prevista no subitem 11.5 estarão eliminados do Processo Seletivo.",
+          "Para prestar a Prova Objetiva o candidato receberá um caderno de questões e um cartão-resposta, sendo responsável",
+          "pela conferência dos dados impressos no seu cartão-resposta, pela verificação da correspondência do seu caderno",
+          "substituição dos materiais com defeito. Na impossibilidade da substituição do caderno de provas, o fiscal de sala fará",
+          "a leitura correta do item impresso com incorreção ou o copiará para que todos anotem. O tempo gasto para a",
+          "transparente, de tinta azul ou preta, seguindo as instruções nele contidas.",
+          "As provas serão corrigidas exclusivamente com base nas marcações do cartão-resposta, sendo desconsideradas",
+          "O preenchimento do cartão-resposta é de inteira responsabilidade do candidato, que deverá proceder em",
+          "conformidade com as instruções específicas contidas no Edital e no cartão, que não será substituído por erro do"
+        ],
+        "pagina": 16,
+        "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0033"
+      },
+      {
+        "titulo": "Língua Portuguesa",
+        "topicos": [
+          "Compreensão e interpretação de textos de diferentes gêneros. Tipologia textual. Sentido próprio (denotação) e",
+          "(ditongos, tritongos e dígrafos). Acentuação gráfica, emprego do hífen e outras normas e convenções ortográficas.",
+          "Homônimos e parônimos. Classes de palavras. Flexão nominal e verbal. Emprego de pronomes. Concordância nominal",
+          "e verbal. Regência nominal e verbal. Crase. Termos da oração e análise sintática de períodos simples. Funções",
+          "sintáticas dos substantivos, dos adjetivos e dos pronomes. Reestruturação de frases. Pontuação."
+        ],
+        "pagina": 32,
+        "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0059"
+      },
+      {
+        "titulo": "Conhecimentos Gerais",
+        "topicos": [
+          "Fatos e acontecimentos relevantes do Brasil, do Estado de Santa Catarina e do Município de Concórdia, relacionados",
+          "a aspectos sociais, econômicos, ambientais e de saúde pública",
+          "atualidades políticas, econômicas, sociais e de saúde pública, divulgadas",
+          "Sistema Único de Saúde e organização dos serviços de saúde: princípios, diretrizes e organização do Sistema Único",
+          "de Saúde (SUS)",
+          "redes de atenção à saúde",
+          "Atenção Primária à Saúde e sua articulação com a vigilância em saúde e",
+          "Política Nacional de Promoção da Saúde",
+          "territorialização, integralidade do cuidado,",
+          "ações de prevenção, promoção, vigilância, assistência e encaminhamento responsável nos serviços públicos de saúde.",
+          "Vigilância em saúde aplicada ao controle de endemias: conceitos operacionais de endemia, epidemia e surto",
+          "território e ações de controle de agravos. Controle vetorial e ações de campo: biologia, ciclo de vida, hábitos e",
+          "identificação, eliminação e manejo de criadouros",
+          "controle mecânico, químico e",
+          "inspeção de imóveis, pontos estratégicos e",
+          "levantamento de índices (LIRAa, LIA) e delimitação de foco",
+          "cadastro e atualização de imóveis. Doenças de interesse em saúde pública: dengue, chikungunya,",
+          "zika, febre amarela, leishmaniose, esquistossomose, raiva e outras endemias relevantes",
+          "formas de transmissão,",
+          "sinais e sintomas e medidas de prevenção e controle. Educação em saúde no território: orientação à população,",
+          "preenchimento de formulários, registro e consolidação de dados das atividades de campo e sistemas de informação",
+          "relacionados à vigilância. Biossegurança e legislação aplicada: uso de EPIs",
+          "normas de segurança no trabalho em",
+          "Lei no 11.350/2006 e normas técnicas do Ministério da Saúde para vigilância e controle de arboviroses."
+        ],
+        "pagina": 32,
+        "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0059"
+      },
+      {
+        "titulo": "Legislação",
+        "topicos": [
+          "de Trânsito: Dos Veículos",
+          "Registro, Licenciamento e Dimensões",
+          "Infrações.",
+          "Sinalização de Trânsito: Sinalização vertical e horizontal",
+          "sinais de regulamentação, advertência e indicação",
+          "funcionamento dos sistemas do veículo (motor,",
+          "transmissão, freios, direção, suspensão)",
+          "segurança veicular."
+        ],
+        "pagina": 34,
+        "fonte": "prefeitura-de-concordia-sc-2026-edital-n-3-edital-chunk-0061"
+      }
+    ],
+    "tables_count": 0
+  }
+}

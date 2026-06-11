@@ -1,0 +1,629 @@
+{
+  "edital_id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital",
+  "titulo": "EDITAL No 001/2026",
+  "orgao": "PREFEITURA MUNICIPAL DE PARANAPOEMA",
+  "banca": null,
+  "ano": "2026",
+  "inscricao": "09/06/2026 a 26/06/2026",
+  "taxa": "R$ 40,00",
+  "prova": "Aplicação das Provas Objetivas: 19/07/2026",
+  "cargos": [
+    {
+      "nome": "Assistente Social",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 2.685,83",
+      "carga_horaria": "30h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Auxiliar Administrativo",
+      "vagas": "2 + CR",
+      "remuneracao": "R$ 1.621,00",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Médio",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Auxiliar de Tesouraria",
+      "vagas": "CR",
+      "remuneracao": "R$ 3.175,42",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Médio",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Cozinheiro",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 1.621,00",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Fundamental Incompleto",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Encarregado de Serviços Fúnebres",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 1.621,00",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Fundamental Incompleto",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Enfermeiro",
+      "vagas": "1 + CR",
+      "remuneracao": "R$3.918,85",
+      "carga_horaria": "40h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Engenheiro Civil",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 4.046,83",
+      "carga_horaria": "20h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Farmacêutico",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 4.583,08",
+      "carga_horaria": "40h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Fisioterapeuta",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 2.385,44",
+      "carga_horaria": "20h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Fonoaudiólogo",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 2.385,44",
+      "carga_horaria": "20h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Médico",
+      "vagas": "1 + CR",
+      "remuneracao": "R$13.597,37",
+      "carga_horaria": "40h/s",
+      "requisito": "Curso Superior + Registro no conselho competente.",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Motorista",
+      "vagas": "2 + CR",
+      "remuneracao": "R$ 1.621,00",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Fundamental Incompleto",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Nutricionista",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 2.385,44",
+      "carga_horaria": "20h/s",
+      "requisito": "Curso Superior + Registro no conselho competente",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Odontólogo",
+      "vagas": "2 + CR",
+      "remuneracao": "R$ 3.918,85",
+      "carga_horaria": "20h/s",
+      "requisito": "Curso Superior + Registro no conselho competente (CRO)",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    },
+    {
+      "nome": "Pedreiro",
+      "vagas": "1 + CR",
+      "remuneracao": "R$ 1.621,00",
+      "carga_horaria": "40h/s",
+      "requisito": "Nível Fundamental Incompleto",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+      "fonte_tipo": "tabela",
+      "pagina": 5,
+      "confianca": "alta",
+      "suspeito": false,
+      "motivo_suspeita": null
+    }
+  ],
+  "cronograma": [
+    {
+      "evento": "Publicação do Edital 001/2026 – Prefeitura Municipal de ParanapoemaParaná (completo com anexos)",
+      "data_ou_periodo": "04/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p002-01",
+      "fonte_tipo": "tabela",
+      "pagina": 2,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Período de Inscrição",
+      "data_ou_periodo": "09/06/2026 a 26/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p002-01",
+      "fonte_tipo": "tabela",
+      "pagina": 2,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Último Dia para Pagamento das Inscrições",
+      "data_ou_periodo": "29/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p002-01",
+      "fonte_tipo": "tabela",
+      "pagina": 2,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo Final para Solicitação de Isenção da Taxa de Inscrição, entrega de Laudo Médico para Candidatos que Pleiteiam Condições Especiais (inclusive lactantes) e envio das Solicitaçõ",
+      "data_ou_periodo": "16/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Edital Preliminar de Deferimento das Inscrições dos Candidatos que solicitaram isenção, pleitearam condições especiais, PcDs e Afros.",
+      "data_ou_periodo": "18/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Período para Recurso Contra Indeferimento das Inscrições e Pedidos Relacionados no item 1.4",
+      "data_ou_periodo": "19/06/2026 a 22/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Edital Definitivo de Deferimento ou Indeferimento dos Pedidos de Isenção, condições de PcDs, Afros e condições especiais,",
+      "data_ou_periodo": "25/06/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Edital de Deferimento e Homologação das Inscrições Gerais",
+      "data_ou_periodo": "03/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação dos Locais de Prova e Ensalamento",
+      "data_ou_periodo": "14/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Aplicação das Provas Objetivas",
+      "data_ou_periodo": "19/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação dos Gabaritos Preliminares",
+      "data_ou_periodo": "21/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo para Recursos contra Gabaritos Preliminares",
+      "data_ou_periodo": "22/07/2026 a 24/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação dos gabaritos definitivos e do resultado preliminar das Provas Objetivas",
+      "data_ou_periodo": "29/07/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo para Recurso contra Resultados Preliminares das Provas Objetivas",
+      "data_ou_periodo": "30/07/2026 a 04/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação do Resultado Definitivo das Provas Objetivas",
+      "data_ou_periodo": "11/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Convocação e Período para Entrega de Títulos no período de 13/08/2026 a 18/08/2026 Convocação para Prova Prática a ser realizada dia 23/08/2026",
+      "data_ou_periodo": "13/08/2026 a 18/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Aplicação da Prova Prática para o Cargo de Motorista",
+      "data_ou_periodo": "23/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação do Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+      "data_ou_periodo": "25/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo para Recurso contra Resultado Preliminar da Avaliação de Títulos e Nota Preliminar da Prova Prática",
+      "data_ou_periodo": "26/08/2026 a 29/08/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação do Resultado Definitivo da Avaliação de Títulos e das Notas Definitivas da Prova Prática",
+      "data_ou_periodo": "02/09/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação do Resultado e Classificação Preliminar por cargo",
+      "data_ou_periodo": "09/09/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Prazo para Recurso contra Resultado e Classificação preliminar",
+      "data_ou_periodo": "10/09/2026 a 13/09/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+      "fonte_tipo": "tabela",
+      "pagina": 3,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Divulgação do Resultado Final e preparação para Homologação",
+      "data_ou_periodo": "16/09/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p004-01",
+      "fonte_tipo": "tabela",
+      "pagina": 4,
+      "confianca": "alta"
+    },
+    {
+      "evento": "Data sugerida para Homologação do PSP – Paranapoema – Paraná",
+      "data_ou_periodo": "22/09/2026",
+      "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p004-01",
+      "fonte_tipo": "tabela",
+      "pagina": 4,
+      "confianca": "alta"
+    }
+  ],
+  "campos_nao_encontrados": [
+    "banca"
+  ],
+  "campos_status": {
+    "orgao": {
+      "valor": "PREFEITURA MUNICIPAL DE PARANAPOEMA",
+      "status": "confirmado",
+      "motivo": "padrão forte de órgão encontrado no início do edital"
+    },
+    "banca": {
+      "valor": null,
+      "status": "nao_encontrado",
+      "motivo": "campo não encontrado na extração inicial"
+    },
+    "inscricao": {
+      "valor": "09/06/2026 a 26/06/2026",
+      "status": "provavel",
+      "motivo": "extraído de cronograma ou trecho com contexto de inscrição"
+    },
+    "taxa": {
+      "valor": "R$ 40,00",
+      "status": "provavel",
+      "motivo": "valor monetário encontrado com contexto de inscrição/taxa"
+    },
+    "prova": {
+      "valor": "Aplicação das Provas Objetivas: 19/07/2026",
+      "status": "provavel",
+      "motivo": "extraído de cronograma ou trecho com contexto de prova"
+    }
+  },
+  "dados_confirmados": {
+    "orgao": "PREFEITURA MUNICIPAL DE PARANAPOEMA"
+  },
+  "dados_provaveis": {
+    "inscricao": "09/06/2026 a 26/06/2026",
+    "taxa": "R$ 40,00",
+    "prova": "Aplicação das Provas Objetivas: 19/07/2026"
+  },
+  "dados_suspeitos": {},
+  "qualidade": {
+    "total_chunks": 77,
+    "total_tabelas": 10,
+    "tipos_chunks": {
+      "cargos_vagas": 26,
+      "cronograma": 8,
+      "inscricao": 11,
+      "etapas": 5,
+      "conteudo": 4,
+      "geral": 17,
+      "recursos": 6
+    },
+    "tipos_tabelas": {
+      "cronograma": 3,
+      "quadro_de_vagas": 3,
+      "pontuacao_prova": 1,
+      "avaliacao_titulos": 1,
+      "tabela_desconhecida": 2
+    },
+    "maior_chunk_chars": 4975,
+    "media_chunk_chars": 2253,
+    "chunks_muito_pequenos": 0,
+    "fontes_texto": 0,
+    "fontes_tabela": 39,
+    "tabelas_uteis": 10,
+    "tabelas_ignoradas": 0,
+    "tabelas_continuacao": 0,
+    "tabelas_suspeitas": 2,
+    "cargos_suspeitos": 0,
+    "campos_suspeitos": [],
+    "avisos": [
+      "1 tabela(s) de avaliação de títulos foram separadas para não virar cargo.",
+      "2 tabela(s) continuam suspeitas e devem ser revisadas."
+    ],
+    "rag_vetorial": {
+      "enabled": true,
+      "indexed": 121,
+      "model": "qwen3-embedding:0.6b",
+      "store": "ChromaDB",
+      "error": null
+    }
+  },
+  "conteudo_programatico": {
+    "sections": [
+      {
+        "titulo": "Conteúdo programático",
+        "topicos": [
+          "disponibilizado no Edital de abertura, ser enviado via Portal do Candidato, no site do Instituto",
+          "Unicampo, contendo a devida fundamentação e, quando for o caso, a citação da bibliografia pertinente.",
+          "por meio do Portal do Candidato, após a realização do login no sistema.",
+          "questão, a pontuação será atribuída a todos os candidatos.",
+          "(www.institutounicampo.com.br), no Jornal O Regional e nos canais oficiais de comunicação da",
+          "A convocação seguirá rigorosamente a ordem de classificação, respeitando a reserva de vagas",
+          "Será eliminado o candidato que apresentar informações falsas ou documentos irregulares, a",
+          "O não comparecimento à convocação, salvo hipóteses previstas neste edital, implicará perda do",
+          "O prazo de validade do certame será de 2 (dois) anos, prorrogável uma vez por igual período,",
+          "do Concurso Público, designada pela Portaria no 05/2026",
+          "Alterações, atualizações ou acréscimos ao edital poderão ser realizados até a data de convocação",
+          "dos candidatos para a prova correspondente, mediante publicação oficial.",
+          "nas eleições.",
+          "Paranapoema / PR, 04 de junho de 2026"
+        ],
+        "pagina": 19,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0015"
+      },
+      {
+        "titulo": "Língua Portuguesa",
+        "topicos": [
+          "Ortografia (escrita correta das palavras)",
+          "pontuação",
+          "acentuação gráfica",
+          "número – singular e plural) e Interpretação de Texto.",
+          "Compreensão e interpretação de texto",
+          "Ortografia",
+          "Classe, estrutura, formação e significação de vocábulos",
+          "Classes de palavras: aspectos morfológicos,",
+          "Discurso direto, indireto e indireto livre.",
+          "Compreensão e interpretação de texto(s)",
+          "Ortografia oficial",
+          "Acentuação",
+          "Pronomes: emprego, forma de tratamento e colocação",
+          "Concordância nominal e verbal",
+          "Emprego da crase",
+          "Classes gramaticais variáveis: substantivo, adjetivo, artigo, numeral, pronome, verbo",
+          "Termos integrantes da oração: objeto direto e indireto, agente da passiva e complemento nominal",
+          "Redação Oficial: formas de tratamento, tipos de discursos, introdução a assuntos preestabelecidos,"
+        ],
+        "pagina": 23,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0016"
+      },
+      {
+        "titulo": "Matemática",
+        "topicos": [
+          "Operações com números inteiros, fracionários e decimais",
+          "brasileira",
+          "porcentagem e juros simples.",
+          "proporcionais. Porcentagem. Juros simples e composto. Sistema legal de medidas. Equações de 1o e",
+          "o graus: resolução e problemas. Funções: análise de gráficos. Funções do 1o grau. Áreas e volumes,",
+          "progressões: aritmética e geométrica. Análise combinatória simples. Probabilidade: problemas simples",
+          "Frações,",
+          "decimais, dízimas e operações",
+          "Perímetro, área e volume das principais figuras geométricas",
+          "Porcentagem",
+          "Sistema de equações"
+        ],
+        "pagina": 23,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0016"
+      },
+      {
+        "titulo": "Conhecimentos Gerais",
+        "topicos": [
+          "Aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Brasil, do",
+          "símbolos nacionais, estaduais e municipais",
+          "relacionados com o Município, Estado e com o Brasil.",
+          "relacionados com economia, história, política, meio ambiente, justiça, segurança pública, saúde,",
+          "cultura, religião, esportes, inovações tecnológicas e científicas, do Município, do Estado, do Brasil e do"
+        ],
+        "pagina": 23,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0016"
+      },
+      {
+        "titulo": "Conhecimentos Básicos",
+        "topicos": [
+          "do Código de Trânsito Brasileiro.",
+          "Resoluções, Deliberações, Portarias e demais Leis expedidas pelos órgãos componentes do",
+          "Sistema Nacional de Trânsito.",
+          "Noções de primeiros socorros.",
+          "e Legislação: Legislação e Ética Profissional",
+          "Código de Ética da",
+          "Leis e normativas relacionadas à prática de Higiene Dental",
+          "Estruturas dentárias (dentes, gengivas,",
+          "língua, mucosas)",
+          "Saúde Bucal e Prevenção: Causas e Prevenção de Doenças Bucais",
+          "Escovação, uso do fio",
+          "Educação em saúde: palestras e orientações",
+          "Instrumentação e Materiais,propriedades, manipulação e armazenamento de materiais",
+          "(anestésicos, fluor, etc.)",
+          "Preenchimentos simples, aplicação de selantes e",
+          "Práticas de Biossegurança: Protocolos de Segurança em Consultórios",
+          "Controle de infecção e medidas de segurança no atendimento",
+          "Gestão em Saúde Bucal: Organização do Fluxo de Trabalho",
+          "Participação em cursos e atualizações na área de saúde bucal",
+          "Ergonomia e Saúde Ocupacional: Princípios de ergonomia aplicados ao ambiente"
+        ],
+        "pagina": 38,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0028"
+      },
+      {
+        "titulo": "Conhecimentos específicos — MÉDICO",
+        "topicos": [
+          "· Realizar tarefas inerentes à área de saúde pública.",
+          "· Efetuar exames médicos, emitir diagnósticos, prescrever medicamentos e realizar outras formas de tratamento",
+          "examinando o paciente, diagnosticando, prescrevendo tratamento, prestando orientações e solicitando",
+          "hospitalização, se necessário.",
+          "· Requisitar, analisar e interpretar exames complementares de laboratório, para fins de diagnóstico e",
+          "· Manter registro dos pacientes examinados, anotando a conclusão diagnostica, tratamento prescrito e evolução",
+          "· Prestar atendimento em urgências clínicas, cirúrgicas e traumatológicas.",
+          "· Participar da formulação de diagnósticos de saúde pública, realizando levantamento da situação dos serviços de",
+          "saúde do município, identificando prioridades, para determinação de programação a serem desenvolvidos.",
+          "· Opinar e participar tecnicamente dos programas e atividades de assistência integral e saúde individual, bem",
+          "como de grupos específicos, particularmente, daqueles prioritários e de alto risco.",
+          "atenção à saúde.",
+          "· Participar de programas e atividades de educação sanitária, visando à melhoria da saúde do indivíduo, da família",
+          "· Efetuar pesquisas na área, visando contribuir para o aprimoramento da prestação dos serviços de saúde.",
+          "· Participar das definições dos programas de atualização e aperfeiçoamento das equipes, que atuam na área de",
+          "· Participar de juntas médicas, avaliando a capacidade de pacientes, verificando suas condições de saúde,",
+          "emitindo laudos para admissão de servidores, concessão de licenças, aposentadorias, readaptações, emissão de",
+          "de atividades, para permitir a seleção do trabalhador de acordo com as atividades que executará.",
+          "complementares para controlar as condições de saúde dos mesmos e assegurar continuidade operacional e a",
+          "· Efetuar tratamento de urgência em casos de acidentes de trabalho ou alterações agudas da saúde, orientando",
+          "e/ou executando a terapia adequada, para prevenir consequências mais graves ao trabalhador.",
+          "· Avaliar em conjunto com outros profissionais, condições de insegurança, visitando periodicamente os locais de",
+          "trabalho, para sugerir medidas destinadas a remover ou atenuar os riscos existentes.",
+          "· Participar em conjunto com outros profissionais, da elaboração e execução de programa de proteção à saúde",
+          "dos trabalhadores, analisando em conjunto os riscos, as condições de trabalho, os fatores de insalubridade, de",
+          "fadiga e outros, para obter a redução de absenteísmo e a renovação de mão de obra.",
+          "· Planejar e executar programas de treinamento das equipes de atendimento de emergências, avaliando as",
+          "necessidades e ministrando aulas, para capacitar o pessoal incumbido de prestar primeiros socorros em casos de",
+          "· Participar de inquéritos sanitários, levantamentos de doenças profissionais, lesões traumáticas e estudos",
+          "epidemiológicos, elaborando e/ou preenchendo formulários próprios e estudando os dados estatísticos, para",
+          "estabelecer medidas destinadas a reduzir a morbidade e mortalidade decorrentes de acidentes de trabalho,",
+          "· Participar de atividades de prevenção de acidentes, comparecendo a reuniões e assessorando em estudos e"
+        ],
+        "pagina": 56,
+        "fonte": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0063"
+      }
+    ],
+    "tables_count": 0
+  }
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>Cargos — {{ summary.titulo }}</h1>
+  <div class="actions">
+    <a class="button secondary" href="{{ url_for('concurso', edital_id=summary.edital_id) }}">Voltar</a>
+    <a class="button secondary" href="{{ url_for('cronograma_page', edital_id=summary.edital_id) }}">Cronograma</a>
+  </div>
+  {% if summary.cargos %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Cargo</th><th>Vagas</th><th>Remuneração</th><th>Carga horária</th><th>Requisito</th><th>Confiança</th><th>Fonte</th></tr></thead>
+    <tbody>
+      {% for c in summary.cargos %}
+      <tr class="{% if c.suspeito or c.confianca == 'baixa' %}warn-row{% endif %}">
+        <td><strong>{{ c.nome }}</strong>{% if c.suspeito %}<br><small>⚠️ {{ c.motivo_suspeita }}</small>{% endif %}</td>
+        <td>{{ c.vagas or '-' }}</td>
+        <td>{{ c.remuneracao or '-' }}</td>
+        <td>{{ c.carga_horaria or '-' }}</td>
+        <td>{{ c.requisito or '-' }}</td>
+        <td>{{ c.confianca }}</td>
+        <td>{% if c.fonte %}{{ c.fonte_tipo }} {{ c.fonte }}{% if c.pagina %}, p. {{ c.pagina }}{% endif %}{% else %}-{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}<p>Nenhum cargo encontrado.</p>{% endif %}
+</section>
+{% endblock %}

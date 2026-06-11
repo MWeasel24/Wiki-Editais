@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="page-title">
+  <div>
+    <h1>Debug — {{ summary.titulo }}</h1>
+    <div class="badge-row">
+      <span class="meta-badge">{{ summary.orgao or 'Órgão não encontrado' }}</span>
+      <span class="meta-badge">{{ summary.banca or 'Banca não encontrada' }}</span>
+      <span class="meta-badge">{{ summary.ano or 'Ano não encontrado' }}</span>
+    </div>
+  </div>
+  <div class="actions compact-actions">
+    <a class="button secondary" href="{{ url_for('concurso', edital_id=summary.edital_id) }}">Página pública</a>
+    <form method="post" action="{{ url_for('atualizar_wiki', edital_id=summary.edital_id) }}">
+      <button type="submit" class="button secondary">Atualizar wiki</button>
+    </form>
+    <form method="post" action="{{ url_for('refazer_ingestao', edital_id=summary.edital_id) }}" onsubmit="return confirm('Reprocessar o edital atualiza os dados automáticos e salva backup da versão anterior. Continuar?')">
+      <button type="submit" class="button secondary">Reprocessar edital</button>
+    </form>
+    <form method="post" action="{{ url_for('excluir_edital', edital_id=summary.edital_id) }}" onsubmit="return confirm('Excluir este edital da base? Isso remove PDF, JSON, chunks, tabelas, wiki, avaliações associadas e vetores. Esta ação não tem desfazer.')">
+      <button type="submit" class="button danger">Excluir edital</button>
+    </form>
+  </div>
+</section>
+
+<nav class="tabs debug-tabs">
+  <a class="{% if tab == 'diagnostico' %}active{% endif %}" href="{{ url_for('debug_edital', edital_id=summary.edital_id, tab='diagnostico') }}">Diagnóstico</a>
+  <a class="{% if tab == 'tabelas' %}active{% endif %}" href="{{ url_for('debug_edital', edital_id=summary.edital_id, tab='tabelas') }}">Tabelas</a>
+  <a class="{% if tab == 'chunks' %}active{% endif %}" href="{{ url_for('debug_edital', edital_id=summary.edital_id, tab='chunks') }}">Chunks</a>
+  <a class="{% if tab == 'markdown' %}active{% endif %}" href="{{ url_for('debug_edital', edital_id=summary.edital_id, tab='markdown') }}">Markdown</a>
+  <a class="{% if tab == 'revisar' %}active{% endif %}" href="{{ url_for('debug_edital', edital_id=summary.edital_id, tab='revisar') }}">Revisar</a>
+</nav>
+
+{% if tab == 'diagnostico' %}
+<section class="card">
+  <h2>Resumo técnico</h2>
+  {% set q = summary.qualidade %}
+  <div class="summary-grid technical-grid">
+    <div><span>Chunks</span><strong>{{ q.total_chunks }}</strong></div>
+    <div><span>Tabelas</span><strong>{{ q.total_tabelas }}</strong></div>
+    <div><span>Tabelas úteis</span><strong>{{ q.tabelas_uteis or 0 }}</strong></div>
+    <div><span>Tabelas ignoradas</span><strong>{{ q.tabelas_ignoradas or 0 }}</strong></div>
+    <div><span>Continuações</span><strong>{{ q.tabelas_continuacao or 0 }}</strong></div>
+    <div><span>Tabelas suspeitas</span><strong>{{ q.tabelas_suspeitas or 0 }}</strong></div>
+    <div><span>Cargos suspeitos</span><strong>{{ q.cargos_suspeitos or 0 }}</strong></div>
+    <div><span>Maior chunk</span><strong>{{ q.maior_chunk_chars }}</strong></div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Status dos campos</h2>
+  {% if summary.campos_status %}
+  <div class="table-wrap"><table>
+    <thead><tr><th>Campo</th><th>Valor</th><th>Status</th><th>Motivo</th></tr></thead>
+    <tbody>
+      {% for nome, st in summary.campos_status.items() %}
+      <tr class="{% if st.status == 'suspeito' %}warn-row{% endif %}">
+        <td><strong>{{ nome }}</strong></td>
+        <td>{{ st.valor or 'Não encontrado' }}</td>
+        <td><span class="badge {{ 'ok' if st.status == 'confirmado' else 'warn' if st.status in ['suspeito','nao_encontrado'] else 'mid' }}">{{ st.status.replace('_', ' ') }}</span></td>
+        <td>{{ st.motivo or '-' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}<p>Sem status detalhado.</p>{% endif %}
+</section>
+
+<section class="card">
+  <h2>Avisos</h2>
+  {% if q.avisos or q.campos_suspeitos %}
+    <ul>{% for aviso in q.avisos %}<li>{{ aviso }}</li>{% endfor %}{% for campo in q.campos_suspeitos %}<li>{{ campo }}</li>{% endfor %}</ul>
+  {% else %}<p>Nenhum aviso crítico.</p>{% endif %}
+</section>
+
+<section class="card">
+  <h2>Distribuição</h2>
+  <div class="two-cols">
+    <div>
+      <h3>Tabelas</h3>
+      {% if table_stats %}<ul>{% for kind, total in table_stats.items() %}<li>{{ kind }}: {{ total }}</li>{% endfor %}</ul>{% else %}<p>Nenhuma tabela.</p>{% endif %}
+    </div>
+    <div>
+      <h3>Chunks</h3>
+      {% if chunk_stats %}<ul>{% for kind, total in chunk_stats.items() %}<li>{{ kind }}: {{ total }}</li>{% endfor %}</ul>{% else %}<p>Nenhum chunk.</p>{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if tab == 'tabelas' %}
+<section class="card"><h2>Tabelas</h2></section>
+{% for table in tables %}
+<section class="card compact-card">
+  <h3>{{ table.id }} <span class="badge mid">{{ table.kind }}</span>{% if table.ignored %} <span class="badge warn">ignorada</span>{% else %} <span class="badge ok">útil</span>{% endif %}</h3>
+  <p class="muted">Página {{ table.page }} · {{ table.rows|length }} linhas · confiança {{ table.confidence or 'media' }}</p>
+  {% if table.title_guess %}<p><strong>Título provável:</strong> {{ table.title_guess }}</p>{% endif %}
+  {% if table.inherited_from %}<p class="note">Continuação de: {{ table.inherited_from }}</p>{% endif %}
+  {% if table.ignore_reason %}<p class="note">Motivo: {{ table.ignore_reason }}</p>{% endif %}
+  {% if table.scores %}<p class="note">Scores: {{ table.scores }}</p>{% endif %}
+  <div class="table-wrap">
+    <table><thead><tr>{% for h in table.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>{% for row in table.rows[:80] %}<tr>{% for h in table.headers %}<td>{{ row.get(h, '') }}</td>{% endfor %}</tr>{% endfor %}</tbody></table>
+  </div>
+</section>
+{% endfor %}
+{% endif %}
+
+{% if tab == 'chunks' %}
+<section class="card">
+  <h2>Chunks</h2>
+  {% for c in chunks %}
+    <details>
+      <summary>{{ c.id }} — {{ c.kind }} — {{ c.section }}{% if c.page_start %} — p. {{ c.page_start }}{% endif %}</summary>
+      <pre>{{ c.text[:2500] }}</pre>
+    </details>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if tab == 'markdown' %}
+<section class="card">
+  <h2>Markdown</h2>
+  <form method="post" action="{{ url_for('salvar_revisao', edital_id=summary.edital_id) }}">
+    <input type="hidden" name="action" value="markdown">
+    <textarea name="markdown" rows="24">{{ markdown }}</textarea>
+    <button type="submit">Salvar Markdown</button>
+  </form>
+</section>
+{% endif %}
+
+{% if tab == 'revisar' %}
+<section class="card">
+  <h2>Campos principais</h2>
+  <form method="post" action="{{ url_for('salvar_revisao', edital_id=summary.edital_id) }}">
+    <input type="hidden" name="action" value="main">
+    <div class="edit-grid">
+      <label>Título<input name="titulo" value="{{ summary.titulo or '' }}"></label>
+      <label>Órgão<input name="orgao" value="{{ summary.orgao or '' }}"></label>
+      <label>Banca<input name="banca" value="{{ summary.banca or '' }}"></label>
+      <label>Ano<input name="ano" value="{{ summary.ano or '' }}"></label>
+      <label>Inscrição<input name="inscricao" value="{{ summary.inscricao or '' }}"></label>
+      <label>Taxa<input name="taxa" value="{{ summary.taxa or '' }}"></label>
+      <label>Prova<input name="prova" value="{{ summary.prova or '' }}"></label>
+    </div>
+    <button type="submit">Salvar campos</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Cargos</h2>
+  <form method="post" action="{{ url_for('salvar_revisao', edital_id=summary.edital_id) }}">
+    <input type="hidden" name="action" value="cargos">
+    <div class="table-wrap"><table>
+      <thead><tr><th>Cargo</th><th>Vagas</th><th>Remuneração</th><th>Carga horária</th><th>Requisito</th></tr></thead>
+      <tbody>
+        {% for c in summary.cargos %}
+        <tr>
+          <td><input name="cargo_nome" value="{{ c.nome or '' }}"></td>
+          <td><input name="cargo_vagas" value="{{ c.vagas or '' }}"></td>
+          <td><input name="cargo_remuneracao" value="{{ c.remuneracao or '' }}"></td>
+          <td><input name="cargo_carga_horaria" value="{{ c.carga_horaria or '' }}"></td>
+          <td><input name="cargo_requisito" value="{{ c.requisito or '' }}"></td>
+        </tr>
+        {% endfor %}
+        <tr>
+          <td><input name="cargo_nome" placeholder="Novo cargo"></td>
+          <td><input name="cargo_vagas"></td>
+          <td><input name="cargo_remuneracao"></td>
+          <td><input name="cargo_carga_horaria"></td>
+          <td><input name="cargo_requisito"></td>
+        </tr>
+      </tbody>
+    </table></div>
+    <button type="submit">Salvar cargos</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Cronograma</h2>
+  <form method="post" action="{{ url_for('salvar_revisao', edital_id=summary.edital_id) }}">
+    <input type="hidden" name="action" value="cronograma">
+    <div class="table-wrap"><table>
+      <thead><tr><th>Evento</th><th>Data/período</th></tr></thead>
+      <tbody>
+        {% for e in summary.cronograma %}
+        <tr>
+          <td><input name="evento" value="{{ e.evento or '' }}"></td>
+          <td><input name="data_ou_periodo" value="{{ e.data_ou_periodo or '' }}"></td>
+        </tr>
+        {% endfor %}
+        <tr><td><input name="evento" placeholder="Novo evento"></td><td><input name="data_ou_periodo"></td></tr>
+      </tbody>
+    </table></div>
+    <button type="submit">Salvar cronograma</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Conteúdo programático</h2>
+  <form method="post" action="{{ url_for('salvar_revisao', edital_id=summary.edital_id) }}">
+    <input type="hidden" name="action" value="conteudo">
+    {% set sections = content.sections or [] %}
+    {% for sec in sections %}
+    <div class="soft-card inner-section">
+      <label>Título<input name="conteudo_titulo" value="{{ sec.titulo or '' }}"></label>
+      <label>Página<input name="conteudo_pagina" value="{{ sec.pagina or '' }}"></label>
+      <label>Tópicos<textarea name="conteudo_topicos" rows="8">{% for topico in sec.topicos %}{{ topico }}
+{% endfor %}</textarea></label>
+    </div>
+    {% endfor %}
+    <div class="soft-card inner-section">
+      <label>Título<input name="conteudo_titulo" placeholder="Nova seção"></label>
+      <label>Página<input name="conteudo_pagina"></label>
+      <label>Tópicos<textarea name="conteudo_topicos" rows="6" placeholder="Um tópico por linha"></textarea></label>
+    </div>
+    <button type="submit">Salvar conteúdo</button>
+  </form>
+</section>
+{% endif %}
+{% endblock %}

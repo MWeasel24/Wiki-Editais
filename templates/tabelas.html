@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>Tabelas detectadas — {{ summary.titulo }}</h1>
+  <p>As tabelas são separadas do texto corrido. Na v5, cada tabela recebe tipo, confiança e scores de evidência para reduzir falsos positivos.</p>
+  <a class="button secondary" href="{{ url_for('concurso', edital_id=summary.edital_id) }}">Voltar ao concurso</a>
+</section>
+
+{% if tables %}
+  {% for table in tables %}
+  <section class="card">
+    <h2>{{ table.id }}</h2>
+    <p><strong>Tipo:</strong> {{ table.kind }} | <strong>Confiança:</strong> {{ table.confidence or 'media' }} | <strong>Página:</strong> {{ table.page }} | <strong>Linhas:</strong> {{ table.rows|length }} | <strong>Status:</strong> {% if table.ignored %}<span class="badge warn">ignorada</span>{% else %}<span class="badge ok">útil</span>{% endif %}</p>
+    {% if table.inherited_from %}<p class="note">Continuação detectada de: <strong>{{ table.inherited_from }}</strong></p>{% endif %}
+    {% if table.ignore_reason %}<p class="note">Motivo: {{ table.ignore_reason }}</p>{% endif %}
+    {% if table.title_guess %}<p><strong>Título provável:</strong> {{ table.title_guess }}</p>{% endif %}
+    {% if table.scores %}<p class="note"><strong>Scores:</strong> {{ table.scores }}</p>{% endif %}
+    <div class="table-wrap">
+      <table>
+        <thead><tr>{% for h in table.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+        <tbody>{% for row in table.rows %}<tr>{% for h in table.headers %}<td>{{ row.get(h, '') }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+      </table>
+    </div>
+  </section>
+  {% endfor %}
+{% else %}
+<section class="card"><p>Nenhuma tabela foi detectada automaticamente.</p></section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,251 @@
+{
+  "edital_id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital",
+  "titulo": "EDITAL No 001/2026",
+  "mode": "llm_wiki_semantica",
+  "pages": [
+    {
+      "id": "visao-geral",
+      "title": "Visão geral do edital",
+      "description": "Síntese dos dados centrais, escopo do edital e pontos de atenção.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/visao-geral.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0015",
+          "kind": "chunk",
+          "page": 19
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0001",
+          "kind": "chunk",
+          "page": 1
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0053",
+          "kind": "chunk",
+          "page": 50
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "inscricoes-taxas-isencao",
+      "title": "Inscrições, taxas e isenção",
+      "description": "Período de inscrição, valor da taxa, pagamento, isenção e regras relacionadas.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/inscricoes-taxas-isencao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+          "kind": "tabela",
+          "page": 3
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0002",
+          "kind": "chunk",
+          "page": 3
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0007",
+          "kind": "chunk",
+          "page": 9
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "cargos-escolaridade-remuneracao",
+      "title": "Cargos, escolaridade e remuneração",
+      "description": "Cargos, vagas, requisitos, carga horária, remuneração e alertas de extração.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/cargos-escolaridade-remuneracao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p005-01",
+          "kind": "tabela",
+          "page": 5
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0001",
+          "kind": "chunk",
+          "page": 1
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0003",
+          "kind": "chunk",
+          "page": 5
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "provas-etapas",
+      "title": "Provas e etapas",
+      "description": "Tipos de prova, datas, etapas, caráter eliminatório/classificatório e estrutura de avaliação.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/provas-etapas.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0011",
+          "kind": "chunk",
+          "page": 15
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0012",
+          "kind": "chunk",
+          "page": 16
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0013",
+          "kind": "chunk",
+          "page": 18
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "regras-dia-prova",
+      "title": "Regras do dia da prova",
+      "description": "Materiais permitidos, documentos, condutas proibidas, eliminação e regras de permanência.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/regras-dia-prova.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0012",
+          "kind": "chunk",
+          "page": 16
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0011",
+          "kind": "chunk",
+          "page": 15
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0010",
+          "kind": "chunk",
+          "page": 14
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0015",
+          "kind": "chunk",
+          "page": 19
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "conteudo-programatico",
+      "title": "Conteúdo programático",
+      "description": "Disciplinas, conhecimentos básicos, conhecimentos específicos e tópicos de estudo.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/conteudo-programatico.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p015-01",
+          "kind": "tabela",
+          "page": 15
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0016",
+          "kind": "chunk",
+          "page": 23
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0023",
+          "kind": "chunk",
+          "page": 27
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "recursos-resultados",
+      "title": "Recursos, gabaritos e resultados",
+      "description": "Prazos de recurso, gabaritos, resultados preliminares/finais e homologação.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/recursos-resultados.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-p003-01",
+          "kind": "tabela",
+          "page": 3
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0015",
+          "kind": "chunk",
+          "page": 19
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0002",
+          "kind": "chunk",
+          "page": 3
+        }
+      ],
+      "llm": false
+    },
+    {
+      "id": "incertezas-revisao",
+      "title": "Incertezas e revisão humana",
+      "description": "Campos ausentes, suspeitos, possíveis conflitos e pontos que devem ser conferidos no PDF original.",
+      "path": "temas/prefeitura-de-paranapoema-pr-2026-edital-n-1-edital/incertezas-revisao.md",
+      "sources": [
+        {
+          "id": "json:resumo",
+          "kind": "dados estruturados",
+          "page": null
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0005",
+          "kind": "chunk",
+          "page": 8
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0015",
+          "kind": "chunk",
+          "page": 19
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0041",
+          "kind": "chunk",
+          "page": 39
+        },
+        {
+          "id": "prefeitura-de-paranapoema-pr-2026-edital-n-1-edital-chunk-0044",
+          "kind": "chunk",
+          "page": 42
+        }
+      ],
+      "llm": false
+    }
+  ],
+  "total_pages": 8,
+  "definition": "Páginas temáticas persistentes, atualizadas a cada ingestão/revisão, usadas como memória de conhecimento antes dos chunks brutos."
+}

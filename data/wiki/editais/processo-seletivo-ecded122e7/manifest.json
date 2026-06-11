@@ -1,9 +1,0 @@
-{
-  "id": "processo-seletivo-ecded122e7",
-  "file_hash": "ecded122e703899fba5d77e53552ac1717e3a96335c5f264d0470c7b12611501",
-  "source_filename": "prefeitura-de-concordia-sc-2026-edital-n-3-edital.pdf",
-  "raw_file": "ecded122e703899f.pdf",
-  "created_at": "2026-06-09T15:56:39",
-  "strategy": "v20_microcopy_template_safe",
-  "model_id": "ollama:llama3.1:8b"
-}
