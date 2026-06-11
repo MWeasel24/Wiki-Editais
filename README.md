@@ -1,3 +1,4 @@
+Equipe: Josué Azevedo, Matheus Martins
 # WikiEditais
 
 **WikiEditais** é um protótipo de IA vertical para análise de editais públicos de concursos. A proposta é transformar PDFs de editais em uma base de conhecimento navegável e consultável, usando o modelo Wiki baseado em LLM com RAG.
@@ -185,11 +186,11 @@ Por tipo:
 
 O que significa cada métrica:
 
-- Geral: É a média de todas as notas dos JSONs, juntando Wiki e Chat. É uma nota média manual de qualidade, de 0 a 1, convertida para porcentagem.
-- Wiki: Média só dos itens tipo: "wiki". Mede se a wiki ficou útil, organizada, navegável e fiel ao edital.
-- Chat: Média só dos itens tipo: "chat". Mede se o chat respondeu bem perguntas reais que um usuário faria.
-- Com fonte: Percentual de itens em que fonte_ok: true. Mede se a resposta/resultado tinha fonte, contexto ou era conferível no edital.
-- Acertos / Parciais / Erros: Classificação automática a partir da nota:
+- **Geral:** É a média de todas as notas dos JSONs, juntando Wiki e Chat. É uma nota média manual de qualidade, de 0 a 1, convertida para porcentagem.
+- **Wiki:** Média só dos itens tipo: "wiki". Mede se a wiki ficou útil, organizada, navegável e fiel ao edital.
+- **Chat:** Média só dos itens tipo: "chat". Mede se o chat respondeu bem perguntas reais que um usuário faria.
+- **Com fonte:** Percentual de itens em que fonte_ok: true. Mede se a resposta/resultado tinha fonte, contexto ou era conferível no edital.
+- **Acertos / Parciais / Erros:** Classificação automática a partir da nota:
 
 ```
 nota >= 0.85 → acertou
