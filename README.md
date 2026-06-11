@@ -149,15 +149,25 @@ GPU: RTX 2060 Super 8GB VRAM
 RAM: 16GB
 CPU: Intel i5-12400F
 ```
+**Comparação de famílias de modelos**
+
+| Família | Pontos fortes | Pontos fracos |
+|---|---:|---:|
+| Mistral | Boa escrita e raciocínio | Modelos melhores ficaram pesados para uso local |
+| Qwen | Bom em instruções, contexto longo e multilíngue | Versões maiores aumentaram bastante o tempo de execução |
+| Gemma | Boa síntese e modelos variados | Respostas menos estáveis em português técnico |
+| Llama | Popular, bem documentado e bom geral | Respostas mais genéricas em editais |
+
+A família Qwen foi escolhida porque apresentou o melhor equilíbrio entre qualidade, tempo de execução e compatibilidade com o domínio do projeto. Como o WikiEditais trabalha com editais longos em português, era importante usar um modelo bom em instruções, contexto longo e suporte multilíngue.
+
+**Comparação de modelos Qwen**
 
 | Modelo Qwen | Tempo wiki | Tempo RAG | Total médio por edital | Qualidade da wiki |
 |---|---:|---:|---:|---:|
-| qwen2.5:0.5b-instruct | ~25s | ~50s | ~1–2 min | 38% |
-| qwen2.5:1.5b-instruct | ~40s | ~1min20s | ~2–3 min | 48% |
 | qwen2.5:3b-instruct | ~1 min | ~2 min | ~3–4 min | 62% |
 | qwen2.5:7b-instruct | ~2 min | ~3 min | ~5–6 min | 85% |
-| qwen2.5:14b-instruct quantizado | ~5 min | ~7 min | ~12–14 min | 91% |
-| qwen2.5:32b-instruct quantizado | 20 min+ | 30 min+ | 50 min+ | 94% |
+| qwen2.5:14b-instruct | ~5 min | ~7 min | ~12–14 min | 91% |
+| qwen2.5:32b-instruct | 20 min+ | 30 min+ | 50 min+ | 94% |
 
 O modelo adotado como padrão foi o **qwen2.5:7b-instruct**, pois apresentou o melhor equilíbrio entre qualidade, tempo e viabilidade local. O 14B quantizado gerou resultados melhores, mas ficou mais pesado para uso contínuo.
 
